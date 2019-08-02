@@ -73,7 +73,7 @@ def compare_tab():
     p3.line('time', 'ma10', line_width=1, color=palte[1], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA10',source=source3)
     p3.line('time', 'ma30', line_width=1, color=palte[2], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA30',source=source3)
 
-    p3.y_range = Range1d(min(source3.data['close'])*0.3, max(source3.data['close'])*1.05)
+    p3.y_range = Range1d(min(source3.data['adjusted_close'])*0.3, max(source3.data['adjusted_close'])*1.05)
 
     
     p3.extra_y_ranges = {"volumes": Range1d(start=min(source3.data['volume'])/2, 
@@ -96,15 +96,15 @@ def compare_tab():
 
         source3.data.update( df_init1.to_dict('list'))
         p3.title.text =symbol1+' (Click on legend entries to hide the corresponding lines)'
-        p3.y_range.start=min(source3.data['close'])*0.3
-        p3.y_range.end=max(source3.data['close'])*1.05
+        p3.y_range.start=min(source3.data['adjusted_close'])*0.3
+        p3.y_range.end=max(source3.data['adjusted_close'])*1.05
         p3.extra_y_ranges['volumes'].start=min(source3.data['volume'])/2.
         p3.extra_y_ranges['volumes'].end=max(source3.data['volume'])*2.
 
         source4.data.update( df_init2.to_dict('list'))
         p4.title.text =symbol2+' (Click on legend entries to hide the corresponding lines)'
-        p4.y_range.start=min(source4.data['close'])*0.3
-        p4.y_range.end=max(source4.data['close'])*1.05
+        p4.y_range.start=min(source4.data['adjusted_close'])*0.3
+        p4.y_range.end=max(source4.data['adjusted_close'])*1.05
         p4.extra_y_ranges['volumes'].start=min(source4.data['volume'])/2.
         p4.extra_y_ranges['volumes'].end=max(source4.data['volume'])*2.
 
@@ -152,7 +152,7 @@ def compare_tab():
     p4.line('time', 'ma10', line_width=1, color=palte[6], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA10',source=source4)
     p4.line('time', 'ma30', line_width=1, color=palte[7], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA30',source=source4)
 
-    p4.y_range = Range1d(min(source3.data['close'])*0.3, max(source4.data['close'])*1.05)
+    p4.y_range = Range1d(min(source3.data['adjusted_close'])*0.3, max(source4.data['adjusted_close'])*1.05)
 
     
     p4.extra_y_ranges = {"volumes": Range1d(start=min(source4.data['volume'])/2, 

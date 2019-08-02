@@ -8,6 +8,8 @@ Created on Wed Jul 31 15:31:46 2019
 import requests
 import json
 import datetime
+import xmltodict
+import pandas as pd
 import pandas_datareader.data as web
 from util.util import symbol_list
 
@@ -49,4 +51,42 @@ def get_economy():
         df.to_csv('./visualization/economy/{}.csv'.format(names[i]))
 
     return 
+
+def get_bea():
+    def csv(req):
+        result=json.loads(req.content)['BEAAPI']['Results']
+    
+        data=pd.DataFrame(result['Data'])
+        title=result['Statistic']
+        print(title)
+        data.to_csv('./visualization/bea/{}.csv'.format(title))
+    
+    
+    bea_api='E82767E2-7D2E-4480-B0C7-5F1ECE96F846'
+
+    RegionalTable=["SAGDP10N","SAEXP1","SAGDP2N","SAGDP9N","SAIRPD","SARPI","SQGDP2"]
+    for tablename in RegionalTable:    
+        url='https://apps.bea.gov/api/data/?UserID={}&method=GetData&datasetname=Regional&LineCode=1&TableName={}&GeoFips=STATE&Year=LAST5&ResultFormat=json'.format(bea_api,tablename)
+        req=requests.get(url)   
+        print(tablename)
+        csv(req)
+        print()
+
+def get_geomap():
+    url='http://econym.org.uk/gmap/states.xml'
+    req=requests.get(url)
+    o = xmltodict.parse(req.content)['states']['state']
+    
+    state_lon=[]
+    state_lat=[]
+    state_name=[]
+    
+    for state in o:
+        state_name.append(state['@name'])
+        state_lon.append([float(item['@lng']) for item in state['point']])
+        state_lat.append([float(item['@lat']) for item in state['point']])
+
+    all_info={'state_name':state_name,'state_lat':state_lat,'state_lon':state_lon}
+    with open('./visualization/shapefile/statesGeo.json' ,'w') as f:
+        json.dump(all_info,f)
 

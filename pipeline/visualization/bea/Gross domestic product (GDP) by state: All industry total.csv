@@ -1,0 +1,1021 @@
+,CL_UNIT,Code,DataValue,GeoFips,GeoName,NoteRef,TimePeriod,UNIT_MULT
+0,Millions of current dollars,SQGDP2-1,"17,970,422.0",00000,United States*,*,2015Q1,6
+1,Millions of current dollars,SQGDP2-1,"18,221,299.0",00000,United States*,*,2015Q2,6
+2,Millions of current dollars,SQGDP2-1,"18,331,093.0",00000,United States*,*,2015Q3,6
+3,Millions of current dollars,SQGDP2-1,"18,354,372.0",00000,United States*,*,2015Q4,6
+4,Millions of current dollars,SQGDP2-1,"18,409,130.0",00000,United States*,*,2016Q1,6
+5,Millions of current dollars,SQGDP2-1,"18,640,732.0",00000,United States*,*,2016Q2,6
+6,Millions of current dollars,SQGDP2-1,"18,799,648.0",00000,United States*,*,2016Q3,6
+7,Millions of current dollars,SQGDP2-1,"18,979,245.0",00000,United States*,*,2016Q4,6
+8,Millions of current dollars,SQGDP2-1,"19,162,550.0",00000,United States*,*,2017Q1,6
+9,Millions of current dollars,SQGDP2-1,"19,359,123.0",00000,United States*,*,2017Q2,6
+10,Millions of current dollars,SQGDP2-1,"19,588,074.0",00000,United States*,*,2017Q3,6
+11,Millions of current dollars,SQGDP2-1,"19,831,829.0",00000,United States*,*,2017Q4,6
+12,Millions of current dollars,SQGDP2-1,"20,041,047.0",00000,United States*,*,2018Q1,6
+13,Millions of current dollars,SQGDP2-1,"20,411,924.0",00000,United States*,*,2018Q2,6
+14,Millions of current dollars,SQGDP2-1,"20,658,204.0",00000,United States*,*,2018Q3,6
+15,Millions of current dollars,SQGDP2-1,"20,865,140.0",00000,United States*,*,2018Q4,6
+16,Millions of current dollars,SQGDP2-1,"21,060,062.0",00000,United States*,*,2019Q1,6
+17,Millions of current dollars,SQGDP2-1,"197,392.9",01000,Alabama,,2015Q1,6
+18,Millions of current dollars,SQGDP2-1,"200,923.4",01000,Alabama,,2015Q2,6
+19,Millions of current dollars,SQGDP2-1,"202,254.7",01000,Alabama,,2015Q3,6
+20,Millions of current dollars,SQGDP2-1,"201,272.0",01000,Alabama,,2015Q4,6
+21,Millions of current dollars,SQGDP2-1,"200,780.4",01000,Alabama,,2016Q1,6
+22,Millions of current dollars,SQGDP2-1,"203,430.6",01000,Alabama,,2016Q2,6
+23,Millions of current dollars,SQGDP2-1,"203,565.0",01000,Alabama,,2016Q3,6
+24,Millions of current dollars,SQGDP2-1,"205,817.7",01000,Alabama,,2016Q4,6
+25,Millions of current dollars,SQGDP2-1,"208,786.4",01000,Alabama,,2017Q1,6
+26,Millions of current dollars,SQGDP2-1,"210,297.9",01000,Alabama,,2017Q2,6
+27,Millions of current dollars,SQGDP2-1,"212,082.4",01000,Alabama,,2017Q3,6
+28,Millions of current dollars,SQGDP2-1,"215,497.0",01000,Alabama,,2017Q4,6
+29,Millions of current dollars,SQGDP2-1,"217,292.1",01000,Alabama,,2018Q1,6
+30,Millions of current dollars,SQGDP2-1,"220,336.3",01000,Alabama,,2018Q2,6
+31,Millions of current dollars,SQGDP2-1,"222,223.3",01000,Alabama,,2018Q3,6
+32,Millions of current dollars,SQGDP2-1,"224,653.6",01000,Alabama,,2018Q4,6
+33,Millions of current dollars,SQGDP2-1,"226,631.2",01000,Alabama,,2019Q1,6
+34,Millions of current dollars,SQGDP2-1,"51,207.0",02000,Alaska,,2015Q1,6
+35,Millions of current dollars,SQGDP2-1,"51,320.7",02000,Alaska,,2015Q2,6
+36,Millions of current dollars,SQGDP2-1,"50,272.1",02000,Alaska,,2015Q3,6
+37,Millions of current dollars,SQGDP2-1,"49,660.1",02000,Alaska,,2015Q4,6
+38,Millions of current dollars,SQGDP2-1,"48,503.9",02000,Alaska,,2016Q1,6
+39,Millions of current dollars,SQGDP2-1,"49,337.3",02000,Alaska,,2016Q2,6
+40,Millions of current dollars,SQGDP2-1,"49,525.0",02000,Alaska,,2016Q3,6
+41,Millions of current dollars,SQGDP2-1,"50,351.5",02000,Alaska,,2016Q4,6
+42,Millions of current dollars,SQGDP2-1,"50,989.6",02000,Alaska,,2017Q1,6
+43,Millions of current dollars,SQGDP2-1,"51,213.9",02000,Alaska,,2017Q2,6
+44,Millions of current dollars,SQGDP2-1,"51,847.3",02000,Alaska,,2017Q3,6
+45,Millions of current dollars,SQGDP2-1,"52,695.9",02000,Alaska,,2017Q4,6
+46,Millions of current dollars,SQGDP2-1,"52,831.8",02000,Alaska,,2018Q1,6
+47,Millions of current dollars,SQGDP2-1,"53,731.5",02000,Alaska,,2018Q2,6
+48,Millions of current dollars,SQGDP2-1,"54,630.2",02000,Alaska,,2018Q3,6
+49,Millions of current dollars,SQGDP2-1,"54,851.4",02000,Alaska,,2018Q4,6
+50,Millions of current dollars,SQGDP2-1,"54,584.7",02000,Alaska,,2019Q1,6
+51,Millions of current dollars,SQGDP2-1,"292,654.9",04000,Arizona,,2015Q1,6
+52,Millions of current dollars,SQGDP2-1,"296,496.0",04000,Arizona,,2015Q2,6
+53,Millions of current dollars,SQGDP2-1,"297,367.9",04000,Arizona,,2015Q3,6
+54,Millions of current dollars,SQGDP2-1,"301,864.7",04000,Arizona,,2015Q4,6
+55,Millions of current dollars,SQGDP2-1,"303,832.1",04000,Arizona,,2016Q1,6
+56,Millions of current dollars,SQGDP2-1,"310,213.3",04000,Arizona,,2016Q2,6
+57,Millions of current dollars,SQGDP2-1,"315,135.8",04000,Arizona,,2016Q3,6
+58,Millions of current dollars,SQGDP2-1,"316,405.2",04000,Arizona,,2016Q4,6
+59,Millions of current dollars,SQGDP2-1,"321,315.6",04000,Arizona,,2017Q1,6
+60,Millions of current dollars,SQGDP2-1,"322,994.6",04000,Arizona,,2017Q2,6
+61,Millions of current dollars,SQGDP2-1,"329,517.6",04000,Arizona,,2017Q3,6
+62,Millions of current dollars,SQGDP2-1,"332,329.0",04000,Arizona,,2017Q4,6
+63,Millions of current dollars,SQGDP2-1,"338,436.8",04000,Arizona,,2018Q1,6
+64,Millions of current dollars,SQGDP2-1,"342,890.4",04000,Arizona,,2018Q2,6
+65,Millions of current dollars,SQGDP2-1,"350,529.4",04000,Arizona,,2018Q3,6
+66,Millions of current dollars,SQGDP2-1,"355,310.9",04000,Arizona,,2018Q4,6
+67,Millions of current dollars,SQGDP2-1,"360,031.6",04000,Arizona,,2019Q1,6
+68,Millions of current dollars,SQGDP2-1,"116,756.7",05000,Arkansas,,2015Q1,6
+69,Millions of current dollars,SQGDP2-1,"118,258.2",05000,Arkansas,,2015Q2,6
+70,Millions of current dollars,SQGDP2-1,"119,557.8",05000,Arkansas,,2015Q3,6
+71,Millions of current dollars,SQGDP2-1,"119,530.8",05000,Arkansas,,2015Q4,6
+72,Millions of current dollars,SQGDP2-1,"118,644.2",05000,Arkansas,,2016Q1,6
+73,Millions of current dollars,SQGDP2-1,"120,088.4",05000,Arkansas,,2016Q2,6
+74,Millions of current dollars,SQGDP2-1,"119,859.6",05000,Arkansas,,2016Q3,6
+75,Millions of current dollars,SQGDP2-1,"121,768.7",05000,Arkansas,,2016Q4,6
+76,Millions of current dollars,SQGDP2-1,"122,496.6",05000,Arkansas,,2017Q1,6
+77,Millions of current dollars,SQGDP2-1,"123,604.8",05000,Arkansas,,2017Q2,6
+78,Millions of current dollars,SQGDP2-1,"123,640.1",05000,Arkansas,,2017Q3,6
+79,Millions of current dollars,SQGDP2-1,"125,113.2",05000,Arkansas,,2017Q4,6
+80,Millions of current dollars,SQGDP2-1,"126,126.2",05000,Arkansas,,2018Q1,6
+81,Millions of current dollars,SQGDP2-1,"127,904.3",05000,Arkansas,,2018Q2,6
+82,Millions of current dollars,SQGDP2-1,"128,484.5",05000,Arkansas,,2018Q3,6
+83,Millions of current dollars,SQGDP2-1,"129,812.0",05000,Arkansas,,2018Q4,6
+84,Millions of current dollars,SQGDP2-1,"130,799.7",05000,Arkansas,,2019Q1,6
+85,Millions of current dollars,SQGDP2-1,"2,507,399.2",06000,California,,2015Q1,6
+86,Millions of current dollars,SQGDP2-1,"2,562,200.1",06000,California,,2015Q2,6
+87,Millions of current dollars,SQGDP2-1,"2,575,945.1",06000,California,,2015Q3,6
+88,Millions of current dollars,SQGDP2-1,"2,587,140.4",06000,California,,2015Q4,6
+89,Millions of current dollars,SQGDP2-1,"2,624,915.2",06000,California,,2016Q1,6
+90,Millions of current dollars,SQGDP2-1,"2,647,307.5",06000,California,,2016Q2,6
+91,Millions of current dollars,SQGDP2-1,"2,678,616.9",06000,California,,2016Q3,6
+92,Millions of current dollars,SQGDP2-1,"2,702,742.7",06000,California,,2016Q4,6
+93,Millions of current dollars,SQGDP2-1,"2,741,614.4",06000,California,,2017Q1,6
+94,Millions of current dollars,SQGDP2-1,"2,791,625.7",06000,California,,2017Q2,6
+95,Millions of current dollars,SQGDP2-1,"2,826,428.8",06000,California,,2017Q3,6
+96,Millions of current dollars,SQGDP2-1,"2,880,020.9",06000,California,,2017Q4,6
+97,Millions of current dollars,SQGDP2-1,"2,899,361.9",06000,California,,2018Q1,6
+98,Millions of current dollars,SQGDP2-1,"2,967,681.4",06000,California,,2018Q2,6
+99,Millions of current dollars,SQGDP2-1,"2,987,090.0",06000,California,,2018Q3,6
+100,Millions of current dollars,SQGDP2-1,"3,018,337.3",06000,California,,2018Q4,6
+101,Millions of current dollars,SQGDP2-1,"3,051,622.6",06000,California,,2019Q1,6
+102,Millions of current dollars,SQGDP2-1,"313,928.6",08000,Colorado,,2015Q1,6
+103,Millions of current dollars,SQGDP2-1,"317,405.8",08000,Colorado,,2015Q2,6
+104,Millions of current dollars,SQGDP2-1,"319,575.6",08000,Colorado,,2015Q3,6
+105,Millions of current dollars,SQGDP2-1,"322,011.7",08000,Colorado,,2015Q4,6
+106,Millions of current dollars,SQGDP2-1,"320,295.1",08000,Colorado,,2016Q1,6
+107,Millions of current dollars,SQGDP2-1,"326,670.7",08000,Colorado,,2016Q2,6
+108,Millions of current dollars,SQGDP2-1,"332,416.3",08000,Colorado,,2016Q3,6
+109,Millions of current dollars,SQGDP2-1,"337,007.2",08000,Colorado,,2016Q4,6
+110,Millions of current dollars,SQGDP2-1,"340,011.6",08000,Colorado,,2017Q1,6
+111,Millions of current dollars,SQGDP2-1,"343,315.7",08000,Colorado,,2017Q2,6
+112,Millions of current dollars,SQGDP2-1,"349,748.5",08000,Colorado,,2017Q3,6
+113,Millions of current dollars,SQGDP2-1,"355,706.9",08000,Colorado,,2017Q4,6
+114,Millions of current dollars,SQGDP2-1,"358,715.9",08000,Colorado,,2018Q1,6
+115,Millions of current dollars,SQGDP2-1,"366,953.5",08000,Colorado,,2018Q2,6
+116,Millions of current dollars,SQGDP2-1,"372,517.1",08000,Colorado,,2018Q3,6
+117,Millions of current dollars,SQGDP2-1,"376,993.8",08000,Colorado,,2018Q4,6
+118,Millions of current dollars,SQGDP2-1,"380,683.5",08000,Colorado,,2019Q1,6
+119,Millions of current dollars,SQGDP2-1,"257,060.8",09000,Connecticut,,2015Q1,6
+120,Millions of current dollars,SQGDP2-1,"260,125.6",09000,Connecticut,,2015Q2,6
+121,Millions of current dollars,SQGDP2-1,"260,292.2",09000,Connecticut,,2015Q3,6
+122,Millions of current dollars,SQGDP2-1,"261,312.9",09000,Connecticut,,2015Q4,6
+123,Millions of current dollars,SQGDP2-1,"261,875.9",09000,Connecticut,,2016Q1,6
+124,Millions of current dollars,SQGDP2-1,"263,067.2",09000,Connecticut,,2016Q2,6
+125,Millions of current dollars,SQGDP2-1,"263,039.7",09000,Connecticut,,2016Q3,6
+126,Millions of current dollars,SQGDP2-1,"263,931.5",09000,Connecticut,,2016Q4,6
+127,Millions of current dollars,SQGDP2-1,"261,977.3",09000,Connecticut,,2017Q1,6
+128,Millions of current dollars,SQGDP2-1,"264,949.5",09000,Connecticut,,2017Q2,6
+129,Millions of current dollars,SQGDP2-1,"267,503.8",09000,Connecticut,,2017Q3,6
+130,Millions of current dollars,SQGDP2-1,"267,711.1",09000,Connecticut,,2017Q4,6
+131,Millions of current dollars,SQGDP2-1,"270,268.3",09000,Connecticut,,2018Q1,6
+132,Millions of current dollars,SQGDP2-1,"269,862.5",09000,Connecticut,,2018Q2,6
+133,Millions of current dollars,SQGDP2-1,"276,934.3",09000,Connecticut,,2018Q3,6
+134,Millions of current dollars,SQGDP2-1,"279,652.7",09000,Connecticut,,2018Q4,6
+135,Millions of current dollars,SQGDP2-1,"282,001.8",09000,Connecticut,,2019Q1,6
+136,Millions of current dollars,SQGDP2-1,"70,411.2",10000,Delaware,,2015Q1,6
+137,Millions of current dollars,SQGDP2-1,"72,222.8",10000,Delaware,,2015Q2,6
+138,Millions of current dollars,SQGDP2-1,"70,519.9",10000,Delaware,,2015Q3,6
+139,Millions of current dollars,SQGDP2-1,"70,430.9",10000,Delaware,,2015Q4,6
+140,Millions of current dollars,SQGDP2-1,"68,855.0",10000,Delaware,,2016Q1,6
+141,Millions of current dollars,SQGDP2-1,"70,136.6",10000,Delaware,,2016Q2,6
+142,Millions of current dollars,SQGDP2-1,"70,800.9",10000,Delaware,,2016Q3,6
+143,Millions of current dollars,SQGDP2-1,"71,726.6",10000,Delaware,,2016Q4,6
+144,Millions of current dollars,SQGDP2-1,"71,844.3",10000,Delaware,,2017Q1,6
+145,Millions of current dollars,SQGDP2-1,"71,163.7",10000,Delaware,,2017Q2,6
+146,Millions of current dollars,SQGDP2-1,"72,952.7",10000,Delaware,,2017Q3,6
+147,Millions of current dollars,SQGDP2-1,"72,708.0",10000,Delaware,,2017Q4,6
+148,Millions of current dollars,SQGDP2-1,"73,167.9",10000,Delaware,,2018Q1,6
+149,Millions of current dollars,SQGDP2-1,"74,104.2",10000,Delaware,,2018Q2,6
+150,Millions of current dollars,SQGDP2-1,"76,084.1",10000,Delaware,,2018Q3,6
+151,Millions of current dollars,SQGDP2-1,"76,537.1",10000,Delaware,,2018Q4,6
+152,Millions of current dollars,SQGDP2-1,"77,083.9",10000,Delaware,,2019Q1,6
+153,Millions of current dollars,SQGDP2-1,"123,928.7",11000,District of Columbia,,2015Q1,6
+154,Millions of current dollars,SQGDP2-1,"125,458.9",11000,District of Columbia,,2015Q2,6
+155,Millions of current dollars,SQGDP2-1,"125,369.6",11000,District of Columbia,,2015Q3,6
+156,Millions of current dollars,SQGDP2-1,"125,948.7",11000,District of Columbia,,2015Q4,6
+157,Millions of current dollars,SQGDP2-1,"128,272.8",11000,District of Columbia,,2016Q1,6
+158,Millions of current dollars,SQGDP2-1,"129,525.1",11000,District of Columbia,,2016Q2,6
+159,Millions of current dollars,SQGDP2-1,"129,938.7",11000,District of Columbia,,2016Q3,6
+160,Millions of current dollars,SQGDP2-1,"131,529.7",11000,District of Columbia,,2016Q4,6
+161,Millions of current dollars,SQGDP2-1,"133,203.1",11000,District of Columbia,,2017Q1,6
+162,Millions of current dollars,SQGDP2-1,"133,734.5",11000,District of Columbia,,2017Q2,6
+163,Millions of current dollars,SQGDP2-1,"136,752.3",11000,District of Columbia,,2017Q3,6
+164,Millions of current dollars,SQGDP2-1,"135,915.8",11000,District of Columbia,,2017Q4,6
+165,Millions of current dollars,SQGDP2-1,"137,894.1",11000,District of Columbia,,2018Q1,6
+166,Millions of current dollars,SQGDP2-1,"138,994.7",11000,District of Columbia,,2018Q2,6
+167,Millions of current dollars,SQGDP2-1,"141,729.0",11000,District of Columbia,,2018Q3,6
+168,Millions of current dollars,SQGDP2-1,"142,501.9",11000,District of Columbia,,2018Q4,6
+169,Millions of current dollars,SQGDP2-1,"144,050.5",11000,District of Columbia,,2019Q1,6
+170,Millions of current dollars,SQGDP2-1,"872,345.0",12000,Florida,,2015Q1,6
+171,Millions of current dollars,SQGDP2-1,"888,961.5",12000,Florida,,2015Q2,6
+172,Millions of current dollars,SQGDP2-1,"901,152.4",12000,Florida,,2015Q3,6
+173,Millions of current dollars,SQGDP2-1,"913,717.1",12000,Florida,,2015Q4,6
+174,Millions of current dollars,SQGDP2-1,"916,276.7",12000,Florida,,2016Q1,6
+175,Millions of current dollars,SQGDP2-1,"932,755.2",12000,Florida,,2016Q2,6
+176,Millions of current dollars,SQGDP2-1,"948,310.5",12000,Florida,,2016Q3,6
+177,Millions of current dollars,SQGDP2-1,"956,138.9",12000,Florida,,2016Q4,6
+178,Millions of current dollars,SQGDP2-1,"964,924.5",12000,Florida,,2017Q1,6
+179,Millions of current dollars,SQGDP2-1,"971,078.4",12000,Florida,,2017Q2,6
+180,Millions of current dollars,SQGDP2-1,"983,520.0",12000,Florida,,2017Q3,6
+181,Millions of current dollars,SQGDP2-1,"998,335.3",12000,Florida,,2017Q4,6
+182,Millions of current dollars,SQGDP2-1,"1,013,895.9",12000,Florida,,2018Q1,6
+183,Millions of current dollars,SQGDP2-1,"1,025,022.8",12000,Florida,,2018Q2,6
+184,Millions of current dollars,SQGDP2-1,"1,047,230.1",12000,Florida,,2018Q3,6
+185,Millions of current dollars,SQGDP2-1,"1,059,143.9",12000,Florida,,2018Q4,6
+186,Millions of current dollars,SQGDP2-1,"1,072,671.6",12000,Florida,,2019Q1,6
+187,Millions of current dollars,SQGDP2-1,"502,351.1",13000,Georgia,,2015Q1,6
+188,Millions of current dollars,SQGDP2-1,"511,677.5",13000,Georgia,,2015Q2,6
+189,Millions of current dollars,SQGDP2-1,"516,537.9",13000,Georgia,,2015Q3,6
+190,Millions of current dollars,SQGDP2-1,"520,208.5",13000,Georgia,,2015Q4,6
+191,Millions of current dollars,SQGDP2-1,"528,964.7",13000,Georgia,,2016Q1,6
+192,Millions of current dollars,SQGDP2-1,"535,392.7",13000,Georgia,,2016Q2,6
+193,Millions of current dollars,SQGDP2-1,"541,088.0",13000,Georgia,,2016Q3,6
+194,Millions of current dollars,SQGDP2-1,"547,504.8",13000,Georgia,,2016Q4,6
+195,Millions of current dollars,SQGDP2-1,"553,670.5",13000,Georgia,,2017Q1,6
+196,Millions of current dollars,SQGDP2-1,"557,293.7",13000,Georgia,,2017Q2,6
+197,Millions of current dollars,SQGDP2-1,"565,000.8",13000,Georgia,,2017Q3,6
+198,Millions of current dollars,SQGDP2-1,"572,516.9",13000,Georgia,,2017Q4,6
+199,Millions of current dollars,SQGDP2-1,"573,873.8",13000,Georgia,,2018Q1,6
+200,Millions of current dollars,SQGDP2-1,"582,374.8",13000,Georgia,,2018Q2,6
+201,Millions of current dollars,SQGDP2-1,"594,935.1",13000,Georgia,,2018Q3,6
+202,Millions of current dollars,SQGDP2-1,"601,503.1",13000,Georgia,,2018Q4,6
+203,Millions of current dollars,SQGDP2-1,"608,058.2",13000,Georgia,,2019Q1,6
+204,Millions of current dollars,SQGDP2-1,"81,278.3",15000,Hawaii,,2015Q1,6
+205,Millions of current dollars,SQGDP2-1,"82,377.7",15000,Hawaii,,2015Q2,6
+206,Millions of current dollars,SQGDP2-1,"83,201.0",15000,Hawaii,,2015Q3,6
+207,Millions of current dollars,SQGDP2-1,"84,147.9",15000,Hawaii,,2015Q4,6
+208,Millions of current dollars,SQGDP2-1,"84,811.0",15000,Hawaii,,2016Q1,6
+209,Millions of current dollars,SQGDP2-1,"85,634.0",15000,Hawaii,,2016Q2,6
+210,Millions of current dollars,SQGDP2-1,"86,067.5",15000,Hawaii,,2016Q3,6
+211,Millions of current dollars,SQGDP2-1,"86,955.0",15000,Hawaii,,2016Q4,6
+212,Millions of current dollars,SQGDP2-1,"88,183.0",15000,Hawaii,,2017Q1,6
+213,Millions of current dollars,SQGDP2-1,"88,592.9",15000,Hawaii,,2017Q2,6
+214,Millions of current dollars,SQGDP2-1,"89,383.3",15000,Hawaii,,2017Q3,6
+215,Millions of current dollars,SQGDP2-1,"90,014.8",15000,Hawaii,,2017Q4,6
+216,Millions of current dollars,SQGDP2-1,"90,566.3",15000,Hawaii,,2018Q1,6
+217,Millions of current dollars,SQGDP2-1,"91,660.8",15000,Hawaii,,2018Q2,6
+218,Millions of current dollars,SQGDP2-1,"92,462.2",15000,Hawaii,,2018Q3,6
+219,Millions of current dollars,SQGDP2-1,"93,419.4",15000,Hawaii,,2018Q4,6
+220,Millions of current dollars,SQGDP2-1,"94,364.5",15000,Hawaii,,2019Q1,6
+221,Millions of current dollars,SQGDP2-1,"65,751.6",16000,Idaho,,2015Q1,6
+222,Millions of current dollars,SQGDP2-1,"66,056.8",16000,Idaho,,2015Q2,6
+223,Millions of current dollars,SQGDP2-1,"66,741.7",16000,Idaho,,2015Q3,6
+224,Millions of current dollars,SQGDP2-1,"66,805.7",16000,Idaho,,2015Q4,6
+225,Millions of current dollars,SQGDP2-1,"68,132.2",16000,Idaho,,2016Q1,6
+226,Millions of current dollars,SQGDP2-1,"69,318.8",16000,Idaho,,2016Q2,6
+227,Millions of current dollars,SQGDP2-1,"69,876.9",16000,Idaho,,2016Q3,6
+228,Millions of current dollars,SQGDP2-1,"69,922.2",16000,Idaho,,2016Q4,6
+229,Millions of current dollars,SQGDP2-1,"70,631.4",16000,Idaho,,2017Q1,6
+230,Millions of current dollars,SQGDP2-1,"72,065.4",16000,Idaho,,2017Q2,6
+231,Millions of current dollars,SQGDP2-1,"72,746.4",16000,Idaho,,2017Q3,6
+232,Millions of current dollars,SQGDP2-1,"74,326.6",16000,Idaho,,2017Q4,6
+233,Millions of current dollars,SQGDP2-1,"75,082.4",16000,Idaho,,2018Q1,6
+234,Millions of current dollars,SQGDP2-1,"76,732.0",16000,Idaho,,2018Q2,6
+235,Millions of current dollars,SQGDP2-1,"77,562.1",16000,Idaho,,2018Q3,6
+236,Millions of current dollars,SQGDP2-1,"78,640.1",16000,Idaho,,2018Q4,6
+237,Millions of current dollars,SQGDP2-1,"79,499.5",16000,Idaho,,2019Q1,6
+238,Millions of current dollars,SQGDP2-1,"781,263.4",17000,Illinois,,2015Q1,6
+239,Millions of current dollars,SQGDP2-1,"790,781.1",17000,Illinois,,2015Q2,6
+240,Millions of current dollars,SQGDP2-1,"799,962.4",17000,Illinois,,2015Q3,6
+241,Millions of current dollars,SQGDP2-1,"798,449.1",17000,Illinois,,2015Q4,6
+242,Millions of current dollars,SQGDP2-1,"796,706.7",17000,Illinois,,2016Q1,6
+243,Millions of current dollars,SQGDP2-1,"804,198.9",17000,Illinois,,2016Q2,6
+244,Millions of current dollars,SQGDP2-1,"805,248.6",17000,Illinois,,2016Q3,6
+245,Millions of current dollars,SQGDP2-1,"815,582.4",17000,Illinois,,2016Q4,6
+246,Millions of current dollars,SQGDP2-1,"814,756.8",17000,Illinois,,2017Q1,6
+247,Millions of current dollars,SQGDP2-1,"820,407.7",17000,Illinois,,2017Q2,6
+248,Millions of current dollars,SQGDP2-1,"831,712.3",17000,Illinois,,2017Q3,6
+249,Millions of current dollars,SQGDP2-1,"836,365.0",17000,Illinois,,2017Q4,6
+250,Millions of current dollars,SQGDP2-1,"848,780.7",17000,Illinois,,2018Q1,6
+251,Millions of current dollars,SQGDP2-1,"857,915.1",17000,Illinois,,2018Q2,6
+252,Millions of current dollars,SQGDP2-1,"871,706.1",17000,Illinois,,2018Q3,6
+253,Millions of current dollars,SQGDP2-1,"879,947.3",17000,Illinois,,2018Q4,6
+254,Millions of current dollars,SQGDP2-1,"888,232.8",17000,Illinois,,2019Q1,6
+255,Millions of current dollars,SQGDP2-1,"327,032.1",18000,Indiana,,2015Q1,6
+256,Millions of current dollars,SQGDP2-1,"330,425.6",18000,Indiana,,2015Q2,6
+257,Millions of current dollars,SQGDP2-1,"330,276.5",18000,Indiana,,2015Q3,6
+258,Millions of current dollars,SQGDP2-1,"331,166.1",18000,Indiana,,2015Q4,6
+259,Millions of current dollars,SQGDP2-1,"331,078.2",18000,Indiana,,2016Q1,6
+260,Millions of current dollars,SQGDP2-1,"336,493.9",18000,Indiana,,2016Q2,6
+261,Millions of current dollars,SQGDP2-1,"340,454.5",18000,Indiana,,2016Q3,6
+262,Millions of current dollars,SQGDP2-1,"344,881.2",18000,Indiana,,2016Q4,6
+263,Millions of current dollars,SQGDP2-1,"347,476.5",18000,Indiana,,2017Q1,6
+264,Millions of current dollars,SQGDP2-1,"348,366.1",18000,Indiana,,2017Q2,6
+265,Millions of current dollars,SQGDP2-1,"351,389.8",18000,Indiana,,2017Q3,6
+266,Millions of current dollars,SQGDP2-1,"357,055.4",18000,Indiana,,2017Q4,6
+267,Millions of current dollars,SQGDP2-1,"361,721.6",18000,Indiana,,2018Q1,6
+268,Millions of current dollars,SQGDP2-1,"365,165.6",18000,Indiana,,2018Q2,6
+269,Millions of current dollars,SQGDP2-1,"368,310.5",18000,Indiana,,2018Q3,6
+270,Millions of current dollars,SQGDP2-1,"371,629.1",18000,Indiana,,2018Q4,6
+271,Millions of current dollars,SQGDP2-1,"374,664.4",18000,Indiana,,2019Q1,6
+272,Millions of current dollars,SQGDP2-1,"175,494.7",19000,Iowa,,2015Q1,6
+273,Millions of current dollars,SQGDP2-1,"177,269.1",19000,Iowa,,2015Q2,6
+274,Millions of current dollars,SQGDP2-1,"179,431.9",19000,Iowa,,2015Q3,6
+275,Millions of current dollars,SQGDP2-1,"179,662.4",19000,Iowa,,2015Q4,6
+276,Millions of current dollars,SQGDP2-1,"177,921.8",19000,Iowa,,2016Q1,6
+277,Millions of current dollars,SQGDP2-1,"179,504.7",19000,Iowa,,2016Q2,6
+278,Millions of current dollars,SQGDP2-1,"181,607.4",19000,Iowa,,2016Q3,6
+279,Millions of current dollars,SQGDP2-1,"182,368.6",19000,Iowa,,2016Q4,6
+280,Millions of current dollars,SQGDP2-1,"181,642.6",19000,Iowa,,2017Q1,6
+281,Millions of current dollars,SQGDP2-1,"183,496.0",19000,Iowa,,2017Q2,6
+282,Millions of current dollars,SQGDP2-1,"182,357.9",19000,Iowa,,2017Q3,6
+283,Millions of current dollars,SQGDP2-1,"184,418.5",19000,Iowa,,2017Q4,6
+284,Millions of current dollars,SQGDP2-1,"185,992.1",19000,Iowa,,2018Q1,6
+285,Millions of current dollars,SQGDP2-1,"190,850.9",19000,Iowa,,2018Q2,6
+286,Millions of current dollars,SQGDP2-1,"191,150.3",19000,Iowa,,2018Q3,6
+287,Millions of current dollars,SQGDP2-1,"192,607.7",19000,Iowa,,2018Q4,6
+288,Millions of current dollars,SQGDP2-1,"193,726.4",19000,Iowa,,2019Q1,6
+289,Millions of current dollars,SQGDP2-1,"148,590.0",20000,Kansas,,2015Q1,6
+290,Millions of current dollars,SQGDP2-1,"151,718.2",20000,Kansas,,2015Q2,6
+291,Millions of current dollars,SQGDP2-1,"153,036.0",20000,Kansas,,2015Q3,6
+292,Millions of current dollars,SQGDP2-1,"153,263.0",20000,Kansas,,2015Q4,6
+293,Millions of current dollars,SQGDP2-1,"152,073.3",20000,Kansas,,2016Q1,6
+294,Millions of current dollars,SQGDP2-1,"155,755.6",20000,Kansas,,2016Q2,6
+295,Millions of current dollars,SQGDP2-1,"156,753.8",20000,Kansas,,2016Q3,6
+296,Millions of current dollars,SQGDP2-1,"158,145.3",20000,Kansas,,2016Q4,6
+297,Millions of current dollars,SQGDP2-1,"158,011.8",20000,Kansas,,2017Q1,6
+298,Millions of current dollars,SQGDP2-1,"159,167.5",20000,Kansas,,2017Q2,6
+299,Millions of current dollars,SQGDP2-1,"160,735.2",20000,Kansas,,2017Q3,6
+300,Millions of current dollars,SQGDP2-1,"162,419.1",20000,Kansas,,2017Q4,6
+301,Millions of current dollars,SQGDP2-1,"163,403.3",20000,Kansas,,2018Q1,6
+302,Millions of current dollars,SQGDP2-1,"167,100.8",20000,Kansas,,2018Q2,6
+303,Millions of current dollars,SQGDP2-1,"168,105.6",20000,Kansas,,2018Q3,6
+304,Millions of current dollars,SQGDP2-1,"169,558.0",20000,Kansas,,2018Q4,6
+305,Millions of current dollars,SQGDP2-1,"171,215.5",20000,Kansas,,2019Q1,6
+306,Millions of current dollars,SQGDP2-1,"188,752.8",21000,Kentucky,,2015Q1,6
+307,Millions of current dollars,SQGDP2-1,"192,575.1",21000,Kentucky,,2015Q2,6
+308,Millions of current dollars,SQGDP2-1,"193,107.6",21000,Kentucky,,2015Q3,6
+309,Millions of current dollars,SQGDP2-1,"193,641.5",21000,Kentucky,,2015Q4,6
+310,Millions of current dollars,SQGDP2-1,"191,057.0",21000,Kentucky,,2016Q1,6
+311,Millions of current dollars,SQGDP2-1,"194,541.2",21000,Kentucky,,2016Q2,6
+312,Millions of current dollars,SQGDP2-1,"196,677.8",21000,Kentucky,,2016Q3,6
+313,Millions of current dollars,SQGDP2-1,"198,044.0",21000,Kentucky,,2016Q4,6
+314,Millions of current dollars,SQGDP2-1,"198,426.4",21000,Kentucky,,2017Q1,6
+315,Millions of current dollars,SQGDP2-1,"199,832.7",21000,Kentucky,,2017Q2,6
+316,Millions of current dollars,SQGDP2-1,"201,423.2",21000,Kentucky,,2017Q3,6
+317,Millions of current dollars,SQGDP2-1,"204,281.0",21000,Kentucky,,2017Q4,6
+318,Millions of current dollars,SQGDP2-1,"204,097.5",21000,Kentucky,,2018Q1,6
+319,Millions of current dollars,SQGDP2-1,"208,239.7",21000,Kentucky,,2018Q2,6
+320,Millions of current dollars,SQGDP2-1,"209,401.2",21000,Kentucky,,2018Q3,6
+321,Millions of current dollars,SQGDP2-1,"211,621.1",21000,Kentucky,,2018Q4,6
+322,Millions of current dollars,SQGDP2-1,"213,313.2",21000,Kentucky,,2019Q1,6
+323,Millions of current dollars,SQGDP2-1,"235,807.3",22000,Louisiana,,2015Q1,6
+324,Millions of current dollars,SQGDP2-1,"236,115.5",22000,Louisiana,,2015Q2,6
+325,Millions of current dollars,SQGDP2-1,"234,760.0",22000,Louisiana,,2015Q3,6
+326,Millions of current dollars,SQGDP2-1,"230,693.6",22000,Louisiana,,2015Q4,6
+327,Millions of current dollars,SQGDP2-1,"226,055.4",22000,Louisiana,,2016Q1,6
+328,Millions of current dollars,SQGDP2-1,"228,104.7",22000,Louisiana,,2016Q2,6
+329,Millions of current dollars,SQGDP2-1,"228,000.1",22000,Louisiana,,2016Q3,6
+330,Millions of current dollars,SQGDP2-1,"230,187.1",22000,Louisiana,,2016Q4,6
+331,Millions of current dollars,SQGDP2-1,"234,730.2",22000,Louisiana,,2017Q1,6
+332,Millions of current dollars,SQGDP2-1,"236,514.0",22000,Louisiana,,2017Q2,6
+333,Millions of current dollars,SQGDP2-1,"238,996.7",22000,Louisiana,,2017Q3,6
+334,Millions of current dollars,SQGDP2-1,"242,312.7",22000,Louisiana,,2017Q4,6
+335,Millions of current dollars,SQGDP2-1,"247,195.1",22000,Louisiana,,2018Q1,6
+336,Millions of current dollars,SQGDP2-1,"252,139.8",22000,Louisiana,,2018Q2,6
+337,Millions of current dollars,SQGDP2-1,"253,642.2",22000,Louisiana,,2018Q3,6
+338,Millions of current dollars,SQGDP2-1,"255,492.0",22000,Louisiana,,2018Q4,6
+339,Millions of current dollars,SQGDP2-1,"256,449.9",22000,Louisiana,,2019Q1,6
+340,Millions of current dollars,SQGDP2-1,"56,362.8",23000,Maine,,2015Q1,6
+341,Millions of current dollars,SQGDP2-1,"57,382.1",23000,Maine,,2015Q2,6
+342,Millions of current dollars,SQGDP2-1,"57,698.7",23000,Maine,,2015Q3,6
+343,Millions of current dollars,SQGDP2-1,"58,496.0",23000,Maine,,2015Q4,6
+344,Millions of current dollars,SQGDP2-1,"58,417.0",23000,Maine,,2016Q1,6
+345,Millions of current dollars,SQGDP2-1,"59,728.1",23000,Maine,,2016Q2,6
+346,Millions of current dollars,SQGDP2-1,"59,788.7",23000,Maine,,2016Q3,6
+347,Millions of current dollars,SQGDP2-1,"60,482.1",23000,Maine,,2016Q4,6
+348,Millions of current dollars,SQGDP2-1,"61,009.1",23000,Maine,,2017Q1,6
+349,Millions of current dollars,SQGDP2-1,"61,229.7",23000,Maine,,2017Q2,6
+350,Millions of current dollars,SQGDP2-1,"62,104.0",23000,Maine,,2017Q3,6
+351,Millions of current dollars,SQGDP2-1,"62,537.7",23000,Maine,,2017Q4,6
+352,Millions of current dollars,SQGDP2-1,"63,173.0",23000,Maine,,2018Q1,6
+353,Millions of current dollars,SQGDP2-1,"64,082.1",23000,Maine,,2018Q2,6
+354,Millions of current dollars,SQGDP2-1,"64,798.3",23000,Maine,,2018Q3,6
+355,Millions of current dollars,SQGDP2-1,"65,349.3",23000,Maine,,2018Q4,6
+356,Millions of current dollars,SQGDP2-1,"66,021.5",23000,Maine,,2019Q1,6
+357,Millions of current dollars,SQGDP2-1,"362,746.5",24000,Maryland,,2015Q1,6
+358,Millions of current dollars,SQGDP2-1,"365,349.9",24000,Maryland,,2015Q2,6
+359,Millions of current dollars,SQGDP2-1,"368,657.2",24000,Maryland,,2015Q3,6
+360,Millions of current dollars,SQGDP2-1,"372,151.1",24000,Maryland,,2015Q4,6
+361,Millions of current dollars,SQGDP2-1,"375,770.9",24000,Maryland,,2016Q1,6
+362,Millions of current dollars,SQGDP2-1,"382,908.4",24000,Maryland,,2016Q2,6
+363,Millions of current dollars,SQGDP2-1,"386,359.2",24000,Maryland,,2016Q3,6
+364,Millions of current dollars,SQGDP2-1,"391,584.9",24000,Maryland,,2016Q4,6
+365,Millions of current dollars,SQGDP2-1,"392,538.3",24000,Maryland,,2017Q1,6
+366,Millions of current dollars,SQGDP2-1,"396,750.0",24000,Maryland,,2017Q2,6
+367,Millions of current dollars,SQGDP2-1,"399,867.4",24000,Maryland,,2017Q3,6
+368,Millions of current dollars,SQGDP2-1,"404,506.8",24000,Maryland,,2017Q4,6
+369,Millions of current dollars,SQGDP2-1,"406,764.9",24000,Maryland,,2018Q1,6
+370,Millions of current dollars,SQGDP2-1,"413,153.6",24000,Maryland,,2018Q2,6
+371,Millions of current dollars,SQGDP2-1,"413,989.6",24000,Maryland,,2018Q3,6
+372,Millions of current dollars,SQGDP2-1,"417,775.6",24000,Maryland,,2018Q4,6
+373,Millions of current dollars,SQGDP2-1,"421,873.9",24000,Maryland,,2019Q1,6
+374,Millions of current dollars,SQGDP2-1,"493,812.4",25000,Massachusetts,,2015Q1,6
+375,Millions of current dollars,SQGDP2-1,"502,671.7",25000,Massachusetts,,2015Q2,6
+376,Millions of current dollars,SQGDP2-1,"503,982.2",25000,Massachusetts,,2015Q3,6
+377,Millions of current dollars,SQGDP2-1,"510,244.4",25000,Massachusetts,,2015Q4,6
+378,Millions of current dollars,SQGDP2-1,"510,542.5",25000,Massachusetts,,2016Q1,6
+379,Millions of current dollars,SQGDP2-1,"517,634.1",25000,Massachusetts,,2016Q2,6
+380,Millions of current dollars,SQGDP2-1,"524,729.6",25000,Massachusetts,,2016Q3,6
+381,Millions of current dollars,SQGDP2-1,"526,058.3",25000,Massachusetts,,2016Q4,6
+382,Millions of current dollars,SQGDP2-1,"531,747.9",25000,Massachusetts,,2017Q1,6
+383,Millions of current dollars,SQGDP2-1,"537,860.0",25000,Massachusetts,,2017Q2,6
+384,Millions of current dollars,SQGDP2-1,"545,136.7",25000,Massachusetts,,2017Q3,6
+385,Millions of current dollars,SQGDP2-1,"549,051.1",25000,Massachusetts,,2017Q4,6
+386,Millions of current dollars,SQGDP2-1,"558,137.1",25000,Massachusetts,,2018Q1,6
+387,Millions of current dollars,SQGDP2-1,"565,223.7",25000,Massachusetts,,2018Q2,6
+388,Millions of current dollars,SQGDP2-1,"570,024.0",25000,Massachusetts,,2018Q3,6
+389,Millions of current dollars,SQGDP2-1,"575,634.5",25000,Massachusetts,,2018Q4,6
+390,Millions of current dollars,SQGDP2-1,"581,717.7",25000,Massachusetts,,2019Q1,6
+391,Millions of current dollars,SQGDP2-1,"464,182.9",26000,Michigan,,2015Q1,6
+392,Millions of current dollars,SQGDP2-1,"472,832.6",26000,Michigan,,2015Q2,6
+393,Millions of current dollars,SQGDP2-1,"478,332.8",26000,Michigan,,2015Q3,6
+394,Millions of current dollars,SQGDP2-1,"480,602.4",26000,Michigan,,2015Q4,6
+395,Millions of current dollars,SQGDP2-1,"479,845.1",26000,Michigan,,2016Q1,6
+396,Millions of current dollars,SQGDP2-1,"490,099.8",26000,Michigan,,2016Q2,6
+397,Millions of current dollars,SQGDP2-1,"491,967.1",26000,Michigan,,2016Q3,6
+398,Millions of current dollars,SQGDP2-1,"498,821.8",26000,Michigan,,2016Q4,6
+399,Millions of current dollars,SQGDP2-1,"499,028.1",26000,Michigan,,2017Q1,6
+400,Millions of current dollars,SQGDP2-1,"503,384.4",26000,Michigan,,2017Q2,6
+401,Millions of current dollars,SQGDP2-1,"507,682.0",26000,Michigan,,2017Q3,6
+402,Millions of current dollars,SQGDP2-1,"513,284.5",26000,Michigan,,2017Q4,6
+403,Millions of current dollars,SQGDP2-1,"517,531.6",26000,Michigan,,2018Q1,6
+404,Millions of current dollars,SQGDP2-1,"525,696.0",26000,Michigan,,2018Q2,6
+405,Millions of current dollars,SQGDP2-1,"531,719.3",26000,Michigan,,2018Q3,6
+406,Millions of current dollars,SQGDP2-1,"537,086.7",26000,Michigan,,2018Q4,6
+407,Millions of current dollars,SQGDP2-1,"542,760.5",26000,Michigan,,2019Q1,6
+408,Millions of current dollars,SQGDP2-1,"326,020.4",27000,Minnesota,,2015Q1,6
+409,Millions of current dollars,SQGDP2-1,"327,125.5",27000,Minnesota,,2015Q2,6
+410,Millions of current dollars,SQGDP2-1,"329,647.7",27000,Minnesota,,2015Q3,6
+411,Millions of current dollars,SQGDP2-1,"332,136.7",27000,Minnesota,,2015Q4,6
+412,Millions of current dollars,SQGDP2-1,"329,351.0",27000,Minnesota,,2016Q1,6
+413,Millions of current dollars,SQGDP2-1,"335,592.3",27000,Minnesota,,2016Q2,6
+414,Millions of current dollars,SQGDP2-1,"343,081.6",27000,Minnesota,,2016Q3,6
+415,Millions of current dollars,SQGDP2-1,"346,527.4",27000,Minnesota,,2016Q4,6
+416,Millions of current dollars,SQGDP2-1,"349,000.4",27000,Minnesota,,2017Q1,6
+417,Millions of current dollars,SQGDP2-1,"351,868.0",27000,Minnesota,,2017Q2,6
+418,Millions of current dollars,SQGDP2-1,"351,681.8",27000,Minnesota,,2017Q3,6
+419,Millions of current dollars,SQGDP2-1,"356,517.9",27000,Minnesota,,2017Q4,6
+420,Millions of current dollars,SQGDP2-1,"358,440.9",27000,Minnesota,,2018Q1,6
+421,Millions of current dollars,SQGDP2-1,"368,187.8",27000,Minnesota,,2018Q2,6
+422,Millions of current dollars,SQGDP2-1,"371,719.9",27000,Minnesota,,2018Q3,6
+423,Millions of current dollars,SQGDP2-1,"374,919.7",27000,Minnesota,,2018Q4,6
+424,Millions of current dollars,SQGDP2-1,"378,047.3",27000,Minnesota,,2019Q1,6
+425,Millions of current dollars,SQGDP2-1,"104,379.7",28000,Mississippi,,2015Q1,6
+426,Millions of current dollars,SQGDP2-1,"105,888.0",28000,Mississippi,,2015Q2,6
+427,Millions of current dollars,SQGDP2-1,"106,631.6",28000,Mississippi,,2015Q3,6
+428,Millions of current dollars,SQGDP2-1,"106,242.6",28000,Mississippi,,2015Q4,6
+429,Millions of current dollars,SQGDP2-1,"106,471.3",28000,Mississippi,,2016Q1,6
+430,Millions of current dollars,SQGDP2-1,"106,726.3",28000,Mississippi,,2016Q2,6
+431,Millions of current dollars,SQGDP2-1,"106,680.5",28000,Mississippi,,2016Q3,6
+432,Millions of current dollars,SQGDP2-1,"107,684.0",28000,Mississippi,,2016Q4,6
+433,Millions of current dollars,SQGDP2-1,"109,066.7",28000,Mississippi,,2017Q1,6
+434,Millions of current dollars,SQGDP2-1,"109,181.2",28000,Mississippi,,2017Q2,6
+435,Millions of current dollars,SQGDP2-1,"110,292.9",28000,Mississippi,,2017Q3,6
+436,Millions of current dollars,SQGDP2-1,"111,063.4",28000,Mississippi,,2017Q4,6
+437,Millions of current dollars,SQGDP2-1,"112,086.6",28000,Mississippi,,2018Q1,6
+438,Millions of current dollars,SQGDP2-1,"113,791.9",28000,Mississippi,,2018Q2,6
+439,Millions of current dollars,SQGDP2-1,"114,800.3",28000,Mississippi,,2018Q3,6
+440,Millions of current dollars,SQGDP2-1,"115,749.4",28000,Mississippi,,2018Q4,6
+441,Millions of current dollars,SQGDP2-1,"116,584.1",28000,Mississippi,,2019Q1,6
+442,Millions of current dollars,SQGDP2-1,"291,789.4",29000,Missouri,,2015Q1,6
+443,Millions of current dollars,SQGDP2-1,"295,526.8",29000,Missouri,,2015Q2,6
+444,Millions of current dollars,SQGDP2-1,"297,256.0",29000,Missouri,,2015Q3,6
+445,Millions of current dollars,SQGDP2-1,"294,458.6",29000,Missouri,,2015Q4,6
+446,Millions of current dollars,SQGDP2-1,"294,639.7",29000,Missouri,,2016Q1,6
+447,Millions of current dollars,SQGDP2-1,"295,827.7",29000,Missouri,,2016Q2,6
+448,Millions of current dollars,SQGDP2-1,"295,557.4",29000,Missouri,,2016Q3,6
+449,Millions of current dollars,SQGDP2-1,"298,256.6",29000,Missouri,,2016Q4,6
+450,Millions of current dollars,SQGDP2-1,"298,919.1",29000,Missouri,,2017Q1,6
+451,Millions of current dollars,SQGDP2-1,"303,577.3",29000,Missouri,,2017Q2,6
+452,Millions of current dollars,SQGDP2-1,"305,804.3",29000,Missouri,,2017Q3,6
+453,Millions of current dollars,SQGDP2-1,"307,901.7",29000,Missouri,,2017Q4,6
+454,Millions of current dollars,SQGDP2-1,"310,229.0",29000,Missouri,,2018Q1,6
+455,Millions of current dollars,SQGDP2-1,"317,566.5",29000,Missouri,,2018Q2,6
+456,Millions of current dollars,SQGDP2-1,"319,914.7",29000,Missouri,,2018Q3,6
+457,Millions of current dollars,SQGDP2-1,"323,286.7",29000,Missouri,,2018Q4,6
+458,Millions of current dollars,SQGDP2-1,"326,019.5",29000,Missouri,,2019Q1,6
+459,Millions of current dollars,SQGDP2-1,"45,850.5",30000,Montana,,2015Q1,6
+460,Millions of current dollars,SQGDP2-1,"46,566.9",30000,Montana,,2015Q2,6
+461,Millions of current dollars,SQGDP2-1,"46,584.7",30000,Montana,,2015Q3,6
+462,Millions of current dollars,SQGDP2-1,"45,698.6",30000,Montana,,2015Q4,6
+463,Millions of current dollars,SQGDP2-1,"45,410.4",30000,Montana,,2016Q1,6
+464,Millions of current dollars,SQGDP2-1,"45,287.9",30000,Montana,,2016Q2,6
+465,Millions of current dollars,SQGDP2-1,"45,368.8",30000,Montana,,2016Q3,6
+466,Millions of current dollars,SQGDP2-1,"46,133.2",30000,Montana,,2016Q4,6
+467,Millions of current dollars,SQGDP2-1,"46,415.4",30000,Montana,,2017Q1,6
+468,Millions of current dollars,SQGDP2-1,"47,040.0",30000,Montana,,2017Q2,6
+469,Millions of current dollars,SQGDP2-1,"47,155.4",30000,Montana,,2017Q3,6
+470,Millions of current dollars,SQGDP2-1,"47,683.3",30000,Montana,,2017Q4,6
+471,Millions of current dollars,SQGDP2-1,"48,069.6",30000,Montana,,2018Q1,6
+472,Millions of current dollars,SQGDP2-1,"48,902.0",30000,Montana,,2018Q2,6
+473,Millions of current dollars,SQGDP2-1,"49,273.6",30000,Montana,,2018Q3,6
+474,Millions of current dollars,SQGDP2-1,"49,634.6",30000,Montana,,2018Q4,6
+475,Millions of current dollars,SQGDP2-1,"50,038.2",30000,Montana,,2019Q1,6
+476,Millions of current dollars,SQGDP2-1,"113,126.6",31000,Nebraska,,2015Q1,6
+477,Millions of current dollars,SQGDP2-1,"115,235.4",31000,Nebraska,,2015Q2,6
+478,Millions of current dollars,SQGDP2-1,"116,148.8",31000,Nebraska,,2015Q3,6
+479,Millions of current dollars,SQGDP2-1,"115,714.3",31000,Nebraska,,2015Q4,6
+480,Millions of current dollars,SQGDP2-1,"114,824.9",31000,Nebraska,,2016Q1,6
+481,Millions of current dollars,SQGDP2-1,"116,417.9",31000,Nebraska,,2016Q2,6
+482,Millions of current dollars,SQGDP2-1,"116,321.4",31000,Nebraska,,2016Q3,6
+483,Millions of current dollars,SQGDP2-1,"116,660.0",31000,Nebraska,,2016Q4,6
+484,Millions of current dollars,SQGDP2-1,"116,766.0",31000,Nebraska,,2017Q1,6
+485,Millions of current dollars,SQGDP2-1,"118,535.7",31000,Nebraska,,2017Q2,6
+486,Millions of current dollars,SQGDP2-1,"118,892.9",31000,Nebraska,,2017Q3,6
+487,Millions of current dollars,SQGDP2-1,"119,988.1",31000,Nebraska,,2017Q4,6
+488,Millions of current dollars,SQGDP2-1,"120,822.0",31000,Nebraska,,2018Q1,6
+489,Millions of current dollars,SQGDP2-1,"123,215.7",31000,Nebraska,,2018Q2,6
+490,Millions of current dollars,SQGDP2-1,"123,085.2",31000,Nebraska,,2018Q3,6
+491,Millions of current dollars,SQGDP2-1,"124,741.9",31000,Nebraska,,2018Q4,6
+492,Millions of current dollars,SQGDP2-1,"125,958.6",31000,Nebraska,,2019Q1,6
+493,Millions of current dollars,SQGDP2-1,"140,709.1",32000,Nevada,,2015Q1,6
+494,Millions of current dollars,SQGDP2-1,"144,058.2",32000,Nevada,,2015Q2,6
+495,Millions of current dollars,SQGDP2-1,"145,326.0",32000,Nevada,,2015Q3,6
+496,Millions of current dollars,SQGDP2-1,"147,102.7",32000,Nevada,,2015Q4,6
+497,Millions of current dollars,SQGDP2-1,"147,153.4",32000,Nevada,,2016Q1,6
+498,Millions of current dollars,SQGDP2-1,"148,680.3",32000,Nevada,,2016Q2,6
+499,Millions of current dollars,SQGDP2-1,"153,080.5",32000,Nevada,,2016Q3,6
+500,Millions of current dollars,SQGDP2-1,"152,829.3",32000,Nevada,,2016Q4,6
+501,Millions of current dollars,SQGDP2-1,"154,796.8",32000,Nevada,,2017Q1,6
+502,Millions of current dollars,SQGDP2-1,"155,890.1",32000,Nevada,,2017Q2,6
+503,Millions of current dollars,SQGDP2-1,"158,250.4",32000,Nevada,,2017Q3,6
+504,Millions of current dollars,SQGDP2-1,"159,146.1",32000,Nevada,,2017Q4,6
+505,Millions of current dollars,SQGDP2-1,"162,806.8",32000,Nevada,,2018Q1,6
+506,Millions of current dollars,SQGDP2-1,"164,889.2",32000,Nevada,,2018Q2,6
+507,Millions of current dollars,SQGDP2-1,"166,765.4",32000,Nevada,,2018Q3,6
+508,Millions of current dollars,SQGDP2-1,"168,752.3",32000,Nevada,,2018Q4,6
+509,Millions of current dollars,SQGDP2-1,"171,133.6",32000,Nevada,,2019Q1,6
+510,Millions of current dollars,SQGDP2-1,"73,803.6",33000,New Hampshire,,2015Q1,6
+511,Millions of current dollars,SQGDP2-1,"75,791.5",33000,New Hampshire,,2015Q2,6
+512,Millions of current dollars,SQGDP2-1,"76,099.0",33000,New Hampshire,,2015Q3,6
+513,Millions of current dollars,SQGDP2-1,"77,814.6",33000,New Hampshire,,2015Q4,6
+514,Millions of current dollars,SQGDP2-1,"77,459.7",33000,New Hampshire,,2016Q1,6
+515,Millions of current dollars,SQGDP2-1,"78,381.3",33000,New Hampshire,,2016Q2,6
+516,Millions of current dollars,SQGDP2-1,"78,974.4",33000,New Hampshire,,2016Q3,6
+517,Millions of current dollars,SQGDP2-1,"78,792.7",33000,New Hampshire,,2016Q4,6
+518,Millions of current dollars,SQGDP2-1,"80,162.9",33000,New Hampshire,,2017Q1,6
+519,Millions of current dollars,SQGDP2-1,"80,427.3",33000,New Hampshire,,2017Q2,6
+520,Millions of current dollars,SQGDP2-1,"82,234.6",33000,New Hampshire,,2017Q3,6
+521,Millions of current dollars,SQGDP2-1,"81,891.0",33000,New Hampshire,,2017Q4,6
+522,Millions of current dollars,SQGDP2-1,"83,566.0",33000,New Hampshire,,2018Q1,6
+523,Millions of current dollars,SQGDP2-1,"84,034.5",33000,New Hampshire,,2018Q2,6
+524,Millions of current dollars,SQGDP2-1,"85,200.5",33000,New Hampshire,,2018Q3,6
+525,Millions of current dollars,SQGDP2-1,"86,046.3",33000,New Hampshire,,2018Q4,6
+526,Millions of current dollars,SQGDP2-1,"87,008.8",33000,New Hampshire,,2019Q1,6
+527,Millions of current dollars,SQGDP2-1,"563,360.1",34000,New Jersey,,2015Q1,6
+528,Millions of current dollars,SQGDP2-1,"569,985.8",34000,New Jersey,,2015Q2,6
+529,Millions of current dollars,SQGDP2-1,"572,768.1",34000,New Jersey,,2015Q3,6
+530,Millions of current dollars,SQGDP2-1,"571,813.7",34000,New Jersey,,2015Q4,6
+531,Millions of current dollars,SQGDP2-1,"577,170.0",34000,New Jersey,,2016Q1,6
+532,Millions of current dollars,SQGDP2-1,"579,364.4",34000,New Jersey,,2016Q2,6
+533,Millions of current dollars,SQGDP2-1,"582,551.2",34000,New Jersey,,2016Q3,6
+534,Millions of current dollars,SQGDP2-1,"585,997.0",34000,New Jersey,,2016Q4,6
+535,Millions of current dollars,SQGDP2-1,"589,342.4",34000,New Jersey,,2017Q1,6
+536,Millions of current dollars,SQGDP2-1,"597,751.7",34000,New Jersey,,2017Q2,6
+537,Millions of current dollars,SQGDP2-1,"604,194.8",34000,New Jersey,,2017Q3,6
+538,Millions of current dollars,SQGDP2-1,"605,970.1",34000,New Jersey,,2017Q4,6
+539,Millions of current dollars,SQGDP2-1,"613,929.0",34000,New Jersey,,2018Q1,6
+540,Millions of current dollars,SQGDP2-1,"622,802.4",34000,New Jersey,,2018Q2,6
+541,Millions of current dollars,SQGDP2-1,"627,955.1",34000,New Jersey,,2018Q3,6
+542,Millions of current dollars,SQGDP2-1,"634,721.1",34000,New Jersey,,2018Q4,6
+543,Millions of current dollars,SQGDP2-1,"639,841.0",34000,New Jersey,,2019Q1,6
+544,Millions of current dollars,SQGDP2-1,"90,866.0",35000,New Mexico,,2015Q1,6
+545,Millions of current dollars,SQGDP2-1,"91,342.0",35000,New Mexico,,2015Q2,6
+546,Millions of current dollars,SQGDP2-1,"90,967.8",35000,New Mexico,,2015Q3,6
+547,Millions of current dollars,SQGDP2-1,"90,448.6",35000,New Mexico,,2015Q4,6
+548,Millions of current dollars,SQGDP2-1,"89,236.4",35000,New Mexico,,2016Q1,6
+549,Millions of current dollars,SQGDP2-1,"90,887.6",35000,New Mexico,,2016Q2,6
+550,Millions of current dollars,SQGDP2-1,"91,414.6",35000,New Mexico,,2016Q3,6
+551,Millions of current dollars,SQGDP2-1,"92,477.3",35000,New Mexico,,2016Q4,6
+552,Millions of current dollars,SQGDP2-1,"93,193.2",35000,New Mexico,,2017Q1,6
+553,Millions of current dollars,SQGDP2-1,"93,322.7",35000,New Mexico,,2017Q2,6
+554,Millions of current dollars,SQGDP2-1,"94,627.8",35000,New Mexico,,2017Q3,6
+555,Millions of current dollars,SQGDP2-1,"95,809.2",35000,New Mexico,,2017Q4,6
+556,Millions of current dollars,SQGDP2-1,"96,751.8",35000,New Mexico,,2018Q1,6
+557,Millions of current dollars,SQGDP2-1,"98,733.9",35000,New Mexico,,2018Q2,6
+558,Millions of current dollars,SQGDP2-1,"100,800.7",35000,New Mexico,,2018Q3,6
+559,Millions of current dollars,SQGDP2-1,"101,451.8",35000,New Mexico,,2018Q4,6
+560,Millions of current dollars,SQGDP2-1,"101,904.0",35000,New Mexico,,2019Q1,6
+561,Millions of current dollars,SQGDP2-1,"1,468,346.4",36000,New York,,2015Q1,6
+562,Millions of current dollars,SQGDP2-1,"1,496,864.2",36000,New York,,2015Q2,6
+563,Millions of current dollars,SQGDP2-1,"1,504,710.2",36000,New York,,2015Q3,6
+564,Millions of current dollars,SQGDP2-1,"1,481,236.8",36000,New York,,2015Q4,6
+565,Millions of current dollars,SQGDP2-1,"1,526,996.3",36000,New York,,2016Q1,6
+566,Millions of current dollars,SQGDP2-1,"1,545,685.3",36000,New York,,2016Q2,6
+567,Millions of current dollars,SQGDP2-1,"1,543,280.9",36000,New York,,2016Q3,6
+568,Millions of current dollars,SQGDP2-1,"1,550,135.3",36000,New York,,2016Q4,6
+569,Millions of current dollars,SQGDP2-1,"1,579,802.5",36000,New York,,2017Q1,6
+570,Millions of current dollars,SQGDP2-1,"1,583,898.5",36000,New York,,2017Q2,6
+571,Millions of current dollars,SQGDP2-1,"1,603,651.0",36000,New York,,2017Q3,6
+572,Millions of current dollars,SQGDP2-1,"1,626,476.1",36000,New York,,2017Q4,6
+573,Millions of current dollars,SQGDP2-1,"1,639,572.0",36000,New York,,2018Q1,6
+574,Millions of current dollars,SQGDP2-1,"1,672,337.2",36000,New York,,2018Q2,6
+575,Millions of current dollars,SQGDP2-1,"1,692,092.6",36000,New York,,2018Q3,6
+576,Millions of current dollars,SQGDP2-1,"1,701,398.9",36000,New York,,2018Q4,6
+577,Millions of current dollars,SQGDP2-1,"1,720,788.2",36000,New York,,2019Q1,6
+578,Millions of current dollars,SQGDP2-1,"495,807.9",37000,North Carolina,,2015Q1,6
+579,Millions of current dollars,SQGDP2-1,"503,593.3",37000,North Carolina,,2015Q2,6
+580,Millions of current dollars,SQGDP2-1,"506,793.9",37000,North Carolina,,2015Q3,6
+581,Millions of current dollars,SQGDP2-1,"506,982.0",37000,North Carolina,,2015Q4,6
+582,Millions of current dollars,SQGDP2-1,"511,283.7",37000,North Carolina,,2016Q1,6
+583,Millions of current dollars,SQGDP2-1,"515,429.4",37000,North Carolina,,2016Q2,6
+584,Millions of current dollars,SQGDP2-1,"519,411.2",37000,North Carolina,,2016Q3,6
+585,Millions of current dollars,SQGDP2-1,"526,866.1",37000,North Carolina,,2016Q4,6
+586,Millions of current dollars,SQGDP2-1,"530,411.5",37000,North Carolina,,2017Q1,6
+587,Millions of current dollars,SQGDP2-1,"534,880.3",37000,North Carolina,,2017Q2,6
+588,Millions of current dollars,SQGDP2-1,"539,468.7",37000,North Carolina,,2017Q3,6
+589,Millions of current dollars,SQGDP2-1,"546,793.8",37000,North Carolina,,2017Q4,6
+590,Millions of current dollars,SQGDP2-1,"551,213.7",37000,North Carolina,,2018Q1,6
+591,Millions of current dollars,SQGDP2-1,"566,967.0",37000,North Carolina,,2018Q2,6
+592,Millions of current dollars,SQGDP2-1,"569,416.9",37000,North Carolina,,2018Q3,6
+593,Millions of current dollars,SQGDP2-1,"575,605.4",37000,North Carolina,,2018Q4,6
+594,Millions of current dollars,SQGDP2-1,"580,186.8",37000,North Carolina,,2019Q1,6
+595,Millions of current dollars,SQGDP2-1,"56,784.8",38000,North Dakota,,2015Q1,6
+596,Millions of current dollars,SQGDP2-1,"55,638.5",38000,North Dakota,,2015Q2,6
+597,Millions of current dollars,SQGDP2-1,"54,329.0",38000,North Dakota,,2015Q3,6
+598,Millions of current dollars,SQGDP2-1,"53,000.8",38000,North Dakota,,2015Q4,6
+599,Millions of current dollars,SQGDP2-1,"50,605.4",38000,North Dakota,,2016Q1,6
+600,Millions of current dollars,SQGDP2-1,"50,467.9",38000,North Dakota,,2016Q2,6
+601,Millions of current dollars,SQGDP2-1,"50,903.4",38000,North Dakota,,2016Q3,6
+602,Millions of current dollars,SQGDP2-1,"51,111.7",38000,North Dakota,,2016Q4,6
+603,Millions of current dollars,SQGDP2-1,"50,646.1",38000,North Dakota,,2017Q1,6
+604,Millions of current dollars,SQGDP2-1,"51,972.1",38000,North Dakota,,2017Q2,6
+605,Millions of current dollars,SQGDP2-1,"51,580.8",38000,North Dakota,,2017Q3,6
+606,Millions of current dollars,SQGDP2-1,"52,250.1",38000,North Dakota,,2017Q4,6
+607,Millions of current dollars,SQGDP2-1,"52,981.8",38000,North Dakota,,2018Q1,6
+608,Millions of current dollars,SQGDP2-1,"54,755.8",38000,North Dakota,,2018Q2,6
+609,Millions of current dollars,SQGDP2-1,"55,462.1",38000,North Dakota,,2018Q3,6
+610,Millions of current dollars,SQGDP2-1,"55,657.0",38000,North Dakota,,2018Q4,6
+611,Millions of current dollars,SQGDP2-1,"55,604.2",38000,North Dakota,,2019Q1,6
+612,Millions of current dollars,SQGDP2-1,"603,233.4",39000,Ohio,,2015Q1,6
+613,Millions of current dollars,SQGDP2-1,"610,218.3",39000,Ohio,,2015Q2,6
+614,Millions of current dollars,SQGDP2-1,"610,698.9",39000,Ohio,,2015Q3,6
+615,Millions of current dollars,SQGDP2-1,"614,847.9",39000,Ohio,,2015Q4,6
+616,Millions of current dollars,SQGDP2-1,"609,057.3",39000,Ohio,,2016Q1,6
+617,Millions of current dollars,SQGDP2-1,"618,833.4",39000,Ohio,,2016Q2,6
+618,Millions of current dollars,SQGDP2-1,"625,209.4",39000,Ohio,,2016Q3,6
+619,Millions of current dollars,SQGDP2-1,"632,352.4",39000,Ohio,,2016Q4,6
+620,Millions of current dollars,SQGDP2-1,"635,315.6",39000,Ohio,,2017Q1,6
+621,Millions of current dollars,SQGDP2-1,"641,629.6",39000,Ohio,,2017Q2,6
+622,Millions of current dollars,SQGDP2-1,"650,541.1",39000,Ohio,,2017Q3,6
+623,Millions of current dollars,SQGDP2-1,"655,792.2",39000,Ohio,,2017Q4,6
+624,Millions of current dollars,SQGDP2-1,"660,141.7",39000,Ohio,,2018Q1,6
+625,Millions of current dollars,SQGDP2-1,"672,045.7",39000,Ohio,,2018Q2,6
+626,Millions of current dollars,SQGDP2-1,"683,443.2",39000,Ohio,,2018Q3,6
+627,Millions of current dollars,SQGDP2-1,"689,139.4",39000,Ohio,,2018Q4,6
+628,Millions of current dollars,SQGDP2-1,"694,830.0",39000,Ohio,,2019Q1,6
+629,Millions of current dollars,SQGDP2-1,"187,587.6",40000,Oklahoma,,2015Q1,6
+630,Millions of current dollars,SQGDP2-1,"185,477.9",40000,Oklahoma,,2015Q2,6
+631,Millions of current dollars,SQGDP2-1,"185,247.9",40000,Oklahoma,,2015Q3,6
+632,Millions of current dollars,SQGDP2-1,"182,688.7",40000,Oklahoma,,2015Q4,6
+633,Millions of current dollars,SQGDP2-1,"176,352.3",40000,Oklahoma,,2016Q1,6
+634,Millions of current dollars,SQGDP2-1,"178,943.4",40000,Oklahoma,,2016Q2,6
+635,Millions of current dollars,SQGDP2-1,"178,736.0",40000,Oklahoma,,2016Q3,6
+636,Millions of current dollars,SQGDP2-1,"180,009.0",40000,Oklahoma,,2016Q4,6
+637,Millions of current dollars,SQGDP2-1,"183,596.0",40000,Oklahoma,,2017Q1,6
+638,Millions of current dollars,SQGDP2-1,"187,043.4",40000,Oklahoma,,2017Q2,6
+639,Millions of current dollars,SQGDP2-1,"187,461.4",40000,Oklahoma,,2017Q3,6
+640,Millions of current dollars,SQGDP2-1,"191,290.9",40000,Oklahoma,,2017Q4,6
+641,Millions of current dollars,SQGDP2-1,"194,787.3",40000,Oklahoma,,2018Q1,6
+642,Millions of current dollars,SQGDP2-1,"199,963.2",40000,Oklahoma,,2018Q2,6
+643,Millions of current dollars,SQGDP2-1,"201,902.5",40000,Oklahoma,,2018Q3,6
+644,Millions of current dollars,SQGDP2-1,"203,250.2",40000,Oklahoma,,2018Q4,6
+645,Millions of current dollars,SQGDP2-1,"202,554.6",40000,Oklahoma,,2019Q1,6
+646,Millions of current dollars,SQGDP2-1,"199,054.0",41000,Oregon,,2015Q1,6
+647,Millions of current dollars,SQGDP2-1,"201,553.1",41000,Oregon,,2015Q2,6
+648,Millions of current dollars,SQGDP2-1,"205,605.1",41000,Oregon,,2015Q3,6
+649,Millions of current dollars,SQGDP2-1,"207,078.1",41000,Oregon,,2015Q4,6
+650,Millions of current dollars,SQGDP2-1,"212,123.6",41000,Oregon,,2016Q1,6
+651,Millions of current dollars,SQGDP2-1,"214,583.1",41000,Oregon,,2016Q2,6
+652,Millions of current dollars,SQGDP2-1,"215,272.5",41000,Oregon,,2016Q3,6
+653,Millions of current dollars,SQGDP2-1,"218,631.6",41000,Oregon,,2016Q4,6
+654,Millions of current dollars,SQGDP2-1,"221,099.8",41000,Oregon,,2017Q1,6
+655,Millions of current dollars,SQGDP2-1,"224,763.7",41000,Oregon,,2017Q2,6
+656,Millions of current dollars,SQGDP2-1,"227,132.3",41000,Oregon,,2017Q3,6
+657,Millions of current dollars,SQGDP2-1,"231,232.5",41000,Oregon,,2017Q4,6
+658,Millions of current dollars,SQGDP2-1,"233,601.3",41000,Oregon,,2018Q1,6
+659,Millions of current dollars,SQGDP2-1,"237,318.3",41000,Oregon,,2018Q2,6
+660,Millions of current dollars,SQGDP2-1,"240,730.7",41000,Oregon,,2018Q3,6
+661,Millions of current dollars,SQGDP2-1,"243,085.1",41000,Oregon,,2018Q4,6
+662,Millions of current dollars,SQGDP2-1,"246,186.0",41000,Oregon,,2019Q1,6
+663,Millions of current dollars,SQGDP2-1,"701,815.2",42000,Pennsylvania,,2015Q1,6
+664,Millions of current dollars,SQGDP2-1,"709,826.4",42000,Pennsylvania,,2015Q2,6
+665,Millions of current dollars,SQGDP2-1,"712,470.8",42000,Pennsylvania,,2015Q3,6
+666,Millions of current dollars,SQGDP2-1,"715,990.0",42000,Pennsylvania,,2015Q4,6
+667,Millions of current dollars,SQGDP2-1,"712,375.9",42000,Pennsylvania,,2016Q1,6
+668,Millions of current dollars,SQGDP2-1,"721,324.3",42000,Pennsylvania,,2016Q2,6
+669,Millions of current dollars,SQGDP2-1,"729,733.2",42000,Pennsylvania,,2016Q3,6
+670,Millions of current dollars,SQGDP2-1,"733,629.4",42000,Pennsylvania,,2016Q4,6
+671,Millions of current dollars,SQGDP2-1,"739,860.4",42000,Pennsylvania,,2017Q1,6
+672,Millions of current dollars,SQGDP2-1,"746,634.5",42000,Pennsylvania,,2017Q2,6
+673,Millions of current dollars,SQGDP2-1,"758,382.9",42000,Pennsylvania,,2017Q3,6
+674,Millions of current dollars,SQGDP2-1,"764,482.7",42000,Pennsylvania,,2017Q4,6
+675,Millions of current dollars,SQGDP2-1,"770,473.2",42000,Pennsylvania,,2018Q1,6
+676,Millions of current dollars,SQGDP2-1,"785,245.2",42000,Pennsylvania,,2018Q2,6
+677,Millions of current dollars,SQGDP2-1,"795,125.5",42000,Pennsylvania,,2018Q3,6
+678,Millions of current dollars,SQGDP2-1,"803,307.4",42000,Pennsylvania,,2018Q4,6
+679,Millions of current dollars,SQGDP2-1,"809,310.6",42000,Pennsylvania,,2019Q1,6
+680,Millions of current dollars,SQGDP2-1,"56,089.7",44000,Rhode Island,,2015Q1,6
+681,Millions of current dollars,SQGDP2-1,"56,904.2",44000,Rhode Island,,2015Q2,6
+682,Millions of current dollars,SQGDP2-1,"56,693.4",44000,Rhode Island,,2015Q3,6
+683,Millions of current dollars,SQGDP2-1,"57,535.3",44000,Rhode Island,,2015Q4,6
+684,Millions of current dollars,SQGDP2-1,"56,650.6",44000,Rhode Island,,2016Q1,6
+685,Millions of current dollars,SQGDP2-1,"57,578.1",44000,Rhode Island,,2016Q2,6
+686,Millions of current dollars,SQGDP2-1,"58,104.6",44000,Rhode Island,,2016Q3,6
+687,Millions of current dollars,SQGDP2-1,"58,575.7",44000,Rhode Island,,2016Q4,6
+688,Millions of current dollars,SQGDP2-1,"58,158.8",44000,Rhode Island,,2017Q1,6
+689,Millions of current dollars,SQGDP2-1,"59,201.3",44000,Rhode Island,,2017Q2,6
+690,Millions of current dollars,SQGDP2-1,"59,692.2",44000,Rhode Island,,2017Q3,6
+691,Millions of current dollars,SQGDP2-1,"59,965.7",44000,Rhode Island,,2017Q4,6
+692,Millions of current dollars,SQGDP2-1,"60,503.5",44000,Rhode Island,,2018Q1,6
+693,Millions of current dollars,SQGDP2-1,"61,431.9",44000,Rhode Island,,2018Q2,6
+694,Millions of current dollars,SQGDP2-1,"60,807.4",44000,Rhode Island,,2018Q3,6
+695,Millions of current dollars,SQGDP2-1,"61,340.9",44000,Rhode Island,,2018Q4,6
+696,Millions of current dollars,SQGDP2-1,"61,928.2",44000,Rhode Island,,2019Q1,6
+697,Millions of current dollars,SQGDP2-1,"199,290.2",45000,South Carolina,,2015Q1,6
+698,Millions of current dollars,SQGDP2-1,"202,266.0",45000,South Carolina,,2015Q2,6
+699,Millions of current dollars,SQGDP2-1,"206,136.1",45000,South Carolina,,2015Q3,6
+700,Millions of current dollars,SQGDP2-1,"207,573.0",45000,South Carolina,,2015Q4,6
+701,Millions of current dollars,SQGDP2-1,"208,687.2",45000,South Carolina,,2016Q1,6
+702,Millions of current dollars,SQGDP2-1,"211,794.9",45000,South Carolina,,2016Q2,6
+703,Millions of current dollars,SQGDP2-1,"213,402.1",45000,South Carolina,,2016Q3,6
+704,Millions of current dollars,SQGDP2-1,"216,814.0",45000,South Carolina,,2016Q4,6
+705,Millions of current dollars,SQGDP2-1,"219,707.8",45000,South Carolina,,2017Q1,6
+706,Millions of current dollars,SQGDP2-1,"221,060.6",45000,South Carolina,,2017Q2,6
+707,Millions of current dollars,SQGDP2-1,"222,548.3",45000,South Carolina,,2017Q3,6
+708,Millions of current dollars,SQGDP2-1,"224,269.4",45000,South Carolina,,2017Q4,6
+709,Millions of current dollars,SQGDP2-1,"225,947.2",45000,South Carolina,,2018Q1,6
+710,Millions of current dollars,SQGDP2-1,"229,196.7",45000,South Carolina,,2018Q2,6
+711,Millions of current dollars,SQGDP2-1,"231,905.7",45000,South Carolina,,2018Q3,6
+712,Millions of current dollars,SQGDP2-1,"234,366.7",45000,South Carolina,,2018Q4,6
+713,Millions of current dollars,SQGDP2-1,"236,752.5",45000,South Carolina,,2019Q1,6
+714,Millions of current dollars,SQGDP2-1,"46,592.7",46000,South Dakota,,2015Q1,6
+715,Millions of current dollars,SQGDP2-1,"47,292.4",46000,South Dakota,,2015Q2,6
+716,Millions of current dollars,SQGDP2-1,"47,938.2",46000,South Dakota,,2015Q3,6
+717,Millions of current dollars,SQGDP2-1,"48,973.5",46000,South Dakota,,2015Q4,6
+718,Millions of current dollars,SQGDP2-1,"47,179.9",46000,South Dakota,,2016Q1,6
+719,Millions of current dollars,SQGDP2-1,"48,095.7",46000,South Dakota,,2016Q2,6
+720,Millions of current dollars,SQGDP2-1,"49,095.3",46000,South Dakota,,2016Q3,6
+721,Millions of current dollars,SQGDP2-1,"49,475.3",46000,South Dakota,,2016Q4,6
+722,Millions of current dollars,SQGDP2-1,"49,334.4",46000,South Dakota,,2017Q1,6
+723,Millions of current dollars,SQGDP2-1,"49,706.2",46000,South Dakota,,2017Q2,6
+724,Millions of current dollars,SQGDP2-1,"49,760.3",46000,South Dakota,,2017Q3,6
+725,Millions of current dollars,SQGDP2-1,"49,636.1",46000,South Dakota,,2017Q4,6
+726,Millions of current dollars,SQGDP2-1,"50,557.8",46000,South Dakota,,2018Q1,6
+727,Millions of current dollars,SQGDP2-1,"51,305.2",46000,South Dakota,,2018Q2,6
+728,Millions of current dollars,SQGDP2-1,"51,917.7",46000,South Dakota,,2018Q3,6
+729,Millions of current dollars,SQGDP2-1,"52,543.8",46000,South Dakota,,2018Q4,6
+730,Millions of current dollars,SQGDP2-1,"53,075.2",46000,South Dakota,,2019Q1,6
+731,Millions of current dollars,SQGDP2-1,"315,286.7",47000,Tennessee,,2015Q1,6
+732,Millions of current dollars,SQGDP2-1,"322,276.3",47000,Tennessee,,2015Q2,6
+733,Millions of current dollars,SQGDP2-1,"326,203.8",47000,Tennessee,,2015Q3,6
+734,Millions of current dollars,SQGDP2-1,"326,983.9",47000,Tennessee,,2015Q4,6
+735,Millions of current dollars,SQGDP2-1,"328,338.5",47000,Tennessee,,2016Q1,6
+736,Millions of current dollars,SQGDP2-1,"332,392.3",47000,Tennessee,,2016Q2,6
+737,Millions of current dollars,SQGDP2-1,"336,378.7",47000,Tennessee,,2016Q3,6
+738,Millions of current dollars,SQGDP2-1,"340,429.7",47000,Tennessee,,2016Q4,6
+739,Millions of current dollars,SQGDP2-1,"342,571.9",47000,Tennessee,,2017Q1,6
+740,Millions of current dollars,SQGDP2-1,"345,709.7",47000,Tennessee,,2017Q2,6
+741,Millions of current dollars,SQGDP2-1,"349,679.8",47000,Tennessee,,2017Q3,6
+742,Millions of current dollars,SQGDP2-1,"353,378.7",47000,Tennessee,,2017Q4,6
+743,Millions of current dollars,SQGDP2-1,"355,029.9",47000,Tennessee,,2018Q1,6
+744,Millions of current dollars,SQGDP2-1,"363,910.6",47000,Tennessee,,2018Q2,6
+745,Millions of current dollars,SQGDP2-1,"369,803.4",47000,Tennessee,,2018Q3,6
+746,Millions of current dollars,SQGDP2-1,"373,663.3",47000,Tennessee,,2018Q4,6
+747,Millions of current dollars,SQGDP2-1,"377,088.4",47000,Tennessee,,2019Q1,6
+748,Millions of current dollars,SQGDP2-1,"1,569,663.1",48000,Texas,,2015Q1,6
+749,Millions of current dollars,SQGDP2-1,"1,568,492.4",48000,Texas,,2015Q2,6
+750,Millions of current dollars,SQGDP2-1,"1,572,117.4",48000,Texas,,2015Q3,6
+751,Millions of current dollars,SQGDP2-1,"1,562,313.0",48000,Texas,,2015Q4,6
+752,Millions of current dollars,SQGDP2-1,"1,533,461.2",48000,Texas,,2016Q1,6
+753,Millions of current dollars,SQGDP2-1,"1,558,108.4",48000,Texas,,2016Q2,6
+754,Millions of current dollars,SQGDP2-1,"1,573,357.2",48000,Texas,,2016Q3,6
+755,Millions of current dollars,SQGDP2-1,"1,592,656.6",48000,Texas,,2016Q4,6
+756,Millions of current dollars,SQGDP2-1,"1,617,131.9",48000,Texas,,2017Q1,6
+757,Millions of current dollars,SQGDP2-1,"1,640,408.6",48000,Texas,,2017Q2,6
+758,Millions of current dollars,SQGDP2-1,"1,664,935.8",48000,Texas,,2017Q3,6
+759,Millions of current dollars,SQGDP2-1,"1,695,501.5",48000,Texas,,2017Q4,6
+760,Millions of current dollars,SQGDP2-1,"1,724,996.5",48000,Texas,,2018Q1,6
+761,Millions of current dollars,SQGDP2-1,"1,766,262.6",48000,Texas,,2018Q2,6
+762,Millions of current dollars,SQGDP2-1,"1,793,341.6",48000,Texas,,2018Q3,6
+763,Millions of current dollars,SQGDP2-1,"1,818,585.4",48000,Texas,,2018Q4,6
+764,Millions of current dollars,SQGDP2-1,"1,828,042.3",48000,Texas,,2019Q1,6
+765,Millions of current dollars,SQGDP2-1,"146,420.8",49000,Utah,,2015Q1,6
+766,Millions of current dollars,SQGDP2-1,"148,979.6",49000,Utah,,2015Q2,6
+767,Millions of current dollars,SQGDP2-1,"150,389.8",49000,Utah,,2015Q3,6
+768,Millions of current dollars,SQGDP2-1,"152,304.7",49000,Utah,,2015Q4,6
+769,Millions of current dollars,SQGDP2-1,"154,276.2",49000,Utah,,2016Q1,6
+770,Millions of current dollars,SQGDP2-1,"156,569.2",49000,Utah,,2016Q2,6
+771,Millions of current dollars,SQGDP2-1,"159,245.8",49000,Utah,,2016Q3,6
+772,Millions of current dollars,SQGDP2-1,"161,515.6",49000,Utah,,2016Q4,6
+773,Millions of current dollars,SQGDP2-1,"162,214.9",49000,Utah,,2017Q1,6
+774,Millions of current dollars,SQGDP2-1,"163,886.6",49000,Utah,,2017Q2,6
+775,Millions of current dollars,SQGDP2-1,"167,144.9",49000,Utah,,2017Q3,6
+776,Millions of current dollars,SQGDP2-1,"169,564.2",49000,Utah,,2017Q4,6
+777,Millions of current dollars,SQGDP2-1,"173,072.7",49000,Utah,,2018Q1,6
+778,Millions of current dollars,SQGDP2-1,"176,260.0",49000,Utah,,2018Q2,6
+779,Millions of current dollars,SQGDP2-1,"179,150.3",49000,Utah,,2018Q3,6
+780,Millions of current dollars,SQGDP2-1,"180,861.7",49000,Utah,,2018Q4,6
+781,Millions of current dollars,SQGDP2-1,"183,163.4",49000,Utah,,2019Q1,6
+782,Millions of current dollars,SQGDP2-1,"30,286.5",50000,Vermont,,2015Q1,6
+783,Millions of current dollars,SQGDP2-1,"30,610.8",50000,Vermont,,2015Q2,6
+784,Millions of current dollars,SQGDP2-1,"30,941.4",50000,Vermont,,2015Q3,6
+785,Millions of current dollars,SQGDP2-1,"30,996.8",50000,Vermont,,2015Q4,6
+786,Millions of current dollars,SQGDP2-1,"31,266.0",50000,Vermont,,2016Q1,6
+787,Millions of current dollars,SQGDP2-1,"31,542.9",50000,Vermont,,2016Q2,6
+788,Millions of current dollars,SQGDP2-1,"31,782.4",50000,Vermont,,2016Q3,6
+789,Millions of current dollars,SQGDP2-1,"31,947.5",50000,Vermont,,2016Q4,6
+790,Millions of current dollars,SQGDP2-1,"32,325.0",50000,Vermont,,2017Q1,6
+791,Millions of current dollars,SQGDP2-1,"32,489.8",50000,Vermont,,2017Q2,6
+792,Millions of current dollars,SQGDP2-1,"32,736.8",50000,Vermont,,2017Q3,6
+793,Millions of current dollars,SQGDP2-1,"32,942.1",50000,Vermont,,2017Q4,6
+794,Millions of current dollars,SQGDP2-1,"33,192.7",50000,Vermont,,2018Q1,6
+795,Millions of current dollars,SQGDP2-1,"33,760.5",50000,Vermont,,2018Q2,6
+796,Millions of current dollars,SQGDP2-1,"33,793.8",50000,Vermont,,2018Q3,6
+797,Millions of current dollars,SQGDP2-1,"34,154.2",50000,Vermont,,2018Q4,6
+798,Millions of current dollars,SQGDP2-1,"34,514.5",50000,Vermont,,2019Q1,6
+799,Millions of current dollars,SQGDP2-1,"475,358.7",51000,Virginia,,2015Q1,6
+800,Millions of current dollars,SQGDP2-1,"484,437.2",51000,Virginia,,2015Q2,6
+801,Millions of current dollars,SQGDP2-1,"489,266.0",51000,Virginia,,2015Q3,6
+802,Millions of current dollars,SQGDP2-1,"489,450.7",51000,Virginia,,2015Q4,6
+803,Millions of current dollars,SQGDP2-1,"485,423.6",51000,Virginia,,2016Q1,6
+804,Millions of current dollars,SQGDP2-1,"491,723.6",51000,Virginia,,2016Q2,6
+805,Millions of current dollars,SQGDP2-1,"495,723.0",51000,Virginia,,2016Q3,6
+806,Millions of current dollars,SQGDP2-1,"502,591.9",51000,Virginia,,2016Q4,6
+807,Millions of current dollars,SQGDP2-1,"503,144.0",51000,Virginia,,2017Q1,6
+808,Millions of current dollars,SQGDP2-1,"507,407.5",51000,Virginia,,2017Q2,6
+809,Millions of current dollars,SQGDP2-1,"513,368.5",51000,Virginia,,2017Q3,6
+810,Millions of current dollars,SQGDP2-1,"517,779.6",51000,Virginia,,2017Q4,6
+811,Millions of current dollars,SQGDP2-1,"523,383.8",51000,Virginia,,2018Q1,6
+812,Millions of current dollars,SQGDP2-1,"530,922.2",51000,Virginia,,2018Q2,6
+813,Millions of current dollars,SQGDP2-1,"539,141.3",51000,Virginia,,2018Q3,6
+814,Millions of current dollars,SQGDP2-1,"544,348.0",51000,Virginia,,2018Q4,6
+815,Millions of current dollars,SQGDP2-1,"549,996.5",51000,Virginia,,2019Q1,6
+816,Millions of current dollars,SQGDP2-1,"461,278.2",53000,Washington,,2015Q1,6
+817,Millions of current dollars,SQGDP2-1,"469,093.6",53000,Washington,,2015Q2,6
+818,Millions of current dollars,SQGDP2-1,"475,600.2",53000,Washington,,2015Q3,6
+819,Millions of current dollars,SQGDP2-1,"476,356.9",53000,Washington,,2015Q4,6
+820,Millions of current dollars,SQGDP2-1,"485,423.5",53000,Washington,,2016Q1,6
+821,Millions of current dollars,SQGDP2-1,"489,114.5",53000,Washington,,2016Q2,6
+822,Millions of current dollars,SQGDP2-1,"493,589.2",53000,Washington,,2016Q3,6
+823,Millions of current dollars,SQGDP2-1,"503,643.5",53000,Washington,,2016Q4,6
+824,Millions of current dollars,SQGDP2-1,"510,025.5",53000,Washington,,2017Q1,6
+825,Millions of current dollars,SQGDP2-1,"518,700.5",53000,Washington,,2017Q2,6
+826,Millions of current dollars,SQGDP2-1,"526,044.4",53000,Washington,,2017Q3,6
+827,Millions of current dollars,SQGDP2-1,"534,931.4",53000,Washington,,2017Q4,6
+828,Millions of current dollars,SQGDP2-1,"546,347.2",53000,Washington,,2018Q1,6
+829,Millions of current dollars,SQGDP2-1,"560,181.8",53000,Washington,,2018Q2,6
+830,Millions of current dollars,SQGDP2-1,"569,449.3",53000,Washington,,2018Q3,6
+831,Millions of current dollars,SQGDP2-1,"576,623.5",53000,Washington,,2018Q4,6
+832,Millions of current dollars,SQGDP2-1,"584,033.6",53000,Washington,,2019Q1,6
+833,Millions of current dollars,SQGDP2-1,"69,798.8",54000,West Virginia,,2015Q1,6
+834,Millions of current dollars,SQGDP2-1,"71,056.5",54000,West Virginia,,2015Q2,6
+835,Millions of current dollars,SQGDP2-1,"70,553.5",54000,West Virginia,,2015Q3,6
+836,Millions of current dollars,SQGDP2-1,"69,955.0",54000,West Virginia,,2015Q4,6
+837,Millions of current dollars,SQGDP2-1,"68,640.4",54000,West Virginia,,2016Q1,6
+838,Millions of current dollars,SQGDP2-1,"69,624.6",54000,West Virginia,,2016Q2,6
+839,Millions of current dollars,SQGDP2-1,"70,256.0",54000,West Virginia,,2016Q3,6
+840,Millions of current dollars,SQGDP2-1,"70,736.8",54000,West Virginia,,2016Q4,6
+841,Millions of current dollars,SQGDP2-1,"72,390.9",54000,West Virginia,,2017Q1,6
+842,Millions of current dollars,SQGDP2-1,"72,287.5",54000,West Virginia,,2017Q2,6
+843,Millions of current dollars,SQGDP2-1,"73,421.9",54000,West Virginia,,2017Q3,6
+844,Millions of current dollars,SQGDP2-1,"74,296.4",54000,West Virginia,,2017Q4,6
+845,Millions of current dollars,SQGDP2-1,"74,784.0",54000,West Virginia,,2018Q1,6
+846,Millions of current dollars,SQGDP2-1,"76,833.5",54000,West Virginia,,2018Q2,6
+847,Millions of current dollars,SQGDP2-1,"79,122.9",54000,West Virginia,,2018Q3,6
+848,Millions of current dollars,SQGDP2-1,"79,167.9",54000,West Virginia,,2018Q4,6
+849,Millions of current dollars,SQGDP2-1,"79,481.6",54000,West Virginia,,2019Q1,6
+850,Millions of current dollars,SQGDP2-1,"300,793.7",55000,Wisconsin,,2015Q1,6
+851,Millions of current dollars,SQGDP2-1,"304,669.8",55000,Wisconsin,,2015Q2,6
+852,Millions of current dollars,SQGDP2-1,"306,325.9",55000,Wisconsin,,2015Q3,6
+853,Millions of current dollars,SQGDP2-1,"307,619.4",55000,Wisconsin,,2015Q4,6
+854,Millions of current dollars,SQGDP2-1,"307,645.8",55000,Wisconsin,,2016Q1,6
+855,Millions of current dollars,SQGDP2-1,"311,451.0",55000,Wisconsin,,2016Q2,6
+856,Millions of current dollars,SQGDP2-1,"314,300.2",55000,Wisconsin,,2016Q3,6
+857,Millions of current dollars,SQGDP2-1,"315,165.2",55000,Wisconsin,,2016Q4,6
+858,Millions of current dollars,SQGDP2-1,"316,993.9",55000,Wisconsin,,2017Q1,6
+859,Millions of current dollars,SQGDP2-1,"319,279.6",55000,Wisconsin,,2017Q2,6
+860,Millions of current dollars,SQGDP2-1,"324,097.5",55000,Wisconsin,,2017Q3,6
+861,Millions of current dollars,SQGDP2-1,"325,966.6",55000,Wisconsin,,2017Q4,6
+862,Millions of current dollars,SQGDP2-1,"331,216.5",55000,Wisconsin,,2018Q1,6
+863,Millions of current dollars,SQGDP2-1,"335,519.1",55000,Wisconsin,,2018Q2,6
+864,Millions of current dollars,SQGDP2-1,"338,680.2",55000,Wisconsin,,2018Q3,6
+865,Millions of current dollars,SQGDP2-1,"342,470.0",55000,Wisconsin,,2018Q4,6
+866,Millions of current dollars,SQGDP2-1,"345,389.9",55000,Wisconsin,,2019Q1,6
+867,Millions of current dollars,SQGDP2-1,"38,019.6",56000,Wyoming,,2015Q1,6
+868,Millions of current dollars,SQGDP2-1,"37,999.4",56000,Wyoming,,2015Q2,6
+869,Millions of current dollars,SQGDP2-1,"37,948.3",56000,Wyoming,,2015Q3,6
+870,Millions of current dollars,SQGDP2-1,"36,993.3",56000,Wyoming,,2015Q4,6
+871,Millions of current dollars,SQGDP2-1,"35,962.9",56000,Wyoming,,2016Q1,6
+872,Millions of current dollars,SQGDP2-1,"35,886.1",56000,Wyoming,,2016Q2,6
+873,Millions of current dollars,SQGDP2-1,"35,789.5",56000,Wyoming,,2016Q3,6
+874,Millions of current dollars,SQGDP2-1,"35,983.0",56000,Wyoming,,2016Q4,6
+875,Millions of current dollars,SQGDP2-1,"36,903.3",56000,Wyoming,,2017Q1,6
+876,Millions of current dollars,SQGDP2-1,"37,644.3",56000,Wyoming,,2017Q2,6
+877,Millions of current dollars,SQGDP2-1,"37,522.8",56000,Wyoming,,2017Q3,6
+878,Millions of current dollars,SQGDP2-1,"38,430.4",56000,Wyoming,,2017Q4,6
+879,Millions of current dollars,SQGDP2-1,"38,495.9",56000,Wyoming,,2018Q1,6
+880,Millions of current dollars,SQGDP2-1,"39,230.1",56000,Wyoming,,2018Q2,6
+881,Millions of current dollars,SQGDP2-1,"39,859.6",56000,Wyoming,,2018Q3,6
+882,Millions of current dollars,SQGDP2-1,"39,898.8",56000,Wyoming,,2018Q4,6
+883,Millions of current dollars,SQGDP2-1,"39,427.5",56000,Wyoming,,2019Q1,6
+884,Millions of current dollars,SQGDP2-1,"967,415.7",91000,New England,,2015Q1,6
+885,Millions of current dollars,SQGDP2-1,"983,485.9",91000,New England,,2015Q2,6
+886,Millions of current dollars,SQGDP2-1,"985,707.0",91000,New England,,2015Q3,6
+887,Millions of current dollars,SQGDP2-1,"996,399.9",91000,New England,,2015Q4,6
+888,Millions of current dollars,SQGDP2-1,"996,211.6",91000,New England,,2016Q1,6
+889,Millions of current dollars,SQGDP2-1,"1,007,931.7",91000,New England,,2016Q2,6
+890,Millions of current dollars,SQGDP2-1,"1,016,419.4",91000,New England,,2016Q3,6
+891,Millions of current dollars,SQGDP2-1,"1,019,787.8",91000,New England,,2016Q4,6
+892,Millions of current dollars,SQGDP2-1,"1,025,381.0",91000,New England,,2017Q1,6
+893,Millions of current dollars,SQGDP2-1,"1,036,157.7",91000,New England,,2017Q2,6
+894,Millions of current dollars,SQGDP2-1,"1,049,408.1",91000,New England,,2017Q3,6
+895,Millions of current dollars,SQGDP2-1,"1,054,098.6",91000,New England,,2017Q4,6
+896,Millions of current dollars,SQGDP2-1,"1,068,840.6",91000,New England,,2018Q1,6
+897,Millions of current dollars,SQGDP2-1,"1,078,395.2",91000,New England,,2018Q2,6
+898,Millions of current dollars,SQGDP2-1,"1,091,558.4",91000,New England,,2018Q3,6
+899,Millions of current dollars,SQGDP2-1,"1,102,177.9",91000,New England,,2018Q4,6
+900,Millions of current dollars,SQGDP2-1,"1,113,192.5",91000,New England,,2019Q1,6
+901,Millions of current dollars,SQGDP2-1,"3,290,608.2",92000,Mideast,,2015Q1,6
+902,Millions of current dollars,SQGDP2-1,"3,339,707.9",92000,Mideast,,2015Q2,6
+903,Millions of current dollars,SQGDP2-1,"3,354,495.7",92000,Mideast,,2015Q3,6
+904,Millions of current dollars,SQGDP2-1,"3,337,571.2",92000,Mideast,,2015Q4,6
+905,Millions of current dollars,SQGDP2-1,"3,389,441.0",92000,Mideast,,2016Q1,6
+906,Millions of current dollars,SQGDP2-1,"3,428,944.0",92000,Mideast,,2016Q2,6
+907,Millions of current dollars,SQGDP2-1,"3,442,664.0",92000,Mideast,,2016Q3,6
+908,Millions of current dollars,SQGDP2-1,"3,464,602.9",92000,Mideast,,2016Q4,6
+909,Millions of current dollars,SQGDP2-1,"3,506,591.0",92000,Mideast,,2017Q1,6
+910,Millions of current dollars,SQGDP2-1,"3,529,932.8",92000,Mideast,,2017Q2,6
+911,Millions of current dollars,SQGDP2-1,"3,575,801.1",92000,Mideast,,2017Q3,6
+912,Millions of current dollars,SQGDP2-1,"3,610,059.4",92000,Mideast,,2017Q4,6
+913,Millions of current dollars,SQGDP2-1,"3,641,801.1",92000,Mideast,,2018Q1,6
+914,Millions of current dollars,SQGDP2-1,"3,706,637.4",92000,Mideast,,2018Q2,6
+915,Millions of current dollars,SQGDP2-1,"3,746,975.9",92000,Mideast,,2018Q3,6
+916,Millions of current dollars,SQGDP2-1,"3,776,241.9",92000,Mideast,,2018Q4,6
+917,Millions of current dollars,SQGDP2-1,"3,812,948.1",92000,Mideast,,2019Q1,6
+918,Millions of current dollars,SQGDP2-1,"2,476,505.5",93000,Great Lakes,,2015Q1,6
+919,Millions of current dollars,SQGDP2-1,"2,508,927.5",93000,Great Lakes,,2015Q2,6
+920,Millions of current dollars,SQGDP2-1,"2,525,596.6",93000,Great Lakes,,2015Q3,6
+921,Millions of current dollars,SQGDP2-1,"2,532,684.9",93000,Great Lakes,,2015Q4,6
+922,Millions of current dollars,SQGDP2-1,"2,524,333.1",93000,Great Lakes,,2016Q1,6
+923,Millions of current dollars,SQGDP2-1,"2,561,077.0",93000,Great Lakes,,2016Q2,6
+924,Millions of current dollars,SQGDP2-1,"2,577,179.8",93000,Great Lakes,,2016Q3,6
+925,Millions of current dollars,SQGDP2-1,"2,606,802.9",93000,Great Lakes,,2016Q4,6
+926,Millions of current dollars,SQGDP2-1,"2,613,571.0",93000,Great Lakes,,2017Q1,6
+927,Millions of current dollars,SQGDP2-1,"2,633,067.3",93000,Great Lakes,,2017Q2,6
+928,Millions of current dollars,SQGDP2-1,"2,665,422.7",93000,Great Lakes,,2017Q3,6
+929,Millions of current dollars,SQGDP2-1,"2,688,463.8",93000,Great Lakes,,2017Q4,6
+930,Millions of current dollars,SQGDP2-1,"2,719,392.1",93000,Great Lakes,,2018Q1,6
+931,Millions of current dollars,SQGDP2-1,"2,756,341.5",93000,Great Lakes,,2018Q2,6
+932,Millions of current dollars,SQGDP2-1,"2,793,859.4",93000,Great Lakes,,2018Q3,6
+933,Millions of current dollars,SQGDP2-1,"2,820,272.4",93000,Great Lakes,,2018Q4,6
+934,Millions of current dollars,SQGDP2-1,"2,845,877.6",93000,Great Lakes,,2019Q1,6
+935,Millions of current dollars,SQGDP2-1,"1,158,398.5",94000,Plains,,2015Q1,6
+936,Millions of current dollars,SQGDP2-1,"1,169,805.9",94000,Plains,,2015Q2,6
+937,Millions of current dollars,SQGDP2-1,"1,177,787.5",94000,Plains,,2015Q3,6
+938,Millions of current dollars,SQGDP2-1,"1,177,209.4",94000,Plains,,2015Q4,6
+939,Millions of current dollars,SQGDP2-1,"1,166,596.1",94000,Plains,,2016Q1,6
+940,Millions of current dollars,SQGDP2-1,"1,181,661.7",94000,Plains,,2016Q2,6
+941,Millions of current dollars,SQGDP2-1,"1,193,320.4",94000,Plains,,2016Q3,6
+942,Millions of current dollars,SQGDP2-1,"1,202,544.9",94000,Plains,,2016Q4,6
+943,Millions of current dollars,SQGDP2-1,"1,204,320.4",94000,Plains,,2017Q1,6
+944,Millions of current dollars,SQGDP2-1,"1,218,322.8",94000,Plains,,2017Q2,6
+945,Millions of current dollars,SQGDP2-1,"1,220,813.2",94000,Plains,,2017Q3,6
+946,Millions of current dollars,SQGDP2-1,"1,233,131.5",94000,Plains,,2017Q4,6
+947,Millions of current dollars,SQGDP2-1,"1,242,427.0",94000,Plains,,2018Q1,6
+948,Millions of current dollars,SQGDP2-1,"1,272,982.7",94000,Plains,,2018Q2,6
+949,Millions of current dollars,SQGDP2-1,"1,281,355.5",94000,Plains,,2018Q3,6
+950,Millions of current dollars,SQGDP2-1,"1,293,314.9",94000,Plains,,2018Q4,6
+951,Millions of current dollars,SQGDP2-1,"1,303,646.6",94000,Plains,,2019Q1,6
+952,Millions of current dollars,SQGDP2-1,"3,773,327.8",95000,Southeast,,2015Q1,6
+953,Millions of current dollars,SQGDP2-1,"3,838,028.5",95000,Southeast,,2015Q2,6
+954,Millions of current dollars,SQGDP2-1,"3,872,955.5",95000,Southeast,,2015Q3,6
+955,Millions of current dollars,SQGDP2-1,"3,886,250.6",95000,Southeast,,2015Q4,6
+956,Millions of current dollars,SQGDP2-1,"3,890,623.1",95000,Southeast,,2016Q1,6
+957,Millions of current dollars,SQGDP2-1,"3,942,003.8",95000,Southeast,,2016Q2,6
+958,Millions of current dollars,SQGDP2-1,"3,979,352.6",95000,Southeast,,2016Q3,6
+959,Millions of current dollars,SQGDP2-1,"4,024,583.6",95000,Southeast,,2016Q4,6
+960,Millions of current dollars,SQGDP2-1,"4,060,327.4",95000,Southeast,,2017Q1,6
+961,Millions of current dollars,SQGDP2-1,"4,089,148.3",95000,Southeast,,2017Q2,6
+962,Millions of current dollars,SQGDP2-1,"4,133,443.4",95000,Southeast,,2017Q3,6
+963,Millions of current dollars,SQGDP2-1,"4,185,637.4",95000,Southeast,,2017Q4,6
+964,Millions of current dollars,SQGDP2-1,"4,224,925.6",95000,Southeast,,2018Q1,6
+965,Millions of current dollars,SQGDP2-1,"4,297,639.6",95000,Southeast,,2018Q2,6
+966,Millions of current dollars,SQGDP2-1,"4,360,106.7",95000,Southeast,,2018Q3,6
+967,Millions of current dollars,SQGDP2-1,"4,405,126.4",95000,Southeast,,2018Q4,6
+968,Millions of current dollars,SQGDP2-1,"4,448,013.6",95000,Southeast,,2019Q1,6
+969,Millions of current dollars,SQGDP2-1,"2,140,771.6",96000,Southwest,,2015Q1,6
+970,Millions of current dollars,SQGDP2-1,"2,141,808.3",96000,Southwest,,2015Q2,6
+971,Millions of current dollars,SQGDP2-1,"2,145,701.1",96000,Southwest,,2015Q3,6
+972,Millions of current dollars,SQGDP2-1,"2,137,315.0",96000,Southwest,,2015Q4,6
+973,Millions of current dollars,SQGDP2-1,"2,102,881.9",96000,Southwest,,2016Q1,6
+974,Millions of current dollars,SQGDP2-1,"2,138,152.6",96000,Southwest,,2016Q2,6
+975,Millions of current dollars,SQGDP2-1,"2,158,643.5",96000,Southwest,,2016Q3,6
+976,Millions of current dollars,SQGDP2-1,"2,181,548.0",96000,Southwest,,2016Q4,6
+977,Millions of current dollars,SQGDP2-1,"2,215,236.7",96000,Southwest,,2017Q1,6
+978,Millions of current dollars,SQGDP2-1,"2,243,769.4",96000,Southwest,,2017Q2,6
+979,Millions of current dollars,SQGDP2-1,"2,276,542.6",96000,Southwest,,2017Q3,6
+980,Millions of current dollars,SQGDP2-1,"2,314,930.6",96000,Southwest,,2017Q4,6
+981,Millions of current dollars,SQGDP2-1,"2,354,972.4",96000,Southwest,,2018Q1,6
+982,Millions of current dollars,SQGDP2-1,"2,407,850.0",96000,Southwest,,2018Q2,6
+983,Millions of current dollars,SQGDP2-1,"2,446,574.2",96000,Southwest,,2018Q3,6
+984,Millions of current dollars,SQGDP2-1,"2,478,598.2",96000,Southwest,,2018Q4,6
+985,Millions of current dollars,SQGDP2-1,"2,492,532.4",96000,Southwest,,2019Q1,6
+986,Millions of current dollars,SQGDP2-1,"609,971.0",97000,Rocky Mountain,,2015Q1,6
+987,Millions of current dollars,SQGDP2-1,"617,008.5",97000,Rocky Mountain,,2015Q2,6
+988,Millions of current dollars,SQGDP2-1,"621,240.1",97000,Rocky Mountain,,2015Q3,6
+989,Millions of current dollars,SQGDP2-1,"623,813.9",97000,Rocky Mountain,,2015Q4,6
+990,Millions of current dollars,SQGDP2-1,"624,076.9",97000,Rocky Mountain,,2016Q1,6
+991,Millions of current dollars,SQGDP2-1,"633,732.6",97000,Rocky Mountain,,2016Q2,6
+992,Millions of current dollars,SQGDP2-1,"642,697.4",97000,Rocky Mountain,,2016Q3,6
+993,Millions of current dollars,SQGDP2-1,"650,561.3",97000,Rocky Mountain,,2016Q4,6
+994,Millions of current dollars,SQGDP2-1,"656,176.7",97000,Rocky Mountain,,2017Q1,6
+995,Millions of current dollars,SQGDP2-1,"663,952.0",97000,Rocky Mountain,,2017Q2,6
+996,Millions of current dollars,SQGDP2-1,"674,318.0",97000,Rocky Mountain,,2017Q3,6
+997,Millions of current dollars,SQGDP2-1,"685,711.4",97000,Rocky Mountain,,2017Q4,6
+998,Millions of current dollars,SQGDP2-1,"693,436.5",97000,Rocky Mountain,,2018Q1,6
+999,Millions of current dollars,SQGDP2-1,"708,077.6",97000,Rocky Mountain,,2018Q2,6
+1000,Millions of current dollars,SQGDP2-1,"718,362.7",97000,Rocky Mountain,,2018Q3,6
+1001,Millions of current dollars,SQGDP2-1,"726,029.1",97000,Rocky Mountain,,2018Q4,6
+1002,Millions of current dollars,SQGDP2-1,"732,812.1",97000,Rocky Mountain,,2019Q1,6
+1003,Millions of current dollars,SQGDP2-1,"3,440,925.8",98000,Far West,,2015Q1,6
+1004,Millions of current dollars,SQGDP2-1,"3,510,603.4",98000,Far West,,2015Q2,6
+1005,Millions of current dollars,SQGDP2-1,"3,535,949.6",98000,Far West,,2015Q3,6
+1006,Millions of current dollars,SQGDP2-1,"3,551,486.0",98000,Far West,,2015Q4,6
+1007,Millions of current dollars,SQGDP2-1,"3,602,930.6",98000,Far West,,2016Q1,6
+1008,Millions of current dollars,SQGDP2-1,"3,634,656.7",98000,Far West,,2016Q2,6
+1009,Millions of current dollars,SQGDP2-1,"3,676,151.5",98000,Far West,,2016Q3,6
+1010,Millions of current dollars,SQGDP2-1,"3,715,153.5",98000,Far West,,2016Q4,6
+1011,Millions of current dollars,SQGDP2-1,"3,766,709.1",98000,Far West,,2017Q1,6
+1012,Millions of current dollars,SQGDP2-1,"3,830,786.8",98000,Far West,,2017Q2,6
+1013,Millions of current dollars,SQGDP2-1,"3,879,086.4",98000,Far West,,2017Q3,6
+1014,Millions of current dollars,SQGDP2-1,"3,948,041.6",98000,Far West,,2017Q4,6
+1015,Millions of current dollars,SQGDP2-1,"3,985,515.4",98000,Far West,,2018Q1,6
+1016,Millions of current dollars,SQGDP2-1,"4,075,462.9",98000,Far West,,2018Q2,6
+1017,Millions of current dollars,SQGDP2-1,"4,111,127.8",98000,Far West,,2018Q3,6
+1018,Millions of current dollars,SQGDP2-1,"4,155,069.0",98000,Far West,,2018Q4,6
+1019,Millions of current dollars,SQGDP2-1,"4,201,925.0",98000,Far West,,2019Q1,6

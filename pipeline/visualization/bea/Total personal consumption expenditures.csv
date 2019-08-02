@@ -1,0 +1,181 @@
+,CL_UNIT,Code,DataValue,GeoFips,GeoName,TimePeriod,UNIT_MULT
+0,Millions of current dollars,SAEXP1-1,"12,287,647.0",00000,United States,2015,6
+1,Millions of current dollars,SAEXP1-1,"12,760,282.1",00000,United States,2016,6
+2,Millions of current dollars,SAEXP1-1,"13,314,862.9",00000,United States,2017,6
+3,Millions of current dollars,SAEXP1-1,"149,745.4",01000,Alabama,2015,6
+4,Millions of current dollars,SAEXP1-1,"153,456.5",01000,Alabama,2016,6
+5,Millions of current dollars,SAEXP1-1,"158,374.9",01000,Alabama,2017,6
+6,Millions of current dollars,SAEXP1-1,"33,504.1",02000,Alaska,2015,6
+7,Millions of current dollars,SAEXP1-1,"34,332.0",02000,Alaska,2016,6
+8,Millions of current dollars,SAEXP1-1,"35,537.1",02000,Alaska,2017,6
+9,Millions of current dollars,SAEXP1-1,"221,710.7",04000,Arizona,2015,6
+10,Millions of current dollars,SAEXP1-1,"229,755.5",04000,Arizona,2016,6
+11,Millions of current dollars,SAEXP1-1,"242,400.0",04000,Arizona,2017,6
+12,Millions of current dollars,SAEXP1-1,"91,201.1",05000,Arkansas,2015,6
+13,Millions of current dollars,SAEXP1-1,"94,712.5",05000,Arkansas,2016,6
+14,Millions of current dollars,SAEXP1-1,"98,765.8",05000,Arkansas,2017,6
+15,Millions of current dollars,SAEXP1-1,"1,589,353.4",06000,California,2015,6
+16,Millions of current dollars,SAEXP1-1,"1,671,196.1",06000,California,2016,6
+17,Millions of current dollars,SAEXP1-1,"1,754,083.3",06000,California,2017,6
+18,Millions of current dollars,SAEXP1-1,"214,032.4",08000,Colorado,2015,6
+19,Millions of current dollars,SAEXP1-1,"224,731.6",08000,Colorado,2016,6
+20,Millions of current dollars,SAEXP1-1,"236,838.6",08000,Colorado,2017,6
+21,Millions of current dollars,SAEXP1-1,"172,445.3",09000,Connecticut,2015,6
+22,Millions of current dollars,SAEXP1-1,"176,371.9",09000,Connecticut,2016,6
+23,Millions of current dollars,SAEXP1-1,"181,992.1",09000,Connecticut,2017,6
+24,Millions of current dollars,SAEXP1-1,"38,239.7",10000,Delaware,2015,6
+25,Millions of current dollars,SAEXP1-1,"39,353.4",10000,Delaware,2016,6
+26,Millions of current dollars,SAEXP1-1,"40,738.8",10000,Delaware,2017,6
+27,Millions of current dollars,SAEXP1-1,"38,916.9",11000,District of Columbia,2015,6
+28,Millions of current dollars,SAEXP1-1,"40,440.2",11000,District of Columbia,2016,6
+29,Millions of current dollars,SAEXP1-1,"42,272.9",11000,District of Columbia,2017,6
+30,Millions of current dollars,SAEXP1-1,"763,109.0",12000,Florida,2015,6
+31,Millions of current dollars,SAEXP1-1,"794,065.9",12000,Florida,2016,6
+32,Millions of current dollars,SAEXP1-1,"829,401.5",12000,Florida,2017,6
+33,Millions of current dollars,SAEXP1-1,"335,349.4",13000,Georgia,2015,6
+34,Millions of current dollars,SAEXP1-1,"349,126.1",13000,Georgia,2016,6
+35,Millions of current dollars,SAEXP1-1,"365,321.2",13000,Georgia,2017,6
+36,Millions of current dollars,SAEXP1-1,"60,117.0",15000,Hawaii,2015,6
+37,Millions of current dollars,SAEXP1-1,"62,806.8",15000,Hawaii,2016,6
+38,Millions of current dollars,SAEXP1-1,"65,767.9",15000,Hawaii,2017,6
+39,Millions of current dollars,SAEXP1-1,"53,641.4",16000,Idaho,2015,6
+40,Millions of current dollars,SAEXP1-1,"56,771.1",16000,Idaho,2016,6
+41,Millions of current dollars,SAEXP1-1,"60,675.4",16000,Idaho,2017,6
+42,Millions of current dollars,SAEXP1-1,"512,854.0",17000,Illinois,2015,6
+43,Millions of current dollars,SAEXP1-1,"529,435.3",17000,Illinois,2016,6
+44,Millions of current dollars,SAEXP1-1,"549,556.3",17000,Illinois,2017,6
+45,Millions of current dollars,SAEXP1-1,"223,375.2",18000,Indiana,2015,6
+46,Millions of current dollars,SAEXP1-1,"231,330.9",18000,Indiana,2016,6
+47,Millions of current dollars,SAEXP1-1,"242,040.6",18000,Indiana,2017,6
+48,Millions of current dollars,SAEXP1-1,"110,453.4",19000,Iowa,2015,6
+49,Millions of current dollars,SAEXP1-1,"114,222.9",19000,Iowa,2016,6
+50,Millions of current dollars,SAEXP1-1,"118,443.5",19000,Iowa,2017,6
+51,Millions of current dollars,SAEXP1-1,"100,215.1",20000,Kansas,2015,6
+52,Millions of current dollars,SAEXP1-1,"103,082.3",20000,Kansas,2016,6
+53,Millions of current dollars,SAEXP1-1,"106,428.6",20000,Kansas,2017,6
+54,Millions of current dollars,SAEXP1-1,"140,415.5",21000,Kentucky,2015,6
+55,Millions of current dollars,SAEXP1-1,"145,612.1",21000,Kentucky,2016,6
+56,Millions of current dollars,SAEXP1-1,"150,484.9",21000,Kentucky,2017,6
+57,Millions of current dollars,SAEXP1-1,"154,318.0",22000,Louisiana,2015,6
+58,Millions of current dollars,SAEXP1-1,"157,893.1",22000,Louisiana,2016,6
+59,Millions of current dollars,SAEXP1-1,"161,794.1",22000,Louisiana,2017,6
+60,Millions of current dollars,SAEXP1-1,"54,288.9",23000,Maine,2015,6
+61,Millions of current dollars,SAEXP1-1,"55,839.1",23000,Maine,2016,6
+62,Millions of current dollars,SAEXP1-1,"57,930.3",23000,Maine,2017,6
+63,Millions of current dollars,SAEXP1-1,"252,958.3",24000,Maryland,2015,6
+64,Millions of current dollars,SAEXP1-1,"262,065.9",24000,Maryland,2016,6
+65,Millions of current dollars,SAEXP1-1,"272,555.9",24000,Maryland,2017,6
+66,Millions of current dollars,SAEXP1-1,"338,223.7",25000,Massachusetts,2015,6
+67,Millions of current dollars,SAEXP1-1,"350,555.6",25000,Massachusetts,2016,6
+68,Millions of current dollars,SAEXP1-1,"365,404.8",25000,Massachusetts,2017,6
+69,Millions of current dollars,SAEXP1-1,"363,927.3",26000,Michigan,2015,6
+70,Millions of current dollars,SAEXP1-1,"377,305.1",26000,Michigan,2016,6
+71,Millions of current dollars,SAEXP1-1,"390,895.1",26000,Michigan,2017,6
+72,Millions of current dollars,SAEXP1-1,"230,060.9",27000,Minnesota,2015,6
+73,Millions of current dollars,SAEXP1-1,"240,188.9",27000,Minnesota,2016,6
+74,Millions of current dollars,SAEXP1-1,"252,922.8",27000,Minnesota,2017,6
+75,Millions of current dollars,SAEXP1-1,"85,073.0",28000,Mississippi,2015,6
+76,Millions of current dollars,SAEXP1-1,"87,163.8",28000,Mississippi,2016,6
+77,Millions of current dollars,SAEXP1-1,"89,604.2",28000,Mississippi,2017,6
+78,Millions of current dollars,SAEXP1-1,"221,231.6",29000,Missouri,2015,6
+79,Millions of current dollars,SAEXP1-1,"227,513.4",29000,Missouri,2016,6
+80,Millions of current dollars,SAEXP1-1,"236,099.7",29000,Missouri,2017,6
+81,Millions of current dollars,SAEXP1-1,"39,333.4",30000,Montana,2015,6
+82,Millions of current dollars,SAEXP1-1,"40,839.6",30000,Montana,2016,6
+83,Millions of current dollars,SAEXP1-1,"43,023.2",30000,Montana,2017,6
+84,Millions of current dollars,SAEXP1-1,"71,167.6",31000,Nebraska,2015,6
+85,Millions of current dollars,SAEXP1-1,"74,126.7",31000,Nebraska,2016,6
+86,Millions of current dollars,SAEXP1-1,"77,111.1",31000,Nebraska,2017,6
+87,Millions of current dollars,SAEXP1-1,"109,976.0",32000,Nevada,2015,6
+88,Millions of current dollars,SAEXP1-1,"114,472.5",32000,Nevada,2016,6
+89,Millions of current dollars,SAEXP1-1,"119,338.9",32000,Nevada,2017,6
+90,Millions of current dollars,SAEXP1-1,"63,087.3",33000,New Hampshire,2015,6
+91,Millions of current dollars,SAEXP1-1,"64,966.2",33000,New Hampshire,2016,6
+92,Millions of current dollars,SAEXP1-1,"67,495.6",33000,New Hampshire,2017,6
+93,Millions of current dollars,SAEXP1-1,"422,789.2",34000,New Jersey,2015,6
+94,Millions of current dollars,SAEXP1-1,"435,616.6",34000,New Jersey,2016,6
+95,Millions of current dollars,SAEXP1-1,"449,476.7",34000,New Jersey,2017,6
+96,Millions of current dollars,SAEXP1-1,"68,838.3",35000,New Mexico,2015,6
+97,Millions of current dollars,SAEXP1-1,"70,517.3",35000,New Mexico,2016,6
+98,Millions of current dollars,SAEXP1-1,"72,447.1",35000,New Mexico,2017,6
+99,Millions of current dollars,SAEXP1-1,"901,711.4",36000,New York,2015,6
+100,Millions of current dollars,SAEXP1-1,"936,872.0",36000,New York,2016,6
+101,Millions of current dollars,SAEXP1-1,"978,398.7",36000,New York,2017,6
+102,Millions of current dollars,SAEXP1-1,"320,334.2",37000,North Carolina,2015,6
+103,Millions of current dollars,SAEXP1-1,"334,022.0",37000,North Carolina,2016,6
+104,Millions of current dollars,SAEXP1-1,"350,856.8",37000,North Carolina,2017,6
+105,Millions of current dollars,SAEXP1-1,"34,855.9",38000,North Dakota,2015,6
+106,Millions of current dollars,SAEXP1-1,"34,587.3",38000,North Dakota,2016,6
+107,Millions of current dollars,SAEXP1-1,"35,286.3",38000,North Dakota,2017,6
+108,Millions of current dollars,SAEXP1-1,"431,733.2",39000,Ohio,2015,6
+109,Millions of current dollars,SAEXP1-1,"443,300.8",39000,Ohio,2016,6
+110,Millions of current dollars,SAEXP1-1,"459,380.9",39000,Ohio,2017,6
+111,Millions of current dollars,SAEXP1-1,"123,749.9",40000,Oklahoma,2015,6
+112,Millions of current dollars,SAEXP1-1,"126,518.0",40000,Oklahoma,2016,6
+113,Millions of current dollars,SAEXP1-1,"129,937.2",40000,Oklahoma,2017,6
+114,Millions of current dollars,SAEXP1-1,"152,837.4",41000,Oregon,2015,6
+115,Millions of current dollars,SAEXP1-1,"160,524.6",41000,Oregon,2016,6
+116,Millions of current dollars,SAEXP1-1,"169,045.6",41000,Oregon,2017,6
+117,Millions of current dollars,SAEXP1-1,"514,867.0",42000,Pennsylvania,2015,6
+118,Millions of current dollars,SAEXP1-1,"528,999.5",42000,Pennsylvania,2016,6
+119,Millions of current dollars,SAEXP1-1,"548,320.6",42000,Pennsylvania,2017,6
+120,Millions of current dollars,SAEXP1-1,"43,163.9",44000,Rhode Island,2015,6
+121,Millions of current dollars,SAEXP1-1,"44,347.6",44000,Rhode Island,2016,6
+122,Millions of current dollars,SAEXP1-1,"45,769.5",44000,Rhode Island,2017,6
+123,Millions of current dollars,SAEXP1-1,"155,878.5",45000,South Carolina,2015,6
+124,Millions of current dollars,SAEXP1-1,"162,424.0",45000,South Carolina,2016,6
+125,Millions of current dollars,SAEXP1-1,"169,280.6",45000,South Carolina,2017,6
+126,Millions of current dollars,SAEXP1-1,"33,895.8",46000,South Dakota,2015,6
+127,Millions of current dollars,SAEXP1-1,"35,390.3",46000,South Dakota,2016,6
+128,Millions of current dollars,SAEXP1-1,"37,011.5",46000,South Dakota,2017,6
+129,Millions of current dollars,SAEXP1-1,"214,151.0",47000,Tennessee,2015,6
+130,Millions of current dollars,SAEXP1-1,"223,277.6",47000,Tennessee,2016,6
+131,Millions of current dollars,SAEXP1-1,"234,421.9",47000,Tennessee,2017,6
+132,Millions of current dollars,SAEXP1-1,"971,143.6",48000,Texas,2015,6
+133,Millions of current dollars,SAEXP1-1,"1,010,547.8",48000,Texas,2016,6
+134,Millions of current dollars,SAEXP1-1,"1,061,038.2",48000,Texas,2017,6
+135,Millions of current dollars,SAEXP1-1,"98,615.7",49000,Utah,2015,6
+136,Millions of current dollars,SAEXP1-1,"105,035.4",49000,Utah,2016,6
+137,Millions of current dollars,SAEXP1-1,"111,001.7",49000,Utah,2017,6
+138,Millions of current dollars,SAEXP1-1,"28,339.9",50000,Vermont,2015,6
+139,Millions of current dollars,SAEXP1-1,"28,997.1",50000,Vermont,2016,6
+140,Millions of current dollars,SAEXP1-1,"29,839.1",50000,Vermont,2017,6
+141,Millions of current dollars,SAEXP1-1,"342,142.9",51000,Virginia,2015,6
+142,Millions of current dollars,SAEXP1-1,"354,901.8",51000,Virginia,2016,6
+143,Millions of current dollars,SAEXP1-1,"368,875.2",51000,Virginia,2017,6
+144,Millions of current dollars,SAEXP1-1,"294,627.2",53000,Washington,2015,6
+145,Millions of current dollars,SAEXP1-1,"309,831.3",53000,Washington,2016,6
+146,Millions of current dollars,SAEXP1-1,"328,644.5",53000,Washington,2017,6
+147,Millions of current dollars,SAEXP1-1,"59,957.5",54000,West Virginia,2015,6
+148,Millions of current dollars,SAEXP1-1,"61,427.6",54000,West Virginia,2016,6
+149,Millions of current dollars,SAEXP1-1,"63,115.2",54000,West Virginia,2017,6
+150,Millions of current dollars,SAEXP1-1,"218,629.3",55000,Wisconsin,2015,6
+151,Millions of current dollars,SAEXP1-1,"226,218.5",55000,Wisconsin,2016,6
+152,Millions of current dollars,SAEXP1-1,"235,644.1",55000,Wisconsin,2017,6
+153,Millions of current dollars,SAEXP1-1,"23,060.1",56000,Wyoming,2015,6
+154,Millions of current dollars,SAEXP1-1,"23,191.8",56000,Wyoming,2016,6
+155,Millions of current dollars,SAEXP1-1,"23,772.7",56000,Wyoming,2017,6
+156,Millions of current dollars,SAEXP1-1,"699,549.0",91000,New England,2015,6
+157,Millions of current dollars,SAEXP1-1,"721,077.5",91000,New England,2016,6
+158,Millions of current dollars,SAEXP1-1,"748,431.2",91000,New England,2017,6
+159,Millions of current dollars,SAEXP1-1,"2,169,482.6",92000,Mideast,2015,6
+160,Millions of current dollars,SAEXP1-1,"2,243,347.6",92000,Mideast,2016,6
+161,Millions of current dollars,SAEXP1-1,"2,331,763.6",92000,Mideast,2017,6
+162,Millions of current dollars,SAEXP1-1,"1,750,519.0",93000,Great Lakes,2015,6
+163,Millions of current dollars,SAEXP1-1,"1,807,590.7",93000,Great Lakes,2016,6
+164,Millions of current dollars,SAEXP1-1,"1,877,516.9",93000,Great Lakes,2017,6
+165,Millions of current dollars,SAEXP1-1,"801,880.2",94000,Plains,2015,6
+166,Millions of current dollars,SAEXP1-1,"829,111.7",94000,Plains,2016,6
+167,Millions of current dollars,SAEXP1-1,"863,303.5",94000,Plains,2017,6
+168,Millions of current dollars,SAEXP1-1,"2,811,675.6",95000,Southeast,2015,6
+169,Millions of current dollars,SAEXP1-1,"2,918,083.1",95000,Southeast,2016,6
+170,Millions of current dollars,SAEXP1-1,"3,040,296.4",95000,Southeast,2017,6
+171,Millions of current dollars,SAEXP1-1,"1,385,442.5",96000,Southwest,2015,6
+172,Millions of current dollars,SAEXP1-1,"1,437,338.7",96000,Southwest,2016,6
+173,Millions of current dollars,SAEXP1-1,"1,505,822.5",96000,Southwest,2017,6
+174,Millions of current dollars,SAEXP1-1,"428,683.0",97000,Rocky Mountain,2015,6
+175,Millions of current dollars,SAEXP1-1,"450,569.5",97000,Rocky Mountain,2016,6
+176,Millions of current dollars,SAEXP1-1,"475,311.6",97000,Rocky Mountain,2017,6
+177,Millions of current dollars,SAEXP1-1,"2,240,415.1",98000,Far West,2015,6
+178,Millions of current dollars,SAEXP1-1,"2,353,163.4",98000,Far West,2016,6
+179,Millions of current dollars,SAEXP1-1,"2,472,417.2",98000,Far West,2017,6

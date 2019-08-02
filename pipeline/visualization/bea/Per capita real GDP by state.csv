@@ -1,0 +1,241 @@
+,CL_UNIT,Code,DataValue,GeoFips,GeoName,TimePeriod,UNIT_MULT
+0,Chained 2012 dollars,SAGDP10N-1,"54,208",00000,United States,2015,0
+1,Chained 2012 dollars,SAGDP10N-1,"54,660",00000,United States,2016,0
+2,Chained 2012 dollars,SAGDP10N-1,"55,515",00000,United States,2017,0
+3,Chained 2012 dollars,SAGDP10N-1,"56,749",00000,United States,2018,0
+4,Chained 2012 dollars,SAGDP10N-1,"38,885",01000,Alabama,2015,0
+5,Chained 2012 dollars,SAGDP10N-1,"38,977",01000,Alabama,2016,0
+6,Chained 2012 dollars,SAGDP10N-1,"39,600",01000,Alabama,2017,0
+7,Chained 2012 dollars,SAGDP10N-1,"40,279",01000,Alabama,2018,0
+8,Chained 2012 dollars,SAGDP10N-1,"72,652",02000,Alaska,2015,0
+9,Chained 2012 dollars,SAGDP10N-1,"70,947",02000,Alaska,2016,0
+10,Chained 2012 dollars,SAGDP10N-1,"70,956",02000,Alaska,2017,0
+11,Chained 2012 dollars,SAGDP10N-1,"70,936",02000,Alaska,2018,0
+12,Chained 2012 dollars,SAGDP10N-1,"40,891",04000,Arizona,2015,0
+13,Chained 2012 dollars,SAGDP10N-1,"41,564",04000,Arizona,2016,0
+14,Chained 2012 dollars,SAGDP10N-1,"42,164",04000,Arizona,2017,0
+15,Chained 2012 dollars,SAGDP10N-1,"43,096",04000,Arizona,2018,0
+16,Chained 2012 dollars,SAGDP10N-1,"37,999",05000,Arkansas,2015,0
+17,Chained 2012 dollars,SAGDP10N-1,"38,051",05000,Arkansas,2016,0
+18,Chained 2012 dollars,SAGDP10N-1,"38,246",05000,Arkansas,2017,0
+19,Chained 2012 dollars,SAGDP10N-1,"38,467",05000,Arkansas,2018,0
+20,Chained 2012 dollars,SAGDP10N-1,"62,284",06000,California,2015,0
+21,Chained 2012 dollars,SAGDP10N-1,"63,731",06000,California,2016,0
+22,Chained 2012 dollars,SAGDP10N-1,"65,675",06000,California,2017,0
+23,Chained 2012 dollars,SAGDP10N-1,"67,698",06000,California,2018,0
+24,Chained 2012 dollars,SAGDP10N-1,"56,476",08000,Colorado,2015,0
+25,Chained 2012 dollars,SAGDP10N-1,"56,926",08000,Colorado,2016,0
+26,Chained 2012 dollars,SAGDP10N-1,"57,894",08000,Colorado,2017,0
+27,Chained 2012 dollars,SAGDP10N-1,"59,057",08000,Colorado,2018,0
+28,Chained 2012 dollars,SAGDP10N-1,"67,433",09000,Connecticut,2015,0
+29,Chained 2012 dollars,SAGDP10N-1,"67,468",09000,Connecticut,2016,0
+30,Chained 2012 dollars,SAGDP10N-1,"67,121",09000,Connecticut,2017,0
+31,Chained 2012 dollars,SAGDP10N-1,"67,784",09000,Connecticut,2018,0
+32,Chained 2012 dollars,SAGDP10N-1,"69,720",10000,Delaware,2015,0
+33,Chained 2012 dollars,SAGDP10N-1,"67,127",10000,Delaware,2016,0
+34,Chained 2012 dollars,SAGDP10N-1,"66,506",10000,Delaware,2017,0
+35,Chained 2012 dollars,SAGDP10N-1,"66,023",10000,Delaware,2018,0
+36,Chained 2012 dollars,SAGDP10N-1,"173,312",11000,District of Columbia,2015,0
+37,Chained 2012 dollars,SAGDP10N-1,"173,856",11000,District of Columbia,2016,0
+38,Chained 2012 dollars,SAGDP10N-1,"174,572",11000,District of Columbia,2017,0
+39,Chained 2012 dollars,SAGDP10N-1,"176,534",11000,District of Columbia,2018,0
+40,Chained 2012 dollars,SAGDP10N-1,"41,333",12000,Florida,2015,0
+41,Chained 2012 dollars,SAGDP10N-1,"41,882",12000,Florida,2016,0
+42,Chained 2012 dollars,SAGDP10N-1,"42,233",12000,Florida,2017,0
+43,Chained 2012 dollars,SAGDP10N-1,"43,052",12000,Florida,2018,0
+44,Chained 2012 dollars,SAGDP10N-1,"47,072",13000,Georgia,2015,0
+45,Chained 2012 dollars,SAGDP10N-1,"48,058",13000,Georgia,2016,0
+46,Chained 2012 dollars,SAGDP10N-1,"48,921",13000,Georgia,2017,0
+47,Chained 2012 dollars,SAGDP10N-1,"49,663",13000,Georgia,2018,0
+48,Chained 2012 dollars,SAGDP10N-1,"54,146",15000,Hawaii,2015,0
+49,Chained 2012 dollars,SAGDP10N-1,"55,148",15000,Hawaii,2016,0
+50,Chained 2012 dollars,SAGDP10N-1,"56,170",15000,Hawaii,2017,0
+51,Chained 2012 dollars,SAGDP10N-1,"56,880",15000,Hawaii,2018,0
+52,Chained 2012 dollars,SAGDP10N-1,"38,273",16000,Idaho,2015,0
+53,Chained 2012 dollars,SAGDP10N-1,"38,959",16000,Idaho,2016,0
+54,Chained 2012 dollars,SAGDP10N-1,"39,072",16000,Idaho,2017,0
+55,Chained 2012 dollars,SAGDP10N-1,"39,843",16000,Idaho,2018,0
+56,Chained 2012 dollars,SAGDP10N-1,"57,657",17000,Illinois,2015,0
+57,Chained 2012 dollars,SAGDP10N-1,"57,989",17000,Illinois,2016,0
+58,Chained 2012 dollars,SAGDP10N-1,"58,513",17000,Illinois,2017,0
+59,Chained 2012 dollars,SAGDP10N-1,"59,980",17000,Illinois,2018,0
+60,Chained 2012 dollars,SAGDP10N-1,"46,892",18000,Indiana,2015,0
+61,Chained 2012 dollars,SAGDP10N-1,"47,507",18000,Indiana,2016,0
+62,Chained 2012 dollars,SAGDP10N-1,"48,060",18000,Indiana,2017,0
+63,Chained 2012 dollars,SAGDP10N-1,"48,738",18000,Indiana,2018,0
+64,Chained 2012 dollars,SAGDP10N-1,"53,902",19000,Iowa,2015,0
+65,Chained 2012 dollars,SAGDP10N-1,"53,934",19000,Iowa,2016,0
+66,Chained 2012 dollars,SAGDP10N-1,"53,547",19000,Iowa,2017,0
+67,Chained 2012 dollars,SAGDP10N-1,"54,101",19000,Iowa,2018,0
+68,Chained 2012 dollars,SAGDP10N-1,"49,813",20000,Kansas,2015,0
+69,Chained 2012 dollars,SAGDP10N-1,"50,923",20000,Kansas,2016,0
+70,Chained 2012 dollars,SAGDP10N-1,"51,335",20000,Kansas,2017,0
+71,Chained 2012 dollars,SAGDP10N-1,"52,297",20000,Kansas,2018,0
+72,Chained 2012 dollars,SAGDP10N-1,"40,822",21000,Kentucky,2015,0
+73,Chained 2012 dollars,SAGDP10N-1,"40,920",21000,Kentucky,2016,0
+74,Chained 2012 dollars,SAGDP10N-1,"41,215",21000,Kentucky,2017,0
+75,Chained 2012 dollars,SAGDP10N-1,"41,659",21000,Kentucky,2018,0
+76,Chained 2012 dollars,SAGDP10N-1,"49,589",22000,Louisiana,2015,0
+77,Chained 2012 dollars,SAGDP10N-1,"48,849",22000,Louisiana,2016,0
+78,Chained 2012 dollars,SAGDP10N-1,"48,959",22000,Louisiana,2017,0
+79,Chained 2012 dollars,SAGDP10N-1,"49,606",22000,Louisiana,2018,0
+80,Chained 2012 dollars,SAGDP10N-1,"40,351",23000,Maine,2015,0
+81,Chained 2012 dollars,SAGDP10N-1,"41,091",23000,Maine,2016,0
+82,Chained 2012 dollars,SAGDP10N-1,"41,659",23000,Maine,2017,0
+83,Chained 2012 dollars,SAGDP10N-1,"42,356",23000,Maine,2018,0
+84,Chained 2012 dollars,SAGDP10N-1,"57,536",24000,Maryland,2015,0
+85,Chained 2012 dollars,SAGDP10N-1,"59,133",24000,Maryland,2016,0
+86,Chained 2012 dollars,SAGDP10N-1,"60,091",24000,Maryland,2017,0
+87,Chained 2012 dollars,SAGDP10N-1,"60,886",24000,Maryland,2018,0
+88,Chained 2012 dollars,SAGDP10N-1,"69,126",25000,Massachusetts,2015,0
+89,Chained 2012 dollars,SAGDP10N-1,"70,005",25000,Massachusetts,2016,0
+90,Chained 2012 dollars,SAGDP10N-1,"71,153",25000,Massachusetts,2017,0
+91,Chained 2012 dollars,SAGDP10N-1,"72,635",25000,Massachusetts,2018,0
+92,Chained 2012 dollars,SAGDP10N-1,"44,330",26000,Michigan,2015,0
+93,Chained 2012 dollars,SAGDP10N-1,"45,088",26000,Michigan,2016,0
+94,Chained 2012 dollars,SAGDP10N-1,"45,708",26000,Michigan,2017,0
+95,Chained 2012 dollars,SAGDP10N-1,"46,858",26000,Michigan,2018,0
+96,Chained 2012 dollars,SAGDP10N-1,"56,787",27000,Minnesota,2015,0
+97,Chained 2012 dollars,SAGDP10N-1,"57,504",27000,Minnesota,2016,0
+98,Chained 2012 dollars,SAGDP10N-1,"58,235",27000,Minnesota,2017,0
+99,Chained 2012 dollars,SAGDP10N-1,"59,057",27000,Minnesota,2018,0
+100,Chained 2012 dollars,SAGDP10N-1,"33,386",28000,Mississippi,2015,0
+101,Chained 2012 dollars,SAGDP10N-1,"33,504",28000,Mississippi,2016,0
+102,Chained 2012 dollars,SAGDP10N-1,"33,646",28000,Mississippi,2017,0
+103,Chained 2012 dollars,SAGDP10N-1,"34,029",28000,Mississippi,2018,0
+104,Chained 2012 dollars,SAGDP10N-1,"45,427",29000,Missouri,2015,0
+105,Chained 2012 dollars,SAGDP10N-1,"44,882",29000,Missouri,2016,0
+106,Chained 2012 dollars,SAGDP10N-1,"45,147",29000,Missouri,2017,0
+107,Chained 2012 dollars,SAGDP10N-1,"46,064",29000,Missouri,2018,0
+108,Chained 2012 dollars,SAGDP10N-1,"43,400",30000,Montana,2015,0
+109,Chained 2012 dollars,SAGDP10N-1,"42,477",30000,Montana,2016,0
+110,Chained 2012 dollars,SAGDP10N-1,"42,158",30000,Montana,2017,0
+111,Chained 2012 dollars,SAGDP10N-1,"42,173",30000,Montana,2018,0
+112,Chained 2012 dollars,SAGDP10N-1,"57,982",31000,Nebraska,2015,0
+113,Chained 2012 dollars,SAGDP10N-1,"57,833",31000,Nebraska,2016,0
+114,Chained 2012 dollars,SAGDP10N-1,"57,639",31000,Nebraska,2017,0
+115,Chained 2012 dollars,SAGDP10N-1,"58,141",31000,Nebraska,2018,0
+116,Chained 2012 dollars,SAGDP10N-1,"47,095",32000,Nevada,2015,0
+117,Chained 2012 dollars,SAGDP10N-1,"47,361",32000,Nevada,2016,0
+118,Chained 2012 dollars,SAGDP10N-1,"47,675",32000,Nevada,2017,0
+119,Chained 2012 dollars,SAGDP10N-1,"48,189",32000,Nevada,2018,0
+120,Chained 2012 dollars,SAGDP10N-1,"53,263",33000,New Hampshire,2015,0
+121,Chained 2012 dollars,SAGDP10N-1,"54,041",33000,New Hampshire,2016,0
+122,Chained 2012 dollars,SAGDP10N-1,"54,810",33000,New Hampshire,2017,0
+123,Chained 2012 dollars,SAGDP10N-1,"55,744",33000,New Hampshire,2018,0
+124,Chained 2012 dollars,SAGDP10N-1,"60,154",34000,New Jersey,2015,0
+125,Chained 2012 dollars,SAGDP10N-1,"60,527",34000,New Jersey,2016,0
+126,Chained 2012 dollars,SAGDP10N-1,"61,202",34000,New Jersey,2017,0
+127,Chained 2012 dollars,SAGDP10N-1,"62,263",34000,New Jersey,2018,0
+128,Chained 2012 dollars,SAGDP10N-1,"43,473",35000,New Mexico,2015,0
+129,Chained 2012 dollars,SAGDP10N-1,"43,468",35000,New Mexico,2016,0
+130,Chained 2012 dollars,SAGDP10N-1,"43,465",35000,New Mexico,2017,0
+131,Chained 2012 dollars,SAGDP10N-1,"44,187",35000,New Mexico,2018,0
+132,Chained 2012 dollars,SAGDP10N-1,"69,634",36000,New York,2015,0
+133,Chained 2012 dollars,SAGDP10N-1,"70,680",36000,New York,2016,0
+134,Chained 2012 dollars,SAGDP10N-1,"71,831",36000,New York,2017,0
+135,Chained 2012 dollars,SAGDP10N-1,"73,531",36000,New York,2018,0
+136,Chained 2012 dollars,SAGDP10N-1,"46,621",37000,North Carolina,2015,0
+137,Chained 2012 dollars,SAGDP10N-1,"46,564",37000,North Carolina,2016,0
+138,Chained 2012 dollars,SAGDP10N-1,"46,930",37000,North Carolina,2017,0
+139,Chained 2012 dollars,SAGDP10N-1,"47,778",37000,North Carolina,2018,0
+140,Chained 2012 dollars,SAGDP10N-1,"72,426",38000,North Dakota,2015,0
+141,Chained 2012 dollars,SAGDP10N-1,"67,279",38000,North Dakota,2016,0
+142,Chained 2012 dollars,SAGDP10N-1,"66,099",38000,North Dakota,2017,0
+143,Chained 2012 dollars,SAGDP10N-1,"67,308",38000,North Dakota,2018,0
+144,Chained 2012 dollars,SAGDP10N-1,"49,689",39000,Ohio,2015,0
+145,Chained 2012 dollars,SAGDP10N-1,"49,987",39000,Ohio,2016,0
+146,Chained 2012 dollars,SAGDP10N-1,"50,658",39000,Ohio,2017,0
+147,Chained 2012 dollars,SAGDP10N-1,"51,456",39000,Ohio,2018,0
+148,Chained 2012 dollars,SAGDP10N-1,"49,763",40000,Oklahoma,2015,0
+149,Chained 2012 dollars,SAGDP10N-1,"48,162",40000,Oklahoma,2016,0
+150,Chained 2012 dollars,SAGDP10N-1,"48,204",40000,Oklahoma,2017,0
+151,Chained 2012 dollars,SAGDP10N-1,"48,954",40000,Oklahoma,2018,0
+152,Chained 2012 dollars,SAGDP10N-1,"47,697",41000,Oregon,2015,0
+153,Chained 2012 dollars,SAGDP10N-1,"48,964",41000,Oregon,2016,0
+154,Chained 2012 dollars,SAGDP10N-1,"49,851",41000,Oregon,2017,0
+155,Chained 2012 dollars,SAGDP10N-1,"50,996",41000,Oregon,2018,0
+156,Chained 2012 dollars,SAGDP10N-1,"53,018",42000,Pennsylvania,2015,0
+157,Chained 2012 dollars,SAGDP10N-1,"53,621",42000,Pennsylvania,2016,0
+158,Chained 2012 dollars,SAGDP10N-1,"54,508",42000,Pennsylvania,2017,0
+159,Chained 2012 dollars,SAGDP10N-1,"55,602",42000,Pennsylvania,2018,0
+160,Chained 2012 dollars,SAGDP10N-1,"50,184",44000,Rhode Island,2015,0
+161,Chained 2012 dollars,SAGDP10N-1,"50,125",44000,Rhode Island,2016,0
+162,Chained 2012 dollars,SAGDP10N-1,"50,549",44000,Rhode Island,2017,0
+163,Chained 2012 dollars,SAGDP10N-1,"50,827",44000,Rhode Island,2018,0
+164,Chained 2012 dollars,SAGDP10N-1,"38,667",45000,South Carolina,2015,0
+165,Chained 2012 dollars,SAGDP10N-1,"39,221",45000,South Carolina,2016,0
+166,Chained 2012 dollars,SAGDP10N-1,"39,730",45000,South Carolina,2017,0
+167,Chained 2012 dollars,SAGDP10N-1,"39,883",45000,South Carolina,2018,0
+168,Chained 2012 dollars,SAGDP10N-1,"53,009",46000,South Dakota,2015,0
+169,Chained 2012 dollars,SAGDP10N-1,"52,642",46000,South Dakota,2016,0
+170,Chained 2012 dollars,SAGDP10N-1,"51,832",46000,South Dakota,2017,0
+171,Chained 2012 dollars,SAGDP10N-1,"51,997",46000,South Dakota,2018,0
+172,Chained 2012 dollars,SAGDP10N-1,"45,606",47000,Tennessee,2015,0
+173,Chained 2012 dollars,SAGDP10N-1,"46,101",47000,Tennessee,2016,0
+174,Chained 2012 dollars,SAGDP10N-1,"46,741",47000,Tennessee,2017,0
+175,Chained 2012 dollars,SAGDP10N-1,"47,695",47000,Tennessee,2018,0
+176,Chained 2012 dollars,SAGDP10N-1,"57,844",48000,Texas,2015,0
+177,Chained 2012 dollars,SAGDP10N-1,"57,025",48000,Texas,2016,0
+178,Chained 2012 dollars,SAGDP10N-1,"57,373",48000,Texas,2017,0
+179,Chained 2012 dollars,SAGDP10N-1,"58,417",48000,Texas,2018,0
+180,Chained 2012 dollars,SAGDP10N-1,"47,392",49000,Utah,2015,0
+181,Chained 2012 dollars,SAGDP10N-1,"48,273",49000,Utah,2016,0
+182,Chained 2012 dollars,SAGDP10N-1,"48,593",49000,Utah,2017,0
+183,Chained 2012 dollars,SAGDP10N-1,"49,740",49000,Utah,2018,0
+184,Chained 2012 dollars,SAGDP10N-1,"46,073",50000,Vermont,2015,0
+185,Chained 2012 dollars,SAGDP10N-1,"46,913",50000,Vermont,2016,0
+186,Chained 2012 dollars,SAGDP10N-1,"47,467",50000,Vermont,2017,0
+187,Chained 2012 dollars,SAGDP10N-1,"47,921",50000,Vermont,2018,0
+188,Chained 2012 dollars,SAGDP10N-1,"54,299",51000,Virginia,2015,0
+189,Chained 2012 dollars,SAGDP10N-1,"54,143",51000,Virginia,2016,0
+190,Chained 2012 dollars,SAGDP10N-1,"54,745",51000,Virginia,2017,0
+191,Chained 2012 dollars,SAGDP10N-1,"55,929",51000,Virginia,2018,0
+192,Chained 2012 dollars,SAGDP10N-1,"61,891",53000,Washington,2015,0
+193,Chained 2012 dollars,SAGDP10N-1,"63,071",53000,Washington,2016,0
+194,Chained 2012 dollars,SAGDP10N-1,"64,529",53000,Washington,2017,0
+195,Chained 2012 dollars,SAGDP10N-1,"67,242",53000,Washington,2018,0
+196,Chained 2012 dollars,SAGDP10N-1,"37,729",54000,West Virginia,2015,0
+197,Chained 2012 dollars,SAGDP10N-1,"37,502",54000,West Virginia,2016,0
+198,Chained 2012 dollars,SAGDP10N-1,"38,330",54000,West Virginia,2017,0
+199,Chained 2012 dollars,SAGDP10N-1,"39,495",54000,West Virginia,2018,0
+200,Chained 2012 dollars,SAGDP10N-1,"49,514",55000,Wisconsin,2015,0
+201,Chained 2012 dollars,SAGDP10N-1,"49,960",55000,Wisconsin,2016,0
+202,Chained 2012 dollars,SAGDP10N-1,"50,496",55000,Wisconsin,2017,0
+203,Chained 2012 dollars,SAGDP10N-1,"51,575",55000,Wisconsin,2018,0
+204,Chained 2012 dollars,SAGDP10N-1,"67,558",56000,Wyoming,2015,0
+205,Chained 2012 dollars,SAGDP10N-1,"65,167",56000,Wyoming,2016,0
+206,Chained 2012 dollars,SAGDP10N-1,"66,083",56000,Wyoming,2017,0
+207,Chained 2012 dollars,SAGDP10N-1,"66,413",56000,Wyoming,2018,0
+208,Chained 2012 dollars,SAGDP10N-1,"62,341",91000,New England,2015,0
+209,Chained 2012 dollars,SAGDP10N-1,"62,928",91000,New England,2016,0
+210,Chained 2012 dollars,SAGDP10N-1,"63,556",91000,New England,2017,0
+211,Chained 2012 dollars,SAGDP10N-1,"64,600",91000,New England,2018,0
+212,Chained 2012 dollars,SAGDP10N-1,"63,525",92000,Mideast,2015,0
+213,Chained 2012 dollars,SAGDP10N-1,"64,345",92000,Mideast,2016,0
+214,Chained 2012 dollars,SAGDP10N-1,"65,284",92000,Mideast,2017,0
+215,Chained 2012 dollars,SAGDP10N-1,"66,560",92000,Mideast,2018,0
+216,Chained 2012 dollars,SAGDP10N-1,"50,326",93000,Great Lakes,2015,0
+217,Chained 2012 dollars,SAGDP10N-1,"50,784",93000,Great Lakes,2016,0
+218,Chained 2012 dollars,SAGDP10N-1,"51,359",93000,Great Lakes,2017,0
+219,Chained 2012 dollars,SAGDP10N-1,"52,419",93000,Great Lakes,2018,0
+220,Chained 2012 dollars,SAGDP10N-1,"52,642",94000,Plains,2015,0
+221,Chained 2012 dollars,SAGDP10N-1,"52,631",94000,Plains,2016,0
+222,Chained 2012 dollars,SAGDP10N-1,"52,816",94000,Plains,2017,0
+223,Chained 2012 dollars,SAGDP10N-1,"53,613",94000,Plains,2018,0
+224,Chained 2012 dollars,SAGDP10N-1,"44,010",95000,Southeast,2015,0
+225,Chained 2012 dollars,SAGDP10N-1,"44,295",95000,Southeast,2016,0
+226,Chained 2012 dollars,SAGDP10N-1,"44,772",95000,Southeast,2017,0
+227,Chained 2012 dollars,SAGDP10N-1,"45,530",95000,Southeast,2018,0
+228,Chained 2012 dollars,SAGDP10N-1,"53,440",96000,Southwest,2015,0
+229,Chained 2012 dollars,SAGDP10N-1,"52,877",96000,Southwest,2016,0
+230,Chained 2012 dollars,SAGDP10N-1,"53,238",96000,Southwest,2017,0
+231,Chained 2012 dollars,SAGDP10N-1,"54,229",96000,Southwest,2018,0
+232,Chained 2012 dollars,SAGDP10N-1,"51,001",97000,Rocky Mountain,2015,0
+233,Chained 2012 dollars,SAGDP10N-1,"51,340",97000,Rocky Mountain,2016,0
+234,Chained 2012 dollars,SAGDP10N-1,"51,880",97000,Rocky Mountain,2017,0
+235,Chained 2012 dollars,SAGDP10N-1,"52,834",97000,Rocky Mountain,2018,0
+236,Chained 2012 dollars,SAGDP10N-1,"60,309",98000,Far West,2015,0
+237,Chained 2012 dollars,SAGDP10N-1,"61,582",98000,Far West,2016,0
+238,Chained 2012 dollars,SAGDP10N-1,"63,237",98000,Far West,2017,0
+239,Chained 2012 dollars,SAGDP10N-1,"65,130",98000,Far West,2018,0

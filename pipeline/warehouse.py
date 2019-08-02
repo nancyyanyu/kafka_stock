@@ -98,6 +98,13 @@ class CassandraStorage(object):
                                     change float,             \
                                     change_percent float,     \
                                     PRIMARY KEY (SYMBOL,TIME));".format(self.symbol+'_tick')) 
+        self.session.execute("CREATE TABLE IF NOT EXISTS NEWS ( \
+                                    	publishedAt timestamp,           \
+                                    	TITLE text,              \
+                                    	SOURCE text,               \
+                                    	description text,               \
+                                    	url text, PRIMARY KEY (TITLE,publishedAt))  \
+                                    WITH CLUSTERING ORDER BY (publishedAt ASC);")  \
 
     def kafka_consumer(self):
         """
@@ -110,7 +117,11 @@ class CassandraStorage(object):
                                     bootstrap_servers=config['kafka_broker'])    
         self.consumer2 = KafkaConsumer(
                                     config['topic_name2'],
-                                    bootstrap_servers=config['kafka_broker'])    
+                                    bootstrap_servers=config['kafka_broker']) 
+        
+        self.consumer3 = KafkaConsumer(
+                                    'news',
+                                    bootstrap_servers=config['kafka_broker']) 
     
     def historical_to_cassandra(self,price,intraday=False):
         """
@@ -192,23 +203,47 @@ class CassandraStorage(object):
             self.session.execute(query)
             print("Stored {}\'s tick data at {}".format(dict_data['symbol'],dict_data['time']))
 
+    def news_to_cassandra(self):
+        for msg in self.consumer3:
+            dict_data=ast.literal_eval(msg.value.decode("utf-8"))
+            publishtime=dict_data['publishedAt'][:10]+' '+dict_data['publishedAt'][11:19]
+            try:
+                dict_data['description']=dict_data['description'].replace('\'','@@')
+            except:
+                pass
+            query="INSERT INTO NEWS (publishedat,source,title,description,url) VALUES ('{}','{}','{}','{}','{}');" \
+                            .format(publishtime,
+                                    dict_data['source']['name'],
+                                    dict_data['title'].replace('\'','@@'),
+                                    dict_data['description'],
+                                    dict_data['url']) 
+            self.session.execute(query)
+            
+            
+            print("Stored news '{}' at {}".format(dict_data['title'],dict_data['publishedAt']))
+
 
     def delete_table(self,table_name):
         self.session.execute("DROP TABLE {}".format(table_name))
         
-def main_realtime(symbol='AAPL',tick=False):
+def main_realtime(symbol,tick=True):
     """
     main funtion to store realtime data; recommend to set tick=False, as getting tick data would cause rate limiting error from API 
     """
     database=CassandraStorage(symbol)
     database.kafka_consumer()
-
+    #database.news_to_cassandra()
     if tick==True:
         database.tick_stream_to_cassandra()
     else:
         database.stream_to_cassandra()
             
         
+def main_realtime_news():
+    database=CassandraStorage('AAPL')
+    database.kafka_consumer()
+    database.news_to_cassandra()
+
         
 def main_aftertradingday(symbol='FB'):
     """
@@ -230,9 +265,11 @@ def main_aftertradingday(symbol='FB'):
 if __name__=="__main__":
     
     # update daily and 1 min freq data of all stocks
-    for symbol in symbol_list[:]:
-        main_aftertradingday(symbol)
-        time.sleep(15)
+#    for symbol in symbol_list[:]:
+#        main_aftertradingday(symbol)
+#        time.sleep(15)
     #main_realtime(symbol='^GSPC',tick=True)
+    main_realtime_news()
+    #main_realtime(symbol='^GSPC',tick=False)
     
     pass

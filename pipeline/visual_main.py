@@ -40,7 +40,7 @@ database2.session.default_fetch_size = None
 if datetime.datetime.now(timezone('US/Eastern')).time()<datetime.time(9,30):
     query_time=str(datetime.datetime.now().date())
 
-query2="SELECT * FROM {} WHERE time>='{}'  ALLOW FILTERING;".format(plot2_symbol[1:]+'_tick',str(datetime.datetime.now().date()-datetime.timedelta(days=1)))
+query2="SELECT * FROM {} WHERE time>='{}'  ALLOW FILTERING;".format(plot2_symbol[1:]+'_tick',str(datetime.datetime.now().date()))
 rslt = database2.session.execute(query2, timeout=None)
 df = rslt._current_rows
 
@@ -73,10 +73,10 @@ p2.x_range.follow_interval = 1000000
 p2.x_range.range_padding = 0
 p2.line(x='time', y='close', alpha=0.2, line_width=3, color='blue', source=source2)
 
-p2.y_range = Range1d(0, max(source2.data['close'])*1.05)
+p2.y_range = Range1d(min(source2.data['close'])/1.005, max(source2.data['close'])*1.005)
 
 
-p2.extra_y_ranges = {"volumes": Range1d(start=0, 
+p2.extra_y_ranges = {"volumes": Range1d(start=min(source2.data['volume'])*0.5, 
                                        end=max(source2.data['volume'])*2)}
 p2.add_layout(LinearAxis(y_range_name="volumes"), 'right')
 
@@ -85,7 +85,7 @@ p2.vbar('time', width=3,top='volume', color=choice(all_palettes['Set2'][8]),alph
 
 # get update data from a json file overwritter every ~18 seconds
 def _create_prices():
-    with open('/Users/yanyanyu/Google_Drive/Python/stock_streaming/pipeline/cache/data.json','r') as f:
+    with open('./cache/data.json','r') as f:
         dict_data = json.load(f)
     return float(dict_data['close']),dict_data['volume'],dict_data['time']
 
@@ -118,6 +118,15 @@ def single_tab():
     l=column(row(stock_select),gridplot([[p],[p2]], toolbar_location="right", plot_width=1300),row(summaryText,financialText,s))
     tab1 = Panel(child = l, title = 'Single Stock')
     return tab1
+
+
+
+#query3="SELECT * FROM NEWS ORDER BY publishedAt;"
+#rslt2 = database2.session.execute(query3, timeout=None)
+#df2 = rslt2._current_rows
+
+def update_news():
+    pass
 
 
 

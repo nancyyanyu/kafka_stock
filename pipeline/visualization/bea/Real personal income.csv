@@ -1,0 +1,261 @@
+,CL_UNIT,Code,DataValue,GeoFips,GeoName,TimePeriod,UNIT_MULT
+0,Millions of chained 2012 dollars,RPI1-1,"13,987,180.6",00000,United States,2013,3
+1,Millions of chained 2012 dollars,RPI1-1,"14,565,350.1",00000,United States,2014,3
+2,Millions of chained 2012 dollars,RPI1-1,"15,235,405.8",00000,United States,2015,3
+3,Millions of chained 2012 dollars,RPI1-1,"15,460,919.2",00000,United States,2016,3
+4,Millions of chained 2012 dollars,RPI1-1,"15,857,213.7",00000,United States,2017,3
+5,Millions of chained 2012 dollars,RPI1-1,"196,129.9",01000,Alabama,2013,3
+6,Millions of chained 2012 dollars,RPI1-1,"201,577.0",01000,Alabama,2014,3
+7,Millions of chained 2012 dollars,RPI1-1,"209,653.0",01000,Alabama,2015,3
+8,Millions of chained 2012 dollars,RPI1-1,"212,101.0",01000,Alabama,2016,3
+9,Millions of chained 2012 dollars,RPI1-1,"217,164.2",01000,Alabama,2017,3
+10,Millions of chained 2012 dollars,RPI1-1,"36,271.8",02000,Alaska,2013,3
+11,Millions of chained 2012 dollars,RPI1-1,"37,487.5",02000,Alaska,2014,3
+12,Millions of chained 2012 dollars,RPI1-1,"38,933.6",02000,Alaska,2015,3
+13,Millions of chained 2012 dollars,RPI1-1,"37,958.7",02000,Alaska,2016,3
+14,Millions of chained 2012 dollars,RPI1-1,"38,327.7",02000,Alaska,2017,3
+15,Millions of chained 2012 dollars,RPI1-1,"248,576.3",04000,Arizona,2013,3
+16,Millions of chained 2012 dollars,RPI1-1,"260,858.4",04000,Arizona,2014,3
+17,Millions of chained 2012 dollars,RPI1-1,"273,919.0",04000,Arizona,2015,3
+18,Millions of chained 2012 dollars,RPI1-1,"281,579.1",04000,Arizona,2016,3
+19,Millions of chained 2012 dollars,RPI1-1,"291,271.0",04000,Arizona,2017,3
+20,Millions of chained 2012 dollars,RPI1-1,"119,834.8",05000,Arkansas,2013,3
+21,Millions of chained 2012 dollars,RPI1-1,"126,198.3",05000,Arkansas,2014,3
+22,Millions of chained 2012 dollars,RPI1-1,"129,311.1",05000,Arkansas,2015,3
+23,Millions of chained 2012 dollars,RPI1-1,"131,375.6",05000,Arkansas,2016,3
+24,Millions of chained 2012 dollars,RPI1-1,"134,947.1",05000,Arkansas,2017,3
+25,Millions of chained 2012 dollars,RPI1-1,"1,648,391.1",06000,California,2013,3
+26,Millions of chained 2012 dollars,RPI1-1,"1,731,543.0",06000,California,2014,3
+27,Millions of chained 2012 dollars,RPI1-1,"1,856,142.4",06000,California,2015,3
+28,Millions of chained 2012 dollars,RPI1-1,"1,899,360.4",06000,California,2016,3
+29,Millions of chained 2012 dollars,RPI1-1,"1,948,112.2",06000,California,2017,3
+30,Millions of chained 2012 dollars,RPI1-1,"241,130.9",08000,Colorado,2013,3
+31,Millions of chained 2012 dollars,RPI1-1,"258,856.4",08000,Colorado,2014,3
+32,Millions of chained 2012 dollars,RPI1-1,"269,980.7",08000,Colorado,2015,3
+33,Millions of chained 2012 dollars,RPI1-1,"271,550.0",08000,Colorado,2016,3
+34,Millions of chained 2012 dollars,RPI1-1,"280,978.2",08000,Colorado,2017,3
+35,Millions of chained 2012 dollars,RPI1-1,"208,883.1",09000,Connecticut,2013,3
+36,Millions of chained 2012 dollars,RPI1-1,"214,986.7",09000,Connecticut,2014,3
+37,Millions of chained 2012 dollars,RPI1-1,"220,386.1",09000,Connecticut,2015,3
+38,Millions of chained 2012 dollars,RPI1-1,"221,477.8",09000,Connecticut,2016,3
+39,Millions of chained 2012 dollars,RPI1-1,"225,838.6",09000,Connecticut,2017,3
+40,Millions of chained 2012 dollars,RPI1-1,"40,179.3",10000,Delaware,2013,3
+41,Millions of chained 2012 dollars,RPI1-1,"41,163.4",10000,Delaware,2014,3
+42,Millions of chained 2012 dollars,RPI1-1,"43,734.6",10000,Delaware,2015,3
+43,Millions of chained 2012 dollars,RPI1-1,"44,132.5",10000,Delaware,2016,3
+44,Millions of chained 2012 dollars,RPI1-1,"45,158.7",10000,Delaware,2017,3
+45,Millions of chained 2012 dollars,RPI1-1,"37,485.4",11000,District of Columbia,2013,3
+46,Millions of chained 2012 dollars,RPI1-1,"38,952.6",11000,District of Columbia,2014,3
+47,Millions of chained 2012 dollars,RPI1-1,"42,377.8",11000,District of Columbia,2015,3
+48,Millions of chained 2012 dollars,RPI1-1,"44,242.1",11000,District of Columbia,2016,3
+49,Millions of chained 2012 dollars,RPI1-1,"44,919.9",11000,District of Columbia,2017,3
+50,Millions of chained 2012 dollars,RPI1-1,"791,846.7",12000,Florida,2013,3
+51,Millions of chained 2012 dollars,RPI1-1,"841,042.5",12000,Florida,2014,3
+52,Millions of chained 2012 dollars,RPI1-1,"897,452.4",12000,Florida,2015,3
+53,Millions of chained 2012 dollars,RPI1-1,"919,676.7",12000,Florida,2016,3
+54,Millions of chained 2012 dollars,RPI1-1,"947,646.5",12000,Florida,2017,3
+55,Millions of chained 2012 dollars,RPI1-1,"399,696.1",13000,Georgia,2013,3
+56,Millions of chained 2012 dollars,RPI1-1,"422,063.2",13000,Georgia,2014,3
+57,Millions of chained 2012 dollars,RPI1-1,"442,732.0",13000,Georgia,2015,3
+58,Millions of chained 2012 dollars,RPI1-1,"457,949.7",13000,Georgia,2016,3
+59,Millions of chained 2012 dollars,RPI1-1,"470,992.3",13000,Georgia,2017,3
+60,Millions of chained 2012 dollars,RPI1-1,"52,947.1",15000,Hawaii,2013,3
+61,Millions of chained 2012 dollars,RPI1-1,"55,038.8",15000,Hawaii,2014,3
+62,Millions of chained 2012 dollars,RPI1-1,"57,328.0",15000,Hawaii,2015,3
+63,Millions of chained 2012 dollars,RPI1-1,"58,990.4",15000,Hawaii,2016,3
+64,Millions of chained 2012 dollars,RPI1-1,"60,190.5",15000,Hawaii,2017,3
+65,Millions of chained 2012 dollars,RPI1-1,"61,752.5",16000,Idaho,2013,3
+66,Millions of chained 2012 dollars,RPI1-1,"64,094.7",16000,Idaho,2014,3
+67,Millions of chained 2012 dollars,RPI1-1,"68,330.8",16000,Idaho,2015,3
+68,Millions of chained 2012 dollars,RPI1-1,"70,487.2",16000,Idaho,2016,3
+69,Millions of chained 2012 dollars,RPI1-1,"73,082.5",16000,Idaho,2017,3
+70,Millions of chained 2012 dollars,RPI1-1,"602,506.6",17000,Illinois,2013,3
+71,Millions of chained 2012 dollars,RPI1-1,"625,892.8",17000,Illinois,2014,3
+72,Millions of chained 2012 dollars,RPI1-1,"652,043.0",17000,Illinois,2015,3
+73,Millions of chained 2012 dollars,RPI1-1,"656,963.7",17000,Illinois,2016,3
+74,Millions of chained 2012 dollars,RPI1-1,"666,633.1",17000,Illinois,2017,3
+75,Millions of chained 2012 dollars,RPI1-1,"280,959.5",18000,Indiana,2013,3
+76,Millions of chained 2012 dollars,RPI1-1,"288,973.1",18000,Indiana,2014,3
+77,Millions of chained 2012 dollars,RPI1-1,"301,623.7",18000,Indiana,2015,3
+78,Millions of chained 2012 dollars,RPI1-1,"309,925.6",18000,Indiana,2016,3
+79,Millions of chained 2012 dollars,RPI1-1,"317,078.9",18000,Indiana,2017,3
+80,Millions of chained 2012 dollars,RPI1-1,"146,654.0",19000,Iowa,2013,3
+81,Millions of chained 2012 dollars,RPI1-1,"149,985.1",19000,Iowa,2014,3
+82,Millions of chained 2012 dollars,RPI1-1,"155,755.0",19000,Iowa,2015,3
+83,Millions of chained 2012 dollars,RPI1-1,"155,661.6",19000,Iowa,2016,3
+84,Millions of chained 2012 dollars,RPI1-1,"156,053.6",19000,Iowa,2017,3
+85,Millions of chained 2012 dollars,RPI1-1,"143,590.9",20000,Kansas,2013,3
+86,Millions of chained 2012 dollars,RPI1-1,"145,122.0",20000,Kansas,2014,3
+87,Millions of chained 2012 dollars,RPI1-1,"147,890.4",20000,Kansas,2015,3
+88,Millions of chained 2012 dollars,RPI1-1,"147,566.9",20000,Kansas,2016,3
+89,Millions of chained 2012 dollars,RPI1-1,"148,729.6",20000,Kansas,2017,3
+90,Millions of chained 2012 dollars,RPI1-1,"174,831.1",21000,Kentucky,2013,3
+91,Millions of chained 2012 dollars,RPI1-1,"182,458.6",21000,Kentucky,2014,3
+92,Millions of chained 2012 dollars,RPI1-1,"188,863.2",21000,Kentucky,2015,3
+93,Millions of chained 2012 dollars,RPI1-1,"191,624.4",21000,Kentucky,2016,3
+94,Millions of chained 2012 dollars,RPI1-1,"194,624.4",21000,Kentucky,2017,3
+95,Millions of chained 2012 dollars,RPI1-1,"204,239.7",22000,Louisiana,2013,3
+96,Millions of chained 2012 dollars,RPI1-1,"211,745.0",22000,Louisiana,2014,3
+97,Millions of chained 2012 dollars,RPI1-1,"214,735.3",22000,Louisiana,2015,3
+98,Millions of chained 2012 dollars,RPI1-1,"212,480.5",22000,Louisiana,2016,3
+99,Millions of chained 2012 dollars,RPI1-1,"214,793.0",22000,Louisiana,2017,3
+100,Millions of chained 2012 dollars,RPI1-1,"53,521.3",23000,Maine,2013,3
+101,Millions of chained 2012 dollars,RPI1-1,"55,291.5",23000,Maine,2014,3
+102,Millions of chained 2012 dollars,RPI1-1,"56,864.9",23000,Maine,2015,3
+103,Millions of chained 2012 dollars,RPI1-1,"58,059.0",23000,Maine,2016,3
+104,Millions of chained 2012 dollars,RPI1-1,"59,663.0",23000,Maine,2017,3
+105,Millions of chained 2012 dollars,RPI1-1,"281,761.4",24000,Maryland,2013,3
+106,Millions of chained 2012 dollars,RPI1-1,"287,093.2",24000,Maryland,2014,3
+107,Millions of chained 2012 dollars,RPI1-1,"302,506.7",24000,Maryland,2015,3
+108,Millions of chained 2012 dollars,RPI1-1,"311,398.0",24000,Maryland,2016,3
+109,Millions of chained 2012 dollars,RPI1-1,"318,542.7",24000,Maryland,2017,3
+110,Millions of chained 2012 dollars,RPI1-1,"357,105.9",25000,Massachusetts,2013,3
+111,Millions of chained 2012 dollars,RPI1-1,"367,729.4",25000,Massachusetts,2014,3
+112,Millions of chained 2012 dollars,RPI1-1,"389,809.5",25000,Massachusetts,2015,3
+113,Millions of chained 2012 dollars,RPI1-1,"396,237.0",25000,Massachusetts,2016,3
+114,Millions of chained 2012 dollars,RPI1-1,"406,854.1",25000,Massachusetts,2017,3
+115,Millions of chained 2012 dollars,RPI1-1,"408,322.5",26000,Michigan,2013,3
+116,Millions of chained 2012 dollars,RPI1-1,"424,283.0",26000,Michigan,2014,3
+117,Millions of chained 2012 dollars,RPI1-1,"450,475.3",26000,Michigan,2015,3
+118,Millions of chained 2012 dollars,RPI1-1,"460,172.9",26000,Michigan,2016,3
+119,Millions of chained 2012 dollars,RPI1-1,"468,423.7",26000,Michigan,2017,3
+120,Millions of chained 2012 dollars,RPI1-1,"261,822.5",27000,Minnesota,2013,3
+121,Millions of chained 2012 dollars,RPI1-1,"271,884.9",27000,Minnesota,2014,3
+122,Millions of chained 2012 dollars,RPI1-1,"284,642.9",27000,Minnesota,2015,3
+123,Millions of chained 2012 dollars,RPI1-1,"288,211.3",27000,Minnesota,2016,3
+124,Millions of chained 2012 dollars,RPI1-1,"294,277.0",27000,Minnesota,2017,3
+125,Millions of chained 2012 dollars,RPI1-1,"114,654.7",28000,Mississippi,2013,3
+126,Millions of chained 2012 dollars,RPI1-1,"116,985.1",28000,Mississippi,2014,3
+127,Millions of chained 2012 dollars,RPI1-1,"118,275.1",28000,Mississippi,2015,3
+128,Millions of chained 2012 dollars,RPI1-1,"118,996.6",28000,Mississippi,2016,3
+129,Millions of chained 2012 dollars,RPI1-1,"120,641.7",28000,Mississippi,2017,3
+130,Millions of chained 2012 dollars,RPI1-1,"266,740.1",29000,Missouri,2013,3
+131,Millions of chained 2012 dollars,RPI1-1,"272,787.0",29000,Missouri,2014,3
+132,Millions of chained 2012 dollars,RPI1-1,"282,217.4",29000,Missouri,2015,3
+133,Millions of chained 2012 dollars,RPI1-1,"285,597.0",29000,Missouri,2016,3
+134,Millions of chained 2012 dollars,RPI1-1,"290,826.4",29000,Missouri,2017,3
+135,Millions of chained 2012 dollars,RPI1-1,"42,496.3",30000,Montana,2013,3
+136,Millions of chained 2012 dollars,RPI1-1,"43,926.9",30000,Montana,2014,3
+137,Millions of chained 2012 dollars,RPI1-1,"45,834.3",30000,Montana,2015,3
+138,Millions of chained 2012 dollars,RPI1-1,"46,795.0",30000,Montana,2016,3
+139,Millions of chained 2012 dollars,RPI1-1,"47,690.8",30000,Montana,2017,3
+140,Millions of chained 2012 dollars,RPI1-1,"94,478.7",31000,Nebraska,2013,3
+141,Millions of chained 2012 dollars,RPI1-1,"98,802.6",31000,Nebraska,2014,3
+142,Millions of chained 2012 dollars,RPI1-1,"102,881.5",31000,Nebraska,2015,3
+143,Millions of chained 2012 dollars,RPI1-1,"101,329.4",31000,Nebraska,2016,3
+144,Millions of chained 2012 dollars,RPI1-1,"102,974.6",31000,Nebraska,2017,3
+145,Millions of chained 2012 dollars,RPI1-1,"110,103.7",32000,Nevada,2013,3
+146,Millions of chained 2012 dollars,RPI1-1,"117,260.3",32000,Nevada,2014,3
+147,Millions of chained 2012 dollars,RPI1-1,"126,798.4",32000,Nevada,2015,3
+148,Millions of chained 2012 dollars,RPI1-1,"129,646.8",32000,Nevada,2016,3
+149,Millions of chained 2012 dollars,RPI1-1,"134,187.8",32000,Nevada,2017,3
+150,Millions of chained 2012 dollars,RPI1-1,"63,867.1",33000,New Hampshire,2013,3
+151,Millions of chained 2012 dollars,RPI1-1,"64,929.4",33000,New Hampshire,2014,3
+152,Millions of chained 2012 dollars,RPI1-1,"67,477.5",33000,New Hampshire,2015,3
+153,Millions of chained 2012 dollars,RPI1-1,"69,181.2",33000,New Hampshire,2016,3
+154,Millions of chained 2012 dollars,RPI1-1,"71,635.6",33000,New Hampshire,2017,3
+155,Millions of chained 2012 dollars,RPI1-1,"432,548.2",34000,New Jersey,2013,3
+156,Millions of chained 2012 dollars,RPI1-1,"444,830.3",34000,New Jersey,2014,3
+157,Millions of chained 2012 dollars,RPI1-1,"464,836.5",34000,New Jersey,2015,3
+158,Millions of chained 2012 dollars,RPI1-1,"472,077.0",34000,New Jersey,2016,3
+159,Millions of chained 2012 dollars,RPI1-1,"487,250.0",34000,New Jersey,2017,3
+160,Millions of chained 2012 dollars,RPI1-1,"76,146.0",35000,New Mexico,2013,3
+161,Millions of chained 2012 dollars,RPI1-1,"79,916.9",35000,New Mexico,2014,3
+162,Millions of chained 2012 dollars,RPI1-1,"82,788.6",35000,New Mexico,2015,3
+163,Millions of chained 2012 dollars,RPI1-1,"83,744.3",35000,New Mexico,2016,3
+164,Millions of chained 2012 dollars,RPI1-1,"84,270.3",35000,New Mexico,2017,3
+165,Millions of chained 2012 dollars,RPI1-1,"927,900.9",36000,New York,2013,3
+166,Millions of chained 2012 dollars,RPI1-1,"947,658.9",36000,New York,2014,3
+167,Millions of chained 2012 dollars,RPI1-1,"984,038.1",36000,New York,2015,3
+168,Millions of chained 2012 dollars,RPI1-1,"1,001,619.5",36000,New York,2016,3
+169,Millions of chained 2012 dollars,RPI1-1,"1,046,570.9",36000,New York,2017,3
+170,Millions of chained 2012 dollars,RPI1-1,"403,835.8",37000,North Carolina,2013,3
+171,Millions of chained 2012 dollars,RPI1-1,"423,478.5",37000,North Carolina,2014,3
+172,Millions of chained 2012 dollars,RPI1-1,"447,540.8",37000,North Carolina,2015,3
+173,Millions of chained 2012 dollars,RPI1-1,"458,831.4",37000,North Carolina,2016,3
+174,Millions of chained 2012 dollars,RPI1-1,"470,696.8",37000,North Carolina,2017,3
+175,Millions of chained 2012 dollars,RPI1-1,"41,884.3",38000,North Dakota,2013,3
+176,Millions of chained 2012 dollars,RPI1-1,"43,973.5",38000,North Dakota,2014,3
+177,Millions of chained 2012 dollars,RPI1-1,"42,707.6",38000,North Dakota,2015,3
+178,Millions of chained 2012 dollars,RPI1-1,"42,018.3",38000,North Dakota,2016,3
+179,Millions of chained 2012 dollars,RPI1-1,"41,451.9",38000,North Dakota,2017,3
+180,Millions of chained 2012 dollars,RPI1-1,"526,232.1",39000,Ohio,2013,3
+181,Millions of chained 2012 dollars,RPI1-1,"540,694.1",39000,Ohio,2014,3
+182,Millions of chained 2012 dollars,RPI1-1,"561,788.4",39000,Ohio,2015,3
+183,Millions of chained 2012 dollars,RPI1-1,"567,205.7",39000,Ohio,2016,3
+184,Millions of chained 2012 dollars,RPI1-1,"579,944.9",39000,Ohio,2017,3
+185,Millions of chained 2012 dollars,RPI1-1,"182,196.9",40000,Oklahoma,2013,3
+186,Millions of chained 2012 dollars,RPI1-1,"191,876.3",40000,Oklahoma,2014,3
+187,Millions of chained 2012 dollars,RPI1-1,"186,793.7",40000,Oklahoma,2015,3
+188,Millions of chained 2012 dollars,RPI1-1,"178,440.0",40000,Oklahoma,2016,3
+189,Millions of chained 2012 dollars,RPI1-1,"185,448.0",40000,Oklahoma,2017,3
+190,Millions of chained 2012 dollars,RPI1-1,"156,565.9",41000,Oregon,2013,3
+191,Millions of chained 2012 dollars,RPI1-1,"165,522.7",41000,Oregon,2014,3
+192,Millions of chained 2012 dollars,RPI1-1,"178,575.2",41000,Oregon,2015,3
+193,Millions of chained 2012 dollars,RPI1-1,"183,629.3",41000,Oregon,2016,3
+194,Millions of chained 2012 dollars,RPI1-1,"189,688.9",41000,Oregon,2017,3
+195,Millions of chained 2012 dollars,RPI1-1,"593,584.8",42000,Pennsylvania,2013,3
+196,Millions of chained 2012 dollars,RPI1-1,"613,092.0",42000,Pennsylvania,2014,3
+197,Millions of chained 2012 dollars,RPI1-1,"635,838.7",42000,Pennsylvania,2015,3
+198,Millions of chained 2012 dollars,RPI1-1,"642,329.1",42000,Pennsylvania,2016,3
+199,Millions of chained 2012 dollars,RPI1-1,"659,485.8",42000,Pennsylvania,2017,3
+200,Millions of chained 2012 dollars,RPI1-1,"48,822.2",44000,Rhode Island,2013,3
+201,Millions of chained 2012 dollars,RPI1-1,"49,660.4",44000,Rhode Island,2014,3
+202,Millions of chained 2012 dollars,RPI1-1,"51,559.1",44000,Rhode Island,2015,3
+203,Millions of chained 2012 dollars,RPI1-1,"51,709.5",44000,Rhode Island,2016,3
+204,Millions of chained 2012 dollars,RPI1-1,"53,655.6",44000,Rhode Island,2017,3
+205,Millions of chained 2012 dollars,RPI1-1,"185,590.8",45000,South Carolina,2013,3
+206,Millions of chained 2012 dollars,RPI1-1,"195,918.3",45000,South Carolina,2014,3
+207,Millions of chained 2012 dollars,RPI1-1,"207,472.1",45000,South Carolina,2015,3
+208,Millions of chained 2012 dollars,RPI1-1,"212,811.8",45000,South Carolina,2016,3
+209,Millions of chained 2012 dollars,RPI1-1,"218,819.4",45000,South Carolina,2017,3
+210,Millions of chained 2012 dollars,RPI1-1,"42,695.8",46000,South Dakota,2013,3
+211,Millions of chained 2012 dollars,RPI1-1,"44,063.6",46000,South Dakota,2014,3
+212,Millions of chained 2012 dollars,RPI1-1,"45,895.8",46000,South Dakota,2015,3
+213,Millions of chained 2012 dollars,RPI1-1,"45,706.7",46000,South Dakota,2016,3
+214,Millions of chained 2012 dollars,RPI1-1,"45,534.2",46000,South Dakota,2017,3
+215,Millions of chained 2012 dollars,RPI1-1,"279,786.0",47000,Tennessee,2013,3
+216,Millions of chained 2012 dollars,RPI1-1,"290,721.6",47000,Tennessee,2014,3
+217,Millions of chained 2012 dollars,RPI1-1,"305,049.2",47000,Tennessee,2015,3
+218,Millions of chained 2012 dollars,RPI1-1,"311,388.6",47000,Tennessee,2016,3
+219,Millions of chained 2012 dollars,RPI1-1,"319,789.6",47000,Tennessee,2017,3
+220,Millions of chained 2012 dollars,RPI1-1,"1,190,909.9",48000,Texas,2013,3
+221,Millions of chained 2012 dollars,RPI1-1,"1,261,952.5",48000,Texas,2014,3
+222,Millions of chained 2012 dollars,RPI1-1,"1,288,161.0",48000,Texas,2015,3
+223,Millions of chained 2012 dollars,RPI1-1,"1,279,938.7",48000,Texas,2016,3
+224,Millions of chained 2012 dollars,RPI1-1,"1,307,415.3",48000,Texas,2017,3
+225,Millions of chained 2012 dollars,RPI1-1,"107,916.4",49000,Utah,2013,3
+226,Millions of chained 2012 dollars,RPI1-1,"113,894.6",49000,Utah,2014,3
+227,Millions of chained 2012 dollars,RPI1-1,"122,826.0",49000,Utah,2015,3
+228,Millions of chained 2012 dollars,RPI1-1,"127,300.8",49000,Utah,2016,3
+229,Millions of chained 2012 dollars,RPI1-1,"131,502.5",49000,Utah,2017,3
+230,Millions of chained 2012 dollars,RPI1-1,"28,114.1",50000,Vermont,2013,3
+231,Millions of chained 2012 dollars,RPI1-1,"28,312.9",50000,Vermont,2014,3
+232,Millions of chained 2012 dollars,RPI1-1,"29,193.3",50000,Vermont,2015,3
+233,Millions of chained 2012 dollars,RPI1-1,"29,792.3",50000,Vermont,2016,3
+234,Millions of chained 2012 dollars,RPI1-1,"30,054.3",50000,Vermont,2017,3
+235,Millions of chained 2012 dollars,RPI1-1,"386,742.7",51000,Virginia,2013,3
+236,Millions of chained 2012 dollars,RPI1-1,"398,427.6",51000,Virginia,2014,3
+237,Millions of chained 2012 dollars,RPI1-1,"417,613.2",51000,Virginia,2015,3
+238,Millions of chained 2012 dollars,RPI1-1,"422,390.6",51000,Virginia,2016,3
+239,Millions of chained 2012 dollars,RPI1-1,"432,569.5",51000,Virginia,2017,3
+240,Millions of chained 2012 dollars,RPI1-1,"318,774.0",53000,Washington,2013,3
+241,Millions of chained 2012 dollars,RPI1-1,"336,795.4",53000,Washington,2014,3
+242,Millions of chained 2012 dollars,RPI1-1,"355,350.0",53000,Washington,2015,3
+243,Millions of chained 2012 dollars,RPI1-1,"367,906.7",53000,Washington,2016,3
+244,Millions of chained 2012 dollars,RPI1-1,"381,378.5",53000,Washington,2017,3
+245,Millions of chained 2012 dollars,RPI1-1,"72,308.3",54000,West Virginia,2013,3
+246,Millions of chained 2012 dollars,RPI1-1,"73,617.0",54000,West Virginia,2014,3
+247,Millions of chained 2012 dollars,RPI1-1,"74,210.8",54000,West Virginia,2015,3
+248,Millions of chained 2012 dollars,RPI1-1,"74,285.6",54000,West Virginia,2016,3
+249,Millions of chained 2012 dollars,RPI1-1,"75,986.0",54000,West Virginia,2017,3
+250,Millions of chained 2012 dollars,RPI1-1,"262,019.5",55000,Wisconsin,2013,3
+251,Millions of chained 2012 dollars,RPI1-1,"268,715.3",55000,Wisconsin,2014,3
+252,Millions of chained 2012 dollars,RPI1-1,"280,406.9",55000,Wisconsin,2015,3
+253,Millions of chained 2012 dollars,RPI1-1,"284,766.3",55000,Wisconsin,2016,3
+254,Millions of chained 2012 dollars,RPI1-1,"290,420.0",55000,Wisconsin,2017,3
+255,Millions of chained 2012 dollars,RPI1-1,"31,825.2",56000,Wyoming,2013,3
+256,Millions of chained 2012 dollars,RPI1-1,"33,214.9",56000,Wyoming,2014,3
+257,Millions of chained 2012 dollars,RPI1-1,"33,785.3",56000,Wyoming,2015,3
+258,Millions of chained 2012 dollars,RPI1-1,"32,299.4",56000,Wyoming,2016,3
+259,Millions of chained 2012 dollars,RPI1-1,"33,021.9",56000,Wyoming,2017,3

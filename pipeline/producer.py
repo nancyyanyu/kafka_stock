@@ -17,7 +17,7 @@ import numpy as np
 from pytz import timezone    
 from util.config import config
 from kafka import KafkaProducer
-
+from newsapi import NewsApiClient
 # =============================================================================
 # Step 1: run zookeeper_starter.sh to start zookeeper
 # Step 2: run kafka_starter.sh to start Kafka
@@ -162,6 +162,14 @@ def get_intraday_data(symbol='AAPL',outputsize='compact',freq='1min'):
         
     return value,time_zone
 
+def check_trading_hour(data_time):
+    if data_time.time()<datetime.time(9,30):
+        last_day=data_time-datetime.timedelta(days=1)
+        data_time=datetime.datetime(last_day.year,last_day.month,last_day.day,16,0,0)
+        
+    elif data_time.time()>datetime.time(16,0):
+        data_time=datetime.datetime(data_time.year,data_time.month,data_time.day,16,0,0)
+    return data_time
 
 def get_tick_intraday_data(symbol='AAPL'):
     
@@ -170,6 +178,7 @@ def get_tick_intraday_data(symbol='AAPL'):
     url="https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={}&apikey={}".format(symbol,config['api_key2'])
     req=requests.get(url)
     data_time=datetime.datetime.now(timezone(time_zone))
+    data_time=check_trading_hour(data_time)
     
     # if request success
     if req.status_code==200:
@@ -213,7 +222,19 @@ def get_tick_intraday_data(symbol='AAPL'):
                "change_percent":0.}
     return value, time_zone
 
+def get_news():
+    
+    api='23e4c7e51a9a49d39dc4e7261305dd02'
+    newsapi = NewsApiClient(api_key=api)
+    top_headlines = newsapi.get_top_headlines(q='rate',country='us',category='business',page_size=30,language='en')
+    return top_headlines    
+    
+    
+    
 
+
+
+    
 def kafka_producer(producer,symbol='^GSPC',tick=False):
     """
     :param producer: (KafkaProducer) an instance of KafkaProducer with configuration written in config.py
@@ -237,6 +258,18 @@ def kafka_producer(producer,symbol='^GSPC',tick=False):
         # transform ready-to-send data to bytes, record sending-time adjusted to the trading timezone
         producer.send(topic=config['topic_name2'], value=bytes(str(value), 'utf-8'))
         print("Sent {}'s tick data at {}".format(symbol,now_timezone))
+
+
+def kafka_producer_news(producer):
+    news=get_news()
+    if news['articles']!=[]:
+        for article in news['articles']:
+            now_timezone=datetime.datetime.now(timezone('US/Eastern'))
+            producer.send(topic='news', value=bytes(str(article), 'utf-8'))
+            print("Sent economy news : {}".format(now_timezone))
+    
+
+
 
     
 def kafka_producer_fake(producer,symbol):
@@ -268,10 +301,10 @@ if __name__=="__main__":
     #kafka_producer(producer)
 
     # schedule to send data every minute
-    #schedule.every().minute.at(":00").do(kafka_producer,producer,False)
-    #schedule.every(18).seconds.do(kafka_producer,producer,'^GSPC',True)
-    schedule.every(2).seconds.do(kafka_producer_fake,producer,'^GSPC')
-
+    #schedule.every().minute.at(":00").do(kafka_producer,producer,'^GSPC',False)
+    schedule.every(18).seconds.do(kafka_producer,producer,'^GSPC',True)
+    #schedule.every(2).seconds.do(kafka_producer_fake,producer,'^GSPC')
+    schedule.every(2).minutes.do(kafka_producer_news,producer)
     while True:
         schedule.run_pending()
     
