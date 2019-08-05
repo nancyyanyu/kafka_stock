@@ -99,12 +99,14 @@ class CassandraStorage(object):
                                     change_percent float,     \
                                     PRIMARY KEY (SYMBOL,TIME));".format(self.symbol+'_tick')) 
         self.session.execute("CREATE TABLE IF NOT EXISTS NEWS ( \
+                                    DATE date, \
                                     	publishedAt timestamp,           \
                                     	TITLE text,              \
                                     	SOURCE text,               \
                                     	description text,               \
-                                    	url text, PRIMARY KEY (TITLE,publishedAt))  \
-                                    WITH CLUSTERING ORDER BY (publishedAt ASC);")  \
+                                    	url text, PRIMARY KEY (DATE,publishedAt) \
+                                ) \
+                                 WITH CLUSTERING ORDER BY (publishedAt ASC);")  \
 
     def kafka_consumer(self):
         """
@@ -211,8 +213,8 @@ class CassandraStorage(object):
                 dict_data['description']=dict_data['description'].replace('\'','@@')
             except:
                 pass
-            query="INSERT INTO NEWS (publishedat,source,title,description,url) VALUES ('{}','{}','{}','{}','{}');" \
-                            .format(publishtime,
+            query="INSERT INTO NEWS (date,publishedat,source,title,description,url) VALUES ('{}','{}','{}','{}','{}','{}');" \
+                            .format(publishtime[:10],publishtime,
                                     dict_data['source']['name'],
                                     dict_data['title'].replace('\'','@@'),
                                     dict_data['description'],
@@ -220,19 +222,18 @@ class CassandraStorage(object):
             self.session.execute(query)
             
             
-            print("Stored news '{}' at {}".format(dict_data['title'],dict_data['publishedAt']))
+            #print("Stored news '{}' at {}".format(dict_data['title'],dict_data['publishedAt']))
 
 
     def delete_table(self,table_name):
         self.session.execute("DROP TABLE {}".format(table_name))
         
-def main_realtime(symbol,tick=True):
+def main_realtime(symbol='^GSPC',tick=True):
     """
     main funtion to store realtime data; recommend to set tick=False, as getting tick data would cause rate limiting error from API 
     """
     database=CassandraStorage(symbol)
     database.kafka_consumer()
-    #database.news_to_cassandra()
     if tick==True:
         database.tick_stream_to_cassandra()
     else:
@@ -245,31 +246,29 @@ def main_realtime_news():
     database.news_to_cassandra()
 
         
-def main_aftertradingday(symbol='FB'):
+def main_aftertradingday():
     """
     main function to update recent trading day's daily price (mainly for updating the adjusted close price), and 1min frequency price(to fill in empty data points caused by errors)
     """
-    value_daily = get_historical_data(symbol=symbol,outputsize='full')
-    value_min, _ = get_intraday_data(symbol=symbol,outputsize='full',freq='1min')
-
-    database=CassandraStorage(symbol)
-    database.kafka_consumer()
+    for symbol in symbol_list[:]:
+        value_daily = get_historical_data(symbol=symbol,outputsize='full')
+        value_min, _ = get_intraday_data(symbol=symbol,outputsize='full',freq='1min')
     
-    
-    database.historical_to_cassandra(value_min,True)
-    database.historical_to_cassandra(value_daily,False)
-    
+        database=CassandraStorage(symbol)
+        database.kafka_consumer()
+        
+        
+        database.historical_to_cassandra(value_min,True)
+        database.historical_to_cassandra(value_daily,False)
+        time.sleep(15)
 
     
     
 if __name__=="__main__":
     
     # update daily and 1 min freq data of all stocks
-#    for symbol in symbol_list[:]:
-#        main_aftertradingday(symbol)
-#        time.sleep(15)
+    #main_aftertradingday()
     #main_realtime(symbol='^GSPC',tick=True)
-    main_realtime_news()
-    #main_realtime(symbol='^GSPC',tick=False)
+    #main_realtime_news()
     
     pass

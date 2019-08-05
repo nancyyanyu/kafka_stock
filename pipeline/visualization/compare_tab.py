@@ -15,7 +15,7 @@ from warehouse import CassandraStorage
 from util.util import pandas_factory,symbol_list
 
 
-def compare_tab():
+def compare_plot():
 
     stats = PreText(text='', width=500)
     corr = PreText(text='', width=500)
@@ -26,12 +26,12 @@ def compare_tab():
     def make_dataset(start='2014-01-01'):
         df=pd.DataFrame()
         for comp in symbol_list:
-            database3=CassandraStorage(comp)
-            database3.session.row_factory = pandas_factory
-            database3.session.default_fetch_size = None
+            database=CassandraStorage(comp)
+            database.session.row_factory = pandas_factory
+            database.session.default_fetch_size = None
             
-            query="SELECT * FROM {} WHERE time>'{}' ALLOW FILTERING;".format(database3.symbol+'_historical',start)
-            rslt = database3.session.execute(query, timeout=None)
+            query="SELECT * FROM {} WHERE time>'{}' ALLOW FILTERING;".format(database.symbol+'_historical',start)
+            rslt = database.session.execute(query, timeout=None)
             df_comp = rslt._current_rows
             df_comp['ma5']=_ma(df_comp.adjusted_close,5)
             df_comp['ma10']=_ma(df_comp.adjusted_close,10)
@@ -42,10 +42,10 @@ def compare_tab():
     
     df_all=make_dataset(start='2014-01-01')
     df_init=df_all[df_all.symbol=='AAPL']
-    source3=ColumnDataSource(data= df_init.to_dict('list'))
+    source=ColumnDataSource(data= df_init.to_dict('list'))
     
     # hover setting
-    TOOLTIPS3 = [
+    TOOLTIPS = [
             ("time", "@time{%F}"),
             ("adjusted close", "$@adjusted_close"),
              ("close", "$@close"),
@@ -53,60 +53,50 @@ def compare_tab():
             ("high", "$@high"),
             ("low", "$@low"),
             ("volume","@volume")]
-    formatters3={
+    formatters={
         'time'      : 'datetime'}
-    hover3 = HoverTool(tooltips=TOOLTIPS3,formatters=formatters3,mode='vline')
+    hover = HoverTool(tooltips=TOOLTIPS,formatters=formatters,mode='vline')
     
     # create plot
-    
-    p3 = figure(title='AAPL (Click on legend entries to hide the corresponding lines)',
+    p = figure(title='AAPL (Click on legend entries to hide the corresponding lines)',
                 plot_height=300,  
                 tools="crosshair,save,undo,xpan,xwheel_zoom,ybox_zoom,reset", 
                 active_scroll='xwheel_zoom',
                 x_axis_type="datetime", 
                 y_axis_location="left")
     
-    p3.add_tools(hover3)
+    p.add_tools(hover)
     palte=all_palettes['Set2'][8]
-    p3.line('time', 'adjusted_close', alpha=1.0, line_width=2, color=palte[3], legend='Adjusted Close',source=source3)
-    p3.line('time', 'ma5', line_width=1, color=palte[0], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA5',source=source3)
-    p3.line('time', 'ma10', line_width=1, color=palte[1], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA10',source=source3)
-    p3.line('time', 'ma30', line_width=1, color=palte[2], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA30',source=source3)
-
-    p3.y_range = Range1d(min(source3.data['adjusted_close'])*0.3, max(source3.data['adjusted_close'])*1.05)
-
-    
-    p3.extra_y_ranges = {"volumes": Range1d(start=min(source3.data['volume'])/2, 
-                                           end=max(source3.data['volume'])*2)}
-    p3.add_layout(LinearAxis(y_range_name="volumes"), 'right')
-    p3.vbar('time', width=3,top='volume', color=choice(all_palettes['Set2'][8]),alpha=0.5, y_range_name="volumes",source=source3)
-
-
-
-    p3.legend.location = "top_left"
-    p3.legend.click_policy="hide"
-    
-    
-    #p3.line('time', 'adjusted_close', alpha=0.5, line_width=1, color='black', source=benchmark)
-    
-    def callback2(attr,old,new):
+    p.line('time', 'adjusted_close', alpha=1.0, line_width=2, color=palte[3], legend='Adjusted Close',source=source)
+    p.line('time', 'ma5', line_width=1, color=palte[0], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA5',source=source)
+    p.line('time', 'ma10', line_width=1, color=palte[1], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA10',source=source)
+    p.line('time', 'ma30', line_width=1, color=palte[2], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA30',source=source)
+    p.y_range = Range1d(min(source.data['adjusted_close'])*0.3, max(source.data['adjusted_close'])*1.05)
+    p.extra_y_ranges = {"volumes": Range1d(start=min(source.data['volume'])/2, 
+                                           end=max(source.data['volume'])*2)}
+    p.add_layout(LinearAxis(y_range_name="volumes"), 'right')
+    p.vbar('time', width=3,top='volume', color=choice(all_palettes['Set2'][8]),alpha=0.5, y_range_name="volumes",source=source)
+    p.legend.location = "top_left"
+    p.legend.click_policy="hide"
+        
+    def callback(attr,old,new):
         symbol1, symbol2=compare_select1.value, compare_select2.value
         df_init1=df_all[df_all.symbol==symbol1]
         df_init2=df_all[df_all.symbol==symbol2]
 
-        source3.data.update( df_init1.to_dict('list'))
-        p3.title.text =symbol1+' (Click on legend entries to hide the corresponding lines)'
-        p3.y_range.start=min(source3.data['adjusted_close'])*0.3
-        p3.y_range.end=max(source3.data['adjusted_close'])*1.05
-        p3.extra_y_ranges['volumes'].start=min(source3.data['volume'])/2.
-        p3.extra_y_ranges['volumes'].end=max(source3.data['volume'])*2.
+        source.data.update( df_init1.to_dict('list'))
+        p.title.text =symbol1+' (Click on legend entries to hide the corresponding lines)'
+        p.y_range.start=min(source.data['adjusted_close'])*0.3
+        p.y_range.end=max(source.data['adjusted_close'])*1.05
+        p.extra_y_ranges['volumes'].start=min(source.data['volume'])/2.
+        p.extra_y_ranges['volumes'].end=max(source.data['volume'])*2.
 
-        source4.data.update( df_init2.to_dict('list'))
-        p4.title.text =symbol2+' (Click on legend entries to hide the corresponding lines)'
-        p4.y_range.start=min(source4.data['adjusted_close'])*0.3
-        p4.y_range.end=max(source4.data['adjusted_close'])*1.05
-        p4.extra_y_ranges['volumes'].start=min(source4.data['volume'])/2.
-        p4.extra_y_ranges['volumes'].end=max(source4.data['volume'])*2.
+        source2.data.update( df_init2.to_dict('list'))
+        p2.title.text =symbol2+' (Click on legend entries to hide the corresponding lines)'
+        p2.y_range.start=min(source2.data['adjusted_close'])*0.3
+        p2.y_range.end=max(source2.data['adjusted_close'])*1.05
+        p2.extra_y_ranges['volumes'].start=min(source2.data['volume'])/2.
+        p2.extra_y_ranges['volumes'].end=max(source2.data['volume'])*2.
 
         update_stat(symbol1,symbol2)
     
@@ -125,7 +115,7 @@ def compare_tab():
     
     update_stat('AAPL','GOOG')
     compare_select1=Select(value='AAPL',options=symbol_list)
-    compare_select1.on_change('value', callback2)
+    compare_select1.on_change('value', callback)
     
     
     
@@ -136,42 +126,40 @@ def compare_tab():
     """
     
     df_init2=df_all[df_all.symbol=='GOOG']
-    source4=ColumnDataSource(data= df_init2.to_dict('list'))
+    source2=ColumnDataSource(data= df_init2.to_dict('list'))
     
     # create plot
     # hover setting
-    p4 = figure(title='GOOG  (Click on legend entries to hide the corresponding lines)',plot_height=300,  
+    p2 = figure(title='GOOG  (Click on legend entries to hide the corresponding lines)',plot_height=300,  
                 tools="crosshair,save,undo,xpan,xwheel_zoom,ybox_zoom,reset", 
                 active_scroll='xwheel_zoom',
                 x_axis_type="datetime", 
                 y_axis_location="left")
     
-    p4.add_tools(hover3)
-    p4.line('time', 'adjusted_close', alpha=1.0, line_width=2, color=palte[4], legend='Adjusted Close',source=source4)
-    p4.line('time', 'ma5', line_width=1, color=palte[5], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA5',source=source4)
-    p4.line('time', 'ma10', line_width=1, color=palte[6], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA10',source=source4)
-    p4.line('time', 'ma30', line_width=1, color=palte[7], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA30',source=source4)
+    p2.add_tools(hover)
+    p2.line('time', 'adjusted_close', alpha=1.0, line_width=2, color=palte[4], legend='Adjusted Close',source=source2)
+    p2.line('time', 'ma5', line_width=1, color=palte[5], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA5',source=source2)
+    p2.line('time', 'ma10', line_width=1, color=palte[6], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA10',source=source2)
+    p2.line('time', 'ma30', line_width=1, color=palte[7], alpha=0.8, muted_color='navy', muted_alpha=0.1, legend='MA30',source=source2)
 
-    p4.y_range = Range1d(min(source3.data['adjusted_close'])*0.3, max(source4.data['adjusted_close'])*1.05)
+    p2.y_range = Range1d(min(source2.data['adjusted_close'])*0.3, max(source2.data['adjusted_close'])*1.05)
 
     
-    p4.extra_y_ranges = {"volumes": Range1d(start=min(source4.data['volume'])/2, 
-                                           end=max(source4.data['volume'])*2)}
-    p4.add_layout(LinearAxis(y_range_name="volumes"), 'right')
-    p4.vbar('time', width=3,top='volume', color=choice(all_palettes['Set2'][8]),alpha=0.5, y_range_name="volumes",source=source4)
+    p2.extra_y_ranges = {"volumes": Range1d(start=min(source2.data['volume'])/2, 
+                                           end=max(source2.data['volume'])*2)}
+    p2.add_layout(LinearAxis(y_range_name="volumes"), 'right')
+    p2.vbar('time', width=3,top='volume', color=choice(all_palettes['Set2'][8]),alpha=0.5, y_range_name="volumes",source=source2)
 
 
-    p4.legend.location = "top_left"
-    p4.legend.click_policy="hide"
+    p2.legend.location = "top_left"
+    p2.legend.click_policy="hide"
     
     compare_select2=Select(value='GOOG',options=symbol_list)
-    compare_select2.on_change('value', callback2)
+    compare_select2.on_change('value', callback)
     
     widget=column(compare_select1,compare_select2)
     
-    l=column(row(widget,stats,corr),gridplot([[p3],[p4]], toolbar_location="right", plot_width=1300))
-    tab2=Panel(child = l, title = 'Two Stocks Comparison')
-    return tab2
+    return p,p2,widget,stats,corr
 
 
 

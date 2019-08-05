@@ -11,18 +11,20 @@ Tab1-plot1: candlestick
 
 """
 import json
+import datetime
 import pandas as pd
 from math import pi
 from random import choice
+from pytz import timezone    
 from bokeh.plotting import  figure,show
 from bokeh.palettes import all_palettes,Set3
 from bokeh.models import ColumnDataSource, Select,HoverTool,LinearAxis, LabelSet,Range1d,PreText,Div
 from warehouse import CassandraStorage
-from util.util import pandas_factory,symbol_list,splitTextToTriplet
-
+from util.util import pandas_factory,symbol_list,splitTextToTriplet,prev_weekday
+from util.config import path,timeZone
 
 def read_company(symbol):
-    with open('./visualization/company/{}.json'.format(symbol),'r') as f:
+    with open(path+'visualization/company/{}.json'.format(symbol),'r') as f:
         company=json.load(f)
     companyOfficers=company['assetProfile']['companyOfficers']
     
@@ -224,6 +226,90 @@ def candlestick():
     
     return p,stock_select,summaryText,financialText,s1
 
-#candlestick()
+def stream_price():
+    
+    # connect to AAPL's database
+    plot_symbol='^GSPC'
+    database=CassandraStorage(plot_symbol)
+    database.session.row_factory = pandas_factory
+    database.session.default_fetch_size = None
+    
+#    if datetime.datetime.now(timezone('US/Eastern')).time()<datetime.time(9,30):
+#        query_time=str(datetime.datetime.now().date())
+    
+    
+    last_trading_day= datetime.datetime.now(timezone(timeZone)).date()
+    
+    query="SELECT * FROM {} WHERE time>='{}'  ALLOW FILTERING;".format(plot_symbol[1:]+'_tick',last_trading_day)
+    rslt = database.session.execute(query, timeout=None)
+    df = rslt._current_rows
 
+        # wrangle timezone (Cassandra will change datetime to UTC time)
+    trans_time=pd.DatetimeIndex(pd.to_datetime(df.time,unit='ms')).tz_localize('GMT').tz_convert('US/Pacific').to_pydatetime()
+    source= ColumnDataSource()
+    
+    # hover setting
+    TOOLTIPS = [
+            ("time", "@time{%F %T}"),
+            ("close", "$@close"),
+            ("volume","@volume")]
+    formatters={
+        'time'      : 'datetime'}
+    hover = HoverTool(tooltips=TOOLTIPS,formatters=formatters,mode='vline')
+
+    # create plot
+    p = figure(title='S&P500 Realtime Price',
+                plot_height=200,  
+                tools="crosshair,save,undo,xpan,xwheel_zoom,ybox_zoom,reset", 
+                x_axis_type="datetime", 
+                y_axis_location="left")
+    p.add_tools(hover)
+    p.x_range.follow = "end"
+    p.x_range.follow_interval = 1000000
+    p.x_range.range_padding = 0
+
+    # during trading
+    if len(df)>0 \
+        and datetime.datetime.now(timezone(timeZone)).time()<datetime.time(16,0,0) \
+        and datetime.datetime.now(timezone(timeZone)).time()>datetime.time(9,30,0):
+        # init source data to those already stored in Cassandra dataase - 'aapl_tick', so that streaming plot will not start over after refreshing
+        source= ColumnDataSource(dict(time=list(trans_time),  
+                                       close=list(df.close.values),
+                                       volume=list(df.volume.values)))
+        p.y_range = Range1d(min(source.data['close'])/1.005, max(source.data['close'])*1.005)
+        p.extra_y_ranges = {"volumes": Range1d(start=min(source.data['volume'])*0.5, 
+                                               end=max(source.data['volume'])*2)}
+    # no trading history or not during trading hour
+    else:
+        source= ColumnDataSource(dict(time=[],  
+                                       close=[],
+                                       volume=[]))
+    
+        p.y_range = Range1d(0,1e4)
+        p.extra_y_ranges = {"volumes": Range1d(start=0, 
+                                               end=1e10)}
+        
+    p.line(x='time', y='close', alpha=0.2, line_width=3, color='blue', source=source)    
+    p.add_layout(LinearAxis(y_range_name="volumes"), 'right')    
+    p.vbar('time', width=3,top='volume', color=choice(all_palettes['Set2'][8]),alpha=0.5, y_range_name="volumes",source=source)
+    
+    
+    # get update data from a json file overwritter every ~18 seconds
+    def _create_prices():
+        with open(path+'cache/data.json','r') as f:
+            dict_data = json.load(f)
+        return float(dict_data['close']),dict_data['volume'],dict_data['time']
+    
+    # update function for stream plot
+    def update():
+        close,volume,time=_create_prices()
+        new_data = dict(
+            time=[datetime.datetime.strptime(time[:19], "%Y-%m-%d %H:%M:%S")],
+            close=[close],
+            volume=[volume]
+        )
+        #print(new_data)
+        source.stream(new_data)
+        #print ('update source data',str(time))
+    return p,update
 

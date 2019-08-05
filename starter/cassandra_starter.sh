@@ -1,1 +1,1 @@
-Cassandra -f
+cassandra -f &

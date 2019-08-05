@@ -15,9 +15,9 @@ import schedule
 import datetime
 import numpy as np
 from pytz import timezone    
-from util.config import config
+from util.config import config,timeZone
 from kafka import KafkaProducer
-from newsapi import NewsApiClient
+from newsapi.newsapi_client import NewsApiClient
 # =============================================================================
 # Step 1: run zookeeper_starter.sh to start zookeeper
 # Step 2: run kafka_starter.sh to start Kafka
@@ -150,7 +150,7 @@ def get_intraday_data(symbol='AAPL',outputsize='compact',freq='1min'):
             
     # if request failed, return a fake data point
     else:
-        time_zone='US/Eastern'
+        time_zone=timeZone
         print('  Failed: Cannot get {}\'s data at {}:{} '.format(symbol,datetime.datetime.now(timezone(time_zone)),req.status_code))
         value={"symbol":'None',
                "time":'None',
@@ -174,7 +174,7 @@ def check_trading_hour(data_time):
 def get_tick_intraday_data(symbol='AAPL'):
     
     # get data using AlphaAvantage's API
-    time_zone='US/Eastern'
+    time_zone=timeZone
     url="https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={}&apikey={}".format(symbol,config['api_key2'])
     req=requests.get(url)
     data_time=datetime.datetime.now(timezone(time_zone))
@@ -226,7 +226,7 @@ def get_news():
     
     api='23e4c7e51a9a49d39dc4e7261305dd02'
     newsapi = NewsApiClient(api_key=api)
-    top_headlines = newsapi.get_top_headlines(q='rate',country='us',category='business',page_size=30,language='en')
+    top_headlines = newsapi.get_top_headlines(country='us',category='business',page_size=70,language='en')
     return top_headlines    
     
     
@@ -264,9 +264,9 @@ def kafka_producer_news(producer):
     news=get_news()
     if news['articles']!=[]:
         for article in news['articles']:
-            now_timezone=datetime.datetime.now(timezone('US/Eastern'))
+            now_timezone=datetime.datetime.now(timezone(timeZone))
             producer.send(topic='news', value=bytes(str(article), 'utf-8'))
-            print("Sent economy news : {}".format(now_timezone))
+            #print("Sent economy news : {}".format(now_timezone))
     
 
 
@@ -278,17 +278,18 @@ def kafka_producer_fake(producer,symbol):
     :param producer: (KafkaProducer) an instance of KafkaProducer with configuration written in config.py
     :return: None
     """
-    close=3500
-    close=close+np.random.uniform(-1,1)*50
+    
+    close=3000
+    close=close+np.random.uniform(-50,50)
     value={"symbol":symbol,
-           "time":str(datetime.datetime.now(timezone('US/Eastern'))),
-           "open":close+np.random.uniform(-1,1)*50,
-           "high":close+np.random.uniform(0,1)*50,
-           "low":close+np.random.uniform(-1,0)*50,
+           "time":str(datetime.datetime.now(timezone(timeZone))),
+           "open":close+np.random.uniform(-1,1),
+           "high":close+np.random.uniform(0,1),
+           "low":close+np.random.uniform(-1,0),
            "close":close,
-           "volume":1316167424+np.random.uniform(-1,1)*50}
+           "volume":np.random.uniform(-1,1)*6e9}
     producer.send(topic=config['topic_name2'], value=bytes(str(value), 'utf-8'))
-    print("Sent {}'s fake data.".format(symbol))
+    #print("Sent {}'s fake data.".format(symbol))
     
     
     
@@ -301,10 +302,11 @@ if __name__=="__main__":
     #kafka_producer(producer)
 
     # schedule to send data every minute
-    #schedule.every().minute.at(":00").do(kafka_producer,producer,'^GSPC',False)
-    schedule.every(18).seconds.do(kafka_producer,producer,'^GSPC',True)
-    #schedule.every(2).seconds.do(kafka_producer_fake,producer,'^GSPC')
-    schedule.every(2).minutes.do(kafka_producer_news,producer)
+    if datetime.datetime.now(timezone(timeZone)).time()>datetime.time(16,0,0) or datetime.datetime.now(timezone(timeZone)).time()<datetime.time(9,30,0):
+        schedule.every(1).seconds.do(kafka_producer_fake,producer,'^GSPC')
+    else:
+        schedule.every(18).seconds.do(kafka_producer,producer,'^GSPC',True)
+    schedule.every(30).seconds.do(kafka_producer_news,producer)
     while True:
         schedule.run_pending()
     

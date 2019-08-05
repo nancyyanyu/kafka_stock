@@ -21,8 +21,10 @@ config={'api_key':"0MCP1QDS7AXSPLUU",
 
 
 
-
 path='/home/nancy/kafka_stock/pipeline/'
-timeZone='US/Eastern'
+
+
+
+
 
 

@@ -7,8 +7,9 @@ Created on Mon Jul 29 16:52:34 2019
 """
 import ast
 from kafka import KafkaConsumer
-from util.config import config
+from util.config import config,path
 import json
+import os
 
 
 
@@ -18,10 +19,9 @@ consumer = KafkaConsumer(
 
 for msg in consumer:
     dict_data=ast.literal_eval(msg.value.decode("utf-8"))
-    with open('./data.json','w') as f:
+    with open(os.path.join(path,'cache/data.json'),'w') as f:
         json.dump(dict_data,f)
-    print(str(dict_data['time']))
-
+    #print(str(dict_data['time']))
 
 
 
