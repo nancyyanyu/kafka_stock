@@ -41,7 +41,7 @@ def compare_plot():
     
     
     df_all=make_dataset(start='2014-01-01')
-    df_init=df_all[df_all.symbol=='AAPL']
+    df_init=df_all[df_all.symbol==symbol_list[0]]
     source=ColumnDataSource(data= df_init.to_dict('list'))
     
     # hover setting
@@ -58,7 +58,7 @@ def compare_plot():
     hover = HoverTool(tooltips=TOOLTIPS,formatters=formatters,mode='vline')
     
     # create plot
-    p = figure(title='AAPL (Click on legend entries to hide the corresponding lines)',
+    p = figure(title='{} (Click on legend entries to hide the corresponding lines)'.format(symbol_list[0]),
                 plot_height=300,  
                 tools="crosshair,save,undo,xpan,xwheel_zoom,ybox_zoom,reset", 
                 active_scroll='xwheel_zoom',
@@ -113,8 +113,8 @@ def compare_plot():
         correlation=des[[symbol1+'_return',symbol2+'_return']].corr()
         corr.text="Correlation \n"+str(correlation)
     
-    update_stat('AAPL','GOOG')
-    compare_select1=Select(value='AAPL',options=symbol_list)
+    update_stat(symbol_list[0],symbol_list[1])
+    compare_select1=Select(value=symbol_list[0],options=symbol_list)
     compare_select1.on_change('value', callback)
     
     
@@ -125,12 +125,12 @@ def compare_plot():
         
     """
     
-    df_init2=df_all[df_all.symbol=='GOOG']
+    df_init2=df_all[df_all.symbol==symbol_list[1]]
     source2=ColumnDataSource(data= df_init2.to_dict('list'))
     
     # create plot
     # hover setting
-    p2 = figure(title='GOOG  (Click on legend entries to hide the corresponding lines)',plot_height=300,  
+    p2 = figure(title='{}  (Click on legend entries to hide the corresponding lines)'.format(symbol_list[1]),plot_height=300,  
                 tools="crosshair,save,undo,xpan,xwheel_zoom,ybox_zoom,reset", 
                 active_scroll='xwheel_zoom',
                 x_axis_type="datetime", 
@@ -154,7 +154,7 @@ def compare_plot():
     p2.legend.location = "top_left"
     p2.legend.click_policy="hide"
     
-    compare_select2=Select(value='GOOG',options=symbol_list)
+    compare_select2=Select(value=symbol_list[1],options=symbol_list)
     compare_select2.on_change('value', callback)
     
     widget=column(compare_select1,compare_select2)

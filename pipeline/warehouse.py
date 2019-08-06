@@ -241,7 +241,7 @@ def main_realtime(symbol='^GSPC',tick=True):
             
         
 def main_realtime_news():
-    database=CassandraStorage('AAPL')
+    database=CassandraStorage(symbol_list[0])
     database.kafka_consumer()
     database.news_to_cassandra()
 

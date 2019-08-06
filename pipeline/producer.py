@@ -16,6 +16,7 @@ import datetime
 import numpy as np
 from pytz import timezone    
 from util.config import config,timeZone
+from util.util import symbol_list
 from kafka import KafkaProducer
 from newsapi.newsapi_client import NewsApiClient
 # =============================================================================
@@ -27,7 +28,7 @@ from newsapi.newsapi_client import NewsApiClient
 
 #logging.basicConfig(level=logging.DEBUG)
 
-def get_historical_data(symbol='AAPL',outputsize='full'):
+def get_historical_data(symbol=symbol_list[0],outputsize='full'):
     """
     :param outputsize: (str) default to 'full' to get 20 years historical data; 
                                         'compact' to get the most recent 100 days' historical data
@@ -82,7 +83,7 @@ def get_historical_data(symbol='AAPL',outputsize='full'):
     
     
     
-def get_intraday_data(symbol='AAPL',outputsize='compact',freq='1min'):
+def get_intraday_data(symbol=symbol_list[0],outputsize='compact',freq='1min'):
     """
     :param outputsize: (str) 'compact' returns only the latest 100 data points in the intraday time series; 
                              'full' returns the full-length intraday time series. 
@@ -171,7 +172,7 @@ def check_trading_hour(data_time):
         data_time=datetime.datetime(data_time.year,data_time.month,data_time.day,16,0,0)
     return data_time
 
-def get_tick_intraday_data(symbol='AAPL'):
+def get_tick_intraday_data(symbol=symbol_list[0]):
     
     # get data using AlphaAvantage's API
     time_zone=timeZone
@@ -279,8 +280,8 @@ def kafka_producer_fake(producer,symbol):
     :return: None
     """
     
-    close=3000
-    close=close+np.random.uniform(-50,50)
+    close=4000
+    close=close+np.random.uniform(-200,200)
     value={"symbol":symbol,
            "time":str(datetime.datetime.now(timezone(timeZone))),
            "open":close+np.random.uniform(-1,1),

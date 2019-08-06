@@ -23,7 +23,7 @@ def splitTextToTriplet(string,n):
     grouped_words = [' '.join(words[i: i + n]) for i in range(0, len(words), n)]
     return grouped_words
 
-symbol_list=['AAPL','MSFT','FB','GOOG','^GSPC','AMZN']
+symbol_list=['MSFT','FB','GOOG','TSLA','AMZN','^GSPC']
 
 def prev_weekday(adate):
     while adate.weekday() >=5: # Mon-Fri are 0-4

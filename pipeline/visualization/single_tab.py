@@ -45,7 +45,7 @@ def read_company(symbol):
 def candlestick():
     if '^GSPC' in symbol_list:
         symbol_list.remove('^GSPC')
-    stock_select=Select(value='AAPL',options=symbol_list)
+    stock_select=Select(value=symbol_list[0],options=symbol_list)
     summaryText = Div(text="",width=400)
     financialText=Div(text="",width=180)
     
@@ -107,11 +107,11 @@ def candlestick():
 
     update_summary(stock_select.value)
     # connect to Cassandra database
-    database=CassandraStorage('AAPL')
+    database=CassandraStorage(symbol_list[0])
     database.session.row_factory = pandas_factory
     database.session.default_fetch_size = None
     
-    query="SELECT * FROM {} WHERE time>'2015-01-01'  ALLOW FILTERING;".format('AAPL_historical')
+    query="SELECT * FROM {} WHERE time>'2015-01-01'  ALLOW FILTERING;".format('{}_historical'.format(symbol_list[0]))
     rslt = database.session.execute(query, timeout=None)
     df = rslt._current_rows
     
@@ -168,7 +168,7 @@ def candlestick():
     p.xaxis.axis_label = 'Time'
     
     # set data source
-    _,_,_,institution_df=read_company('AAPL')
+    _,_,_,institution_df=read_company(symbol_list[0])
     source_ins = ColumnDataSource(data=dict(organization=list(institution_df.organization.values),
                                             pctHeld=list(institution_df.pctHeld.values),
                                             position=list(institution_df.position.values),
@@ -228,7 +228,7 @@ def candlestick():
 
 def stream_price():
     
-    # connect to AAPL's database
+    # connect to s&p500's database
     plot_symbol='^GSPC'
     database=CassandraStorage(plot_symbol)
     database.session.row_factory = pandas_factory
@@ -272,7 +272,7 @@ def stream_price():
     if len(df)>0 \
         and datetime.datetime.now(timezone(timeZone)).time()<datetime.time(16,0,0) \
         and datetime.datetime.now(timezone(timeZone)).time()>datetime.time(9,30,0):
-        # init source data to those already stored in Cassandra dataase - 'aapl_tick', so that streaming plot will not start over after refreshing
+        # init source data to those already stored in Cassandra dataase - '{}_tick', so that streaming plot will not start over after refreshing
         source= ColumnDataSource(dict(time=list(trans_time),  
                                        close=list(df.close.values),
                                        volume=list(df.volume.values)))
