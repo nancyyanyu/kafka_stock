@@ -8,7 +8,7 @@ In this project, I developed a financial data processing and visualization platf
 
 
 
-**Please check the platform's website and play with each plot** $\rightarrow$  [magiconch.me](http://magiconch.me/)
+**Please check the platform's website and play with each plot** :  [magiconch.me](http://magiconch.me/)
 
 
 ## Architecture
@@ -31,7 +31,7 @@ There are currently 3 tabs in the webpage:
 
 Here is the architecture of the platform, and I will go through each part of it.
 
-<img src="./kafka_stock.png" width="800" />
+<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/kafka_stock.png" width="800" />
 
 
 
