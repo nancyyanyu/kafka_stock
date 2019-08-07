@@ -33,6 +33,7 @@ def get_yahoo():
             result=json.loads(req.text)["quoteSummary"]['result'][0] 
             with open('./visualization/company/{}.json'.format(symbol),'w') as f:
                 json.dump(result,f)
+            print('Saved company information in json:'+symbol)
     
 def get_economy():
     start = datetime.datetime(2010, 1, 1)

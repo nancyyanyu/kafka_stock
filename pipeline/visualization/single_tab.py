@@ -79,7 +79,6 @@ def candlestick():
                               <b>Total Debt:</b> {} <br>
                               <b>Total Revenue:</b> {}<br>
                               <b>DebtToEquity:</b> {}<br>
-                              <b>Earnings Growth:</b> {} <br>
                               <b>Revenue Growth:</b> {} <br>
                               <b>Current Ratio:</b> {} <br>
                               <b>ROE:</b> {} <br>
@@ -95,9 +94,7 @@ def candlestick():
                                          company['financialData']['totalDebt']['fmt'],
                                          company['financialData']['totalRevenue']['fmt'],
                                          company['financialData']['debtToEquity']['fmt'],
-                                         company['financialData']['earningsGrowth']['fmt'],
                                          company['financialData']['revenueGrowth']['fmt'],
-                                         company['financialData']['earningsGrowth']['fmt'],
                                          company['financialData']['currentRatio']['fmt'],
                                          company['financialData']['returnOnAssets']['fmt'],
                                          company['financialData']['returnOnEquity']['fmt'],
@@ -246,6 +243,7 @@ def stream_price():
 
         # wrangle timezone (Cassandra will change datetime to UTC time)
     trans_time=pd.DatetimeIndex(pd.to_datetime(df.time,unit='ms')).tz_localize('GMT').tz_convert('US/Pacific').to_pydatetime()
+    trans_time=[i.replace(tzinfo=None) for i in trans_time]
     source= ColumnDataSource()
     
     # hover setting

@@ -6,4 +6,5 @@ newsapi-python
 cassandra-driver
 bokeh
 xmltodict
+pandas_datareader
 

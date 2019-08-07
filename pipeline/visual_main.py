@@ -53,8 +53,8 @@ tab3 = Panel(child = l3, title = 'Economy')
 """document"""
 dashboard = Tabs(tabs = [tab1,tab2,tab3])
 curdoc().add_root(dashboard)
-curdoc().add_periodic_callback(update, 6000)
-curdoc().add_periodic_callback(update2, 6000)
+curdoc().add_periodic_callback(update, 600)
+curdoc().add_periodic_callback(update2, 600)
 curdoc().title = "Financial Market Visualization & Analysis"
 
 
