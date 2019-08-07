@@ -16,15 +16,15 @@ In this project, I developed a financial data processing and visualization platf
 There are currently 3 tabs in the webpage:
 
 - ***Stock: Streaming & Fundamental*** 
-  - Visualize a single stock's candlestick plot, basic company & financial information;
-  - Plot realtime S&P500 price during trading hours (fake date during non-trading hours)
+  - Single stock's candlestick plot, basic company & financial information;
+  - Realtime S&P500 price during trading hours (*fake date* during non-trading hours)
 - ***Stock: Comparison***
-  - Plot 2 user-selected stocks' price, and print their statstical summay and correlation
-  - Visualize the 5,10,30-day moving average of adjusted close price
+  - 2 user-selected stocks' price, and their statstical summay and correlation
+  - 5,10,30-day moving average of adjusted close price
 - ***Economy***
-  - Plot a geomap to visualize various economy data by state
-  - Plot 4 economy indicators nationwide for comparison
-  - Present the most recent market news 
+  - Geomap of various economy data by state
+  - 4 economy indicators nationwide for comparison
+  - The most recent market news 
 
 &nbsp;
 
