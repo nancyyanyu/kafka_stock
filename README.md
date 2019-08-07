@@ -31,21 +31,21 @@ There are currently 3 tabs in the webpage:
 
 Here is the architecture of the platform.
 
-<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/kafka_stock.png" width="00" />
+<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/kafka_stock.png" width="900" />
 
 Please check each tab's screenshot:
 
 
 **Tab 1:**
 
-<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/tab1.gif" width="600" />
+<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/tab1.gif" width="800" />
 
 
 **Tab 2:**
 
-<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/tab2.gif" width="600" />
+<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/tab2.gif" width="800" />
 
 
 **Tab 3:**
 
-<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/tab3.gif" width="600" />
+<img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/tab3.gif" width="800" />
