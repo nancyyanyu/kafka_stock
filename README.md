@@ -8,7 +8,7 @@ In this project, I developed a financial data processing and visualization platf
 
 
 
-**Please check the platform's website and play with each plot** :  [magiconch.me](http://magiconch.me/)
+**Please check the platform's website and play with each plot** :  [magiconch.me](http://magiconch.me/) (no longer available)
 
 
 # Architecture
