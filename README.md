@@ -25,7 +25,7 @@ There are currently 3 tabs in the webpage:
 &nbsp;
 
 
-Here is the architecture of the platform.
+Here is the architecture of the platform. Note: the link in the image below is ***no longer available***.
 
 <img src="https://github.com/nancyyanyu/kafka_stock/blob/master/images/kafka_stock.png" width="900" />
 
