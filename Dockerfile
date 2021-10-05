@@ -23,17 +23,17 @@ RUN pip install --upgrade pip
 RUN jupyter notebook --generate-config --allow-root
 
  
-RUN wget http://mirror.metrocast.net/apache/zookeeper/stable/apache-zookeeper-3.5.5-bin.tar.gz
+RUN wget https://archive.apache.org/dist/zookeeper/zookeeper-3.5.5/apache-zookeeper-3.5.5-bin.tar.gz
 RUN tar -xvf apache-zookeeper-3.5.5-bin.tar.gz
 RUN rm apache-zookeeper-3.5.5-bin.tar.gz
 RUN mkdir apache-zookeeper-3.5.5-bin/data
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
-RUN wget http://apache.mirrors.tds.net/kafka/2.3.0/kafka_2.12-2.3.0.tgz
+RUN wget https://archive.apache.org/dist/kafka/2.3.0/kafka_2.12-2.3.0.tgz
 RUN tar -xzf kafka_2.12-2.3.0.tgz
 RUN rm kafka_2.12-2.3.0.tgz
 
-RUN wget http://apache.cs.utah.edu/cassandra/3.11.4/apache-cassandra-3.11.4-bin.tar.gz
+RUN wget https://archive.apache.org/dist/cassandra/3.11.4/apache-cassandra-3.11.4-bin.tar.gz
 RUN tar -xvf apache-cassandra-3.11.4-bin.tar.gz
 RUN rm apache-cassandra-3.11.4-bin.tar.gz
 ENV PATH /home/nancy/apache-cassandra-3.11.4/bin:$PATH
@@ -43,7 +43,7 @@ RUN sudo apt-get install -y gcc
 RUN pip install apache-airflow
 
 RUN pip install Flask==1.0.4
-RUN airflow initdb
+RUN airflow db init
 RUN mkdir /home/nancy/airflow/dags
 
 ADD . /home/nancy/kafka_stock
